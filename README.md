@@ -14,14 +14,14 @@ Easy searching of Google Maps including directions to or from work/home.
 
 ## Usage
 
-*maps <query> - Search Google maps for an address
-*dir <query> to <query> to <query> etc (seperate multiple addresses with " to " minus the quotes, and you will get a multiple location search)
-*dirfw <query> Show directions from Work to address
-*dirfh <query> Show directions from Home to address
-*dirtw <query> Show directions from query to Work address
-*dirth <query> Show directions from query to Home address
-*trafficw - Show traffic from Home to Work
-*traffich - Show traffic from Work to Home
+* maps <query> - Search Google maps for an address
+* dir <query> to <query> to <query> etc (seperate multiple addresses with " to " minus the quotes, and you will get a multiple location search)
+* dirfw <query> Show directions from Work to address
+* dirfh <query> Show directions from Home to address
+* dirtw <query> Show directions from query to Work address
+* dirth <query> Show directions from query to Home address
+* trafficw - Show traffic from Home to Work
+* traffich - Show traffic from Work to Home
 
 ## Contributing
 
@@ -38,11 +38,11 @@ Version 1.0 - Initial Release
 ## Credits
 
 Created by [Stuart Ryan](http://stuartryan.com). If you would like to get into contact you can do so via:
-*[@StuartCRyan on Twitter](http://twitter.com/stuartcryan)
-*[Stuart Ryan on LinkedIn](https://au.linkedin.com/in/stuartcryan)
-*[Technical Notebook Blog](http://technicalnotebook.com)
-*[Technical Notebook Wiki](http://technicalnotebook.com/wiki)
-*[Technical Notebook JIRA](http://technicalnotebook.com/jira)
+* [@StuartCRyan on Twitter](http://twitter.com/stuartcryan)
+* [Stuart Ryan on LinkedIn](https://au.linkedin.com/in/stuartcryan)
+* [Technical Notebook Blog](http://technicalnotebook.com)
+* [Technical Notebook Wiki](http://technicalnotebook.com/wiki)
+* [Technical Notebook JIRA](http://technicalnotebook.com/jira)
 
 ## License
 
