@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.stuartryan.alfred.advancedgooglemaps</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>789527E4-A091-4D9C-9C7D-4B96476AE1F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DE192528-8869-45A0-B879-19B5B12D7130</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stuart Ryan</string>
+	<key>description</key>
+	<string>Search Google Maps</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Advanced Google Maps Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>http://maps.google.com/maps?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>maps</string>
+				<key>text</key>
+				<string>Search Google Maps</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfw</string>
+				<key>text</key>
+				<string>Google Maps Directions from Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $queryEncoded;
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$queryEncoded=uri_escape('{query}');
+
+system("open https://www.google.com.au/maps/dir/$workAddressEncoded/$queryEncoded/");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfh</string>
+				<key>text</key>
+				<string>Google Maps Directions from Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $homeAddress;
+my $homeAddressEncoded;
+my $queryEncoded;
+
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+$queryEncoded=uri_escape('{query}');
+
+system("open https://www.google.com.au/maps/dir/$homeAddressEncoded/$queryEncoded/");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DE192528-8869-45A0-B879-19B5B12D7130</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $queryEncoded;
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$queryEncoded=uri_escape('{query}');
+
+system("open https://www.google.com.au/maps/dir/$queryEncoded/$workAddressEncoded/");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>789527E4-A091-4D9C-9C7D-4B96476AE1F9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirtw</string>
+				<key>text</key>
+				<string>Google Maps Directions to Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirth</string>
+				<key>text</key>
+				<string>Google Maps Directions to Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $homeAddress;
+my $homeAddressEncoded;
+my $queryEncoded;
+
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+$queryEncoded=uri_escape('{query}');
+
+system("open https://www.google.com.au/maps/dir/$queryEncoded/$homeAddressEncoded/");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dir</string>
+				<key>text</key>
+				<string>Google Maps Directions</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $url = 'https://www.google.com.au/maps/dir/';
+my @array = split(/\sto\s/, "{query}");
+
+foreach (@array) { 
+$url = $url . uri_escape($_) . '/';
+}
+`open "$url"`;</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Home Address Set To:</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>mapsethome</string>
+				<key>text</key>
+				<string>Set Home Address</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "{query}" -C "note" -U
+
+echo "{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>mapsetwork</string>
+				<key>text</key>
+				<string>Set Work Address</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2518FC5A-667C-4BF8-B1CB-843980F50049</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Work Address Set To:</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>security add-generic-password -a "alfred-work-address" -s "alfred-work-address" -w "{query}" -C "note" -U
+
+echo "{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $homeAddress;
+my $homeAddressEncoded;
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+
+my $url = "https://www.google.com.au/maps/dir/$homeAddressEncoded/$workAddressEncoded/";
+
+system("open $url");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>trafficw</string>
+				<key>text</key>
+				<string>Show traffic from Home to Work</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>traffich</string>
+				<key>text</key>
+				<string>Show traffic from Work to Home</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $homeAddress;
+my $homeAddressEncoded;
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+
+my $url = "https://www.google.com.au/maps/dir/$workAddressEncoded/$homeAddressEncoded/";
+
+system("open $url");</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow is not affiliated with Google or Google Products in any way.</string>
+	<key>uidata</key>
+	<dict>
+		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>
+		<dict>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
+		<dict>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
+		<dict>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
+		<dict>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
+		<dict>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
+		<dict>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
+		<dict>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
+		<dict>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
+		<dict>
+			<key>ypos</key>
+			<real>610</real>
+		</dict>
+		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
+		<dict>
+			<key>ypos</key>
+			<real>610</real>
+		</dict>
+		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
+		<dict>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</key>
+		<dict>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
+		<dict>
+			<key>ypos</key>
+			<real>1090</real>
+		</dict>
+		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
+		<dict>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
+		<dict>
+			<key>ypos</key>
+			<real>1090</real>
+		</dict>
+		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>DE192528-8869-45A0-B879-19B5B12D7130</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
+		<dict>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://technicalnotebook.com</string>
+</dict>
+</plist>
