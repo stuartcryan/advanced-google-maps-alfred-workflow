@@ -226,7 +226,7 @@ chomp($workAddress);
 $workAddressEncoded=uri_escape($workAddress);
 $queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com.au/maps/dir/$workAddressEncoded/$queryEncoded/");</string>
+system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/");</string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -276,7 +276,7 @@ chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
 $queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com.au/maps/dir/$homeAddressEncoded/$queryEncoded/");</string>
+system("open https://www.google.com/maps/dir/$homeAddressEncoded/$queryEncoded/");</string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -307,7 +307,7 @@ chomp($workAddress);
 $workAddressEncoded=uri_escape($workAddress);
 $queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com.au/maps/dir/$queryEncoded/$workAddressEncoded/");</string>
+system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/");</string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -376,7 +376,7 @@ chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
 $queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com.au/maps/dir/$queryEncoded/$homeAddressEncoded/");</string>
+system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/");</string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -417,7 +417,7 @@ system("open https://www.google.com.au/maps/dir/$queryEncoded/$homeAddressEncode
 				<string>use strict;
 use warnings;
 use URI::Escape;
-my $url = 'https://www.google.com.au/maps/dir/';
+my $url = 'https://www.google.com/maps/dir/';
 my @array = split(/\sto\s/, "{query}");
 
 foreach (@array) { 
@@ -587,7 +587,7 @@ $homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
 chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
 
-my $url = "https://www.google.com.au/maps/dir/$homeAddressEncoded/$workAddressEncoded/";
+my $url = "https://www.google.com/maps/dir/$homeAddressEncoded/$workAddressEncoded/";
 
 system("open $url");</string>
 				<key>type</key>
@@ -661,7 +661,7 @@ $homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
 chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
 
-my $url = "https://www.google.com.au/maps/dir/$workAddressEncoded/$homeAddressEncoded/";
+my $url = "https://www.google.com/maps/dir/$workAddressEncoded/$homeAddressEncoded/";
 
 system("open $url");</string>
 				<key>type</key>
@@ -676,7 +676,9 @@ system("open $url");</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow is not affiliated with Google or Google Products in any way.</string>
+	<string>This workflow is not affiliated with Google or Google Products in any way.
+
+Version 1.1</string>
 	<key>uidata</key>
 	<dict>
 		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>

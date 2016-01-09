@@ -33,6 +33,7 @@ Easy searching of Google Maps including directions to or from work/home.
 
 ## History
 
+Version 1.1 - Set default search to be google.com rather than google.com.au
 Version 1.0 - Initial Release
 
 ## Credits
