@@ -38,7 +38,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1DA76962-FDC5-4991-B12C-D728D2D70623</string>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -78,19 +88,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>DE192528-8869-45A0-B879-19B5B12D7130</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>1DA76962-FDC5-4991-B12C-D728D2D70623</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -151,11 +148,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -181,7 +204,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -195,6 +228,42 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9AE56FAB-E1EB-4493-AEF1-000A0FC3F943</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9AE56FAB-E1EB-4493-AEF1-000A0FC3F943</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -308,6 +377,376 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dir</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $url = '';
+my $transportMode = '';
+my $rawQuery = '{query}';
+my $strippedQuery;
+my $modified = '';
+my $origin;
+my $destination;
+my $middleStops;
+my $transportQuery;
+my $errorCode = '';
+
+if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
+    $strippedQuery = $3;
+    $transportQuery = $2;    
+}
+
+my @array = split(/\sto\s/, $strippedQuery);
+my $arraySize = scalar(@array);
+my $lastElement = $arraySize - 1;
+
+if ($transportQuery =~ m/^walk.*$/) {
+    $transportMode = '&amp;travelmode=walking';   
+} elsif ($transportQuery =~ m/^pt.*$/) {
+    $transportMode = '&amp;travelmode=transit'; 
+} elsif ($transportQuery =~ m/^bike.*$/) {
+    $transportMode = '&amp;travelmode=bicycling';     
+} elsif ($transportQuery =~ m/^drive.*$/) {
+    $transportMode = '&amp;travelmode=driving';    
+} 
+
+$arraySize = scalar(@array); #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+
+if ($arraySize == 2) {
+    $origin = uri_escape($array[0]);
+    $destination = uri_escape($array[1]);
+} else {
+    $origin = uri_escape($array[0]);
+    $destination = uri_escape($array[$lastElement]);
+    shift(@array);
+    pop(@array);
+    $arraySize = scalar(@array); #reinitialise as array may have shrunk
+    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+    if ($arraySize &gt;9) {
+       $errorCode = 'TOOMANYWAYPOINTS';
+    }
+    $middleStops = '&amp;waypoints=';
+    my $location;
+    foreach (@array) { 
+       if (lc($_) eq "here") {
+       $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+       chomp($location);
+       $middleStops = $middleStops . uri_escape($location) . '|';
+       } else {
+       $middleStops = $middleStops . uri_escape($_) . '|';
+       }
+    }
+    chop($middleStops);
+}
+
+if (lc($origin) eq "here") {
+    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+    chomp($location);
+    $origin = $location;
+}
+
+if (lc($destination) eq "here") {
+    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+    chomp($location);
+    $destination = $location;
+}
+
+if ($errorCode eq 'TOOMANYWAYPOINTS') {
+    print "ERROR: Too Many Waypoints";
+} else {
+    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $url = '';
+my $transportMode = '';
+my $rawQuery = '{query}';
+my $strippedQuery;
+my $modified = '';
+my $origin;
+my $destination;
+my $middleStops;
+my $transportQuery;
+my $errorCode = '';
+
+if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
+    $strippedQuery = $3;
+    $transportQuery = $2;    
+}
+
+my @array = split(/\sto\s/, $strippedQuery);
+my $arraySize = scalar(@array);
+my $lastElement = $arraySize - 1;
+
+if ($transportQuery =~ m/^walk.*$/) {
+    $transportMode = '&amp;travelmode=walking';   
+} elsif ($transportQuery =~ m/^pt.*$/) {
+    $transportMode = '&amp;travelmode=transit'; 
+} elsif ($transportQuery =~ m/^bike.*$/) {
+    $transportMode = '&amp;travelmode=bicycling';     
+} elsif ($transportQuery =~ m/^drive.*$/) {
+    $transportMode = '&amp;travelmode=driving';    
+} 
+
+$arraySize = scalar(@array); #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+
+if ($arraySize == 1) {
+    $destination = uri_escape($array[0]);
+} else {
+    $destination = uri_escape($array[$lastElement]);
+    pop(@array);
+    $arraySize = scalar(@array); #reinitialise as array may have shrunk
+    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+    if ($arraySize &gt;9) {
+       $errorCode = 'TOOMANYWAYPOINTS';
+    }
+    $middleStops = '&amp;waypoints=';
+    foreach (@array) { 
+    $middleStops = $middleStops . uri_escape($_) . '|';
+    }
+    chop($middleStops);
+}
+
+if ($errorCode eq 'TOOMANYWAYPOINTS') {
+    print "ERROR: Too Many Waypoints";
+} else {
+
+    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+    chomp($location);
+    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$location&amp;destination=$destination$transportMode$middleStops";
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0A6485DA-3570-4B8B-8E6F-2D6776189C29</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Google only supports a maximum of 9 waypoints in addition to the origin and destination. Try again!</string>
+				<key>title</key>
+				<string>BOOO too many waypoints!!!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^ERROR.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirtc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions to Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $url = '';
+my $transportMode = '';
+my $rawQuery = '{query}';
+my $strippedQuery;
+my $modified = '';
+my $origin;
+my $destination;
+my $middleStops;
+my $transportQuery;
+my $errorCode = '';
+
+if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
+    $strippedQuery = $3;
+    $transportQuery = $2;    
+}
+
+my @array = split(/\sto\s/, $strippedQuery);
+my $arraySize = scalar(@array);
+my $lastElement = $arraySize - 1;
+
+if ($transportQuery =~ m/^walk.*$/) {
+    $transportMode = '&amp;travelmode=walking';   
+} elsif ($transportQuery =~ m/^pt.*$/) {
+    $transportMode = '&amp;travelmode=transit'; 
+} elsif ($transportQuery =~ m/^bike.*$/) {
+    $transportMode = '&amp;travelmode=bicycling';     
+} elsif ($transportQuery =~ m/^drive.*$/) {
+    $transportMode = '&amp;travelmode=driving';    
+} 
+
+$arraySize = scalar(@array); #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+
+if ($arraySize == 1) {
+    $origin = uri_escape($array[0]);
+} else {
+    $origin = uri_escape($array[0]);
+    shift(@array);
+    $arraySize = scalar(@array); #reinitialise as array may have shrunk
+    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
+    if ($arraySize &gt;9) {
+       $errorCode = 'TOOMANYWAYPOINTS';
+    }
+    $middleStops = '&amp;waypoints=';
+    foreach (@array) { 
+    $middleStops = $middleStops . uri_escape($_) . '|';
+    }
+    chop($middleStops);
+}
+
+if ($errorCode eq 'TOOMANYWAYPOINTS') {
+    print "ERROR: Too Many Waypoints";
+} else {
+    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+    chomp($location);
+    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$location$transportMode$middleStops";
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9AE56FAB-E1EB-4493-AEF1-000A0FC3F943</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -342,6 +781,25 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http.*google.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -570,6 +1028,25 @@ print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$queryE
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -638,78 +1115,6 @@ print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$queryE
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dir</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-my $url = '';
-my @array = split(/\sto\s/, "{query}");
-
-foreach (@array) { 
-$url = $url . uri_escape($_) . '/';
-}
-print "$url";</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -787,25 +1192,6 @@ print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$homeAd
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://www.google.{var:googleLocal}/maps/dir/{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -863,87 +1249,6 @@ print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$workAd
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfc</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Current Location</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>#!/bin/bash
-query=$1
-
-LOCATION=$($CoreLocationCLIBinary -format "%latitude,%longitude")
-
-echo -n "$LOCATION/$query"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>1DA76962-FDC5-4991-B12C-D728D2D70623</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-my $url = '';
-my @array = split(/\sto\s/, "{query}");
-
-foreach (@array) { 
-$url = $url . uri_escape($_) . '/';
-}
-print "$url";</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0A6485DA-3570-4B8B-8E6F-2D6776189C29</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1103,20 +1408,21 @@ If you wish to use the 'Directions from Current Location - dirfc' command, you w
 4. Ensure the environment variable to the right matches the installed location.
 
 ALPHA NOTES:
-1.2.2 Alpha adds a host of new features including:
+1.2.3 Beta adds a host of new features including:
 	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
+	-dirtc: Directions to Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
+	-dir, dirfc and dirtc now support Google transit type (walk, drive, pt [public transport] and bike)
+    -dir now supports 'here'. Here anywhere in the transit plan translates to the current GPS coordinates using CoreLocationCLI. Technically this probably does away with the need for dirfc and dirtc, but, leaving them there for consistency.
 	-overhaul of changes to properly use Google API parameters
-	-dir, dirfc, and maps commands not yet upgraded to use new changes (pending feedback before mass overhaul as these will be complex). Primarly this is how we will handle multiple hops on a plan (i.e. other stops between origin and destination).
 
 Utilisation of new features:
-	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination.
-	2. for all other commands you can now utilise the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirfw &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions.
+	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination. Similar invocation for 'dirtc'.
+	2. All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
 	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.
 
 Still to do:
 	1. Error handling around CoreLocationCLI (i.e. if WiFi is not active).
-	2. Upgrade dir, dirfc, and maps commands to utilise new 'mode of transport' feature.
-	3. Default to GoogleLocal being NULL and gracefully instructing to fill it out.
+	2. Default to GoogleLocal being NULL and gracefully instructing to fill it out.
 	4. Any other ideas that come up.</string>
 	<key>uidata</key>
 	<dict>
@@ -1125,189 +1431,210 @@ Still to do:
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<integer>1500</integer>
 		</dict>
 		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>140</integer>
 		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>400</integer>
 		</dict>
 		<key>0A6485DA-3570-4B8B-8E6F-2D6776189C29</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>140</integer>
 		</dict>
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>1130</integer>
+			<integer>1380</integer>
 		</dict>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>760</integer>
 		</dict>
 		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>260</integer>
-		</dict>
-		<key>1DA76962-FDC5-4991-B12C-D728D2D70623</key>
-		<dict>
-			<key>xpos</key>
-			<integer>440</integer>
-			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>640</integer>
 		</dict>
 		<key>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>520</integer>
 		</dict>
 		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<integer>1500</integer>
 		</dict>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>500</integer>
+			<integer>880</integer>
 		</dict>
 		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<integer>1500</integer>
+		</dict>
+		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
+		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>490</integer>
 		</dict>
 		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>760</integer>
+		</dict>
+		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>1130</integer>
+			<integer>1380</integer>
 		</dict>
 		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>620</integer>
+			<integer>20</integer>
 		</dict>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>620</integer>
-		</dict>
-		<key>9563DDCF-815F-4295-AC36-D358DBE12557</key>
-		<dict>
-			<key>xpos</key>
-			<integer>680</integer>
-			<key>ypos</key>
-			<integer>820</integer>
+			<integer>20</integer>
 		</dict>
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>680</integer>
+			<integer>870</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>840</integer>
+		</dict>
+		<key>9AE56FAB-E1EB-4493-AEF1-000A0FC3F943</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>260</integer>
 		</dict>
 		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
 		<dict>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>1130</integer>
+			<integer>1380</integer>
 		</dict>
 		<key>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>500</integer>
+			<integer>880</integer>
 		</dict>
 		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>870</integer>
+			<integer>1120</integer>
 		</dict>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>750</integer>
+			<integer>1000</integer>
 		</dict>
 		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>870</integer>
+			<integer>1120</integer>
 		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>400</integer>
 		</dict>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>520</integer>
 		</dict>
 		<key>DE192528-8869-45A0-B879-19B5B12D7130</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>260</integer>
+			<integer>640</integer>
 		</dict>
 		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>750</integer>
+			<integer>1000</integer>
+		</dict>
+		<key>F0CDA005-A604-4041-830B-E4FA8965DE2E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
