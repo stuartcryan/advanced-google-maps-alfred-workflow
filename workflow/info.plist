@@ -8,6 +8,19 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A6485DA-3570-4B8B-8E6F-2D6776189C29</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<array>
 			<dict>
@@ -17,6 +30,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0A6485DA-3570-4B8B-8E6F-2D6776189C29</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DA76962-FDC5-4991-B12C-D728D2D70623</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
@@ -28,6 +56,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
@@ -39,6 +69,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
@@ -50,6 +82,34 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1DA76962-FDC5-4991-B12C-D728D2D70623</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
@@ -61,6 +121,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
@@ -72,6 +134,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
@@ -83,6 +147,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
@@ -94,6 +173,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
@@ -105,6 +199,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
@@ -116,6 +225,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
@@ -127,6 +238,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
@@ -138,6 +264,34 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DE192528-8869-45A0-B879-19B5B12D7130</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -154,10 +308,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
-				<string>http://maps.google.com/maps?q={query}</string>
+				<string>https://maps.google.{var:googleLocal}/maps?q={query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -166,7 +322,7 @@
 			<key>uid</key>
 			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -175,6 +331,8 @@
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>maps</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Search Google Maps</string>
 				<key>withspace</key>
@@ -185,7 +343,7 @@
 			<key>uid</key>
 			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -194,6 +352,8 @@
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>dirfw</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Google Maps Directions from Work</string>
 				<key>withspace</key>
@@ -204,7 +364,7 @@
 			<key>uid</key>
 			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -212,7 +372,7 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>0</integer>
 				<key>script</key>
 				<string>use strict;
 use warnings;
@@ -220,13 +380,35 @@ use URI::Escape;
 my $workAddress;
 my $workAddressEncoded;
 my $queryEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
 
 $workAddress=`security find-generic-password -w -s "alfred-work-address"`;
 chomp($workAddress);
 $workAddressEncoded=uri_escape($workAddress);
-$queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/");</string>
+
+if ($rawQuery =~ m/^walk (.*)$/) {
+    $transportMode = '&amp;travelmode=walking';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^pt (.*)$/) {
+    $transportMode = '&amp;travelmode=transit';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^bike (.*)$/) {
+    $transportMode = '&amp;travelmode=bicycling';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^drive (.*)$/) {
+    $transportMode = '&amp;travelmode=driving';   
+    $queryEncoded=uri_escape("$1");    
+} else {
+    $queryEncoded=uri_escape('{query}');
+}
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$workAddressEncoded&amp;destination=$queryEncoded$transportMode";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -235,7 +417,7 @@ system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/"
 			<key>uid</key>
 			<string>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -244,6 +426,8 @@ system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/"
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>dirfh</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Google Maps Directions from Home</string>
 				<key>withspace</key>
@@ -254,7 +438,7 @@ system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/"
 			<key>uid</key>
 			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -262,7 +446,7 @@ system("open https://www.google.com/maps/dir/$workAddressEncoded/$queryEncoded/"
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>0</integer>
 				<key>script</key>
 				<string>use strict;
 use warnings;
@@ -270,13 +454,35 @@ use URI::Escape;
 my $homeAddress;
 my $homeAddressEncoded;
 my $queryEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
 
 $homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
 chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
-$queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com/maps/dir/$homeAddressEncoded/$queryEncoded/");</string>
+if ($rawQuery =~ m/^walk (.*)$/) {
+    $transportMode = '&amp;travelmode=walking';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^pt (.*)$/) {
+    $transportMode = '&amp;travelmode=transit';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^bike (.*)$/) {
+    $transportMode = '&amp;travelmode=bicycling';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^drive (.*)$/) {
+    $transportMode = '&amp;travelmode=driving';   
+    $queryEncoded=uri_escape("$1");    
+} else {
+    $queryEncoded=uri_escape('{query}');
+}
+
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$homeAddressEncoded&amp;destination=$queryEncoded$transportMode";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -285,7 +491,7 @@ system("open https://www.google.com/maps/dir/$homeAddressEncoded/$queryEncoded/"
 			<key>uid</key>
 			<string>DE192528-8869-45A0-B879-19B5B12D7130</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -293,7 +499,7 @@ system("open https://www.google.com/maps/dir/$homeAddressEncoded/$queryEncoded/"
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>0</integer>
 				<key>script</key>
 				<string>use strict;
 use warnings;
@@ -301,13 +507,35 @@ use URI::Escape;
 my $workAddress;
 my $workAddressEncoded;
 my $queryEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
 
 $workAddress=`security find-generic-password -w -s "alfred-work-address"`;
 chomp($workAddress);
 $workAddressEncoded=uri_escape($workAddress);
-$queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/");</string>
+if ($rawQuery =~ m/^walk (.*)$/) {
+    $transportMode = '&amp;travelmode=walking';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^pt (.*)$/) {
+    $transportMode = '&amp;travelmode=transit';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^bike (.*)$/) {
+    $transportMode = '&amp;travelmode=bicycling';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^drive (.*)$/) {
+    $transportMode = '&amp;travelmode=driving';   
+    $queryEncoded=uri_escape("$1");    
+} else {
+    $queryEncoded=uri_escape('{query}');
+}
+
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$queryEncoded&amp;destination=$workAddressEncoded$transportMode";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -316,7 +544,7 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/"
 			<key>uid</key>
 			<string>789527E4-A091-4D9C-9C7D-4B96476AE1F9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -325,6 +553,8 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/"
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>dirtw</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Google Maps Directions to Work</string>
 				<key>withspace</key>
@@ -335,7 +565,7 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/"
 			<key>uid</key>
 			<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -344,6 +574,8 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/"
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>dirth</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Google Maps Directions to Home</string>
 				<key>withspace</key>
@@ -354,7 +586,7 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$workAddressEncoded/"
 			<key>uid</key>
 			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -370,13 +602,35 @@ use URI::Escape;
 my $homeAddress;
 my $homeAddressEncoded;
 my $queryEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
 
 $homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
 chomp($homeAddress);
 $homeAddressEncoded=uri_escape($homeAddress);
-$queryEncoded=uri_escape('{query}');
 
-system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/");</string>
+if ($rawQuery =~ m/^walk (.*)$/) {
+    $transportMode = '&amp;travelmode=walking';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^pt (.*)$/) {
+    $transportMode = '&amp;travelmode=transit';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^bike (.*)$/) {
+    $transportMode = '&amp;travelmode=bicycling';   
+    $queryEncoded=uri_escape("$1");    
+} elsif ($rawQuery =~ m/^drive (.*)$/) {
+    $transportMode = '&amp;travelmode=driving';   
+    $queryEncoded=uri_escape("$1");    
+} else {
+    $queryEncoded=uri_escape('{query}');
+}
+
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$queryEncoded&amp;destination=$homeAddressEncoded$transportMode";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -385,7 +639,26 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/"
 			<key>uid</key>
 			<string>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -394,6 +667,8 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/"
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>dir</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Google Maps Directions</string>
 				<key>withspace</key>
@@ -404,7 +679,7 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/"
 			<key>uid</key>
 			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -412,18 +687,22 @@ system("open https://www.google.com/maps/dir/$queryEncoded/$homeAddressEncoded/"
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>0</integer>
 				<key>script</key>
 				<string>use strict;
 use warnings;
 use URI::Escape;
-my $url = 'https://www.google.com/maps/dir/';
+my $url = '';
 my @array = split(/\sto\s/, "{query}");
 
 foreach (@array) { 
 $url = $url . uri_escape($_) . '/';
 }
-`open "$url"`;</string>
+print "$url";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>4</integer>
 			</dict>
@@ -432,7 +711,241 @@ $url = $url . uri_escape($_) . '/';
 			<key>uid</key>
 			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $homeAddress;
+my $homeAddressEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+
+if ($rawQuery =~ m/^walk.*$/) {
+    $transportMode = '&amp;travelmode=walking';    
+} elsif ($rawQuery =~ m/^pt.*$/) {
+    $transportMode = '&amp;travelmode=transit';   
+} elsif ($rawQuery =~ m/^bike.*$/) {
+    $transportMode = '&amp;travelmode=bicycling';   
+} elsif ($rawQuery =~ m/^drive.*$/) {
+    $transportMode = '&amp;travelmode=driving';    
+} 
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$homeAddressEncoded&amp;destination=$workAddressEncoded$transportMode";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>trafficw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Home to Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.google.{var:googleLocal}/maps/dir/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9563DDCF-815F-4295-AC36-D358DBE12557</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>traffich</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Work to Home</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $workAddress;
+my $workAddressEncoded;
+my $homeAddress;
+my $homeAddressEncoded;
+my $transportMode = '';
+my $rawQuery = '{query}';
+
+$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
+chomp($workAddress);
+$workAddressEncoded=uri_escape($workAddress);
+$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
+chomp($homeAddress);
+$homeAddressEncoded=uri_escape($homeAddress);
+
+#my $url = "https://www.google.com/maps/dir/$workAddressEncoded/$homeAddressEncoded/";
+
+print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$workAddressEncoded&amp;destination=$homeAddressEncoded";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+query=$1
+
+LOCATION=$($CoreLocationCLIBinary -format "%latitude,%longitude")
+
+echo -n "$LOCATION/$query"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1DA76962-FDC5-4991-B12C-D728D2D70623</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+my $url = '';
+my @array = split(/\sto\s/, "{query}");
+
+foreach (@array) { 
+$url = $url . uri_escape($_) . '/';
+}
+print "$url";</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0A6485DA-3570-4B8B-8E6F-2D6776189C29</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -441,11 +954,7 @@ $url = $url . uri_escape($_) . '/';
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -457,7 +966,7 @@ $url = $url . uri_escape($_) . '/';
 			<key>uid</key>
 			<string>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -466,6 +975,8 @@ $url = $url . uri_escape($_) . '/';
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>mapsethome</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Set Home Address</string>
 				<key>withspace</key>
@@ -476,7 +987,7 @@ $url = $url . uri_escape($_) . '/';
 			<key>uid</key>
 			<string>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -489,6 +1000,10 @@ $url = $url . uri_escape($_) . '/';
 				<string>security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "{query}" -C "note" -U
 
 echo "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -497,7 +1012,7 @@ echo "{query}"</string>
 			<key>uid</key>
 			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -506,6 +1021,8 @@ echo "{query}"</string>
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>mapsetwork</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Set Work Address</string>
 				<key>withspace</key>
@@ -516,7 +1033,7 @@ echo "{query}"</string>
 			<key>uid</key>
 			<string>2518FC5A-667C-4BF8-B1CB-843980F50049</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -525,11 +1042,7 @@ echo "{query}"</string>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -541,7 +1054,7 @@ echo "{query}"</string>
 			<key>uid</key>
 			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -554,6 +1067,10 @@ echo "{query}"</string>
 				<string>security add-generic-password -a "alfred-work-address" -s "alfred-work-address" -w "{query}" -C "note" -U
 
 echo "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -562,236 +1079,246 @@ echo "{query}"</string>
 			<key>uid</key>
 			<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
 			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-my $url = "https://www.google.com/maps/dir/$homeAddressEncoded/$workAddressEncoded/";
-
-system("open $url");</string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>trafficw</string>
-				<key>text</key>
-				<string>Show traffic from Home to Work</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>traffich</string>
-				<key>text</key>
-				<string>Show traffic from Work to Home</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-my $url = "https://www.google.com/maps/dir/$workAddressEncoded/$homeAddressEncoded/";
-
-system("open $url");</string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
-			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string>This workflow is not affiliated with Google or Google Products in any way.
 
-Version 1.1</string>
+Installation Instructions:
+Please ensure you fill the 'googleLocal' workflow environment variable to the right in with the appropriate country domain for your locale.
+
+Examples:
+Australia: 'com.au'
+USA: 'com' (default)
+Taiwan: 'com.tw'
+
+Ensure no leading or trailing period is used.
+
+If you wish to use the 'Directions from Current Location - dirfc' command, you will need to install homebrew and the CoreLocationCLI package.
+
+1. Install Homebrew using instructions from https://brew.sh/
+2. Install the CoreLocationCLI utility by running the following command in a terminal 'brew cask install corelocationcli'.
+3. Check your installed location by running 'which CoreLocationCLI'
+4. Ensure the environment variable to the right matches the installed location.
+
+ALPHA NOTES:
+1.2.2 Alpha adds a host of new features including:
+	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
+	-overhaul of changes to properly use Google API parameters
+	-dir, dirfc, and maps commands not yet upgraded to use new changes (pending feedback before mass overhaul as these will be complex). Primarly this is how we will handle multiple hops on a plan (i.e. other stops between origin and destination).
+
+Utilisation of new features:
+	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination.
+	2. for all other commands you can now utilise the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirfw &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions.
+	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.
+
+Still to do:
+	1. Error handling around CoreLocationCLI (i.e. if WiFi is not active).
+	2. Upgrade dir, dirfc, and maps commands to utilise new 'mode of transport' feature.
+	3. Default to GoogleLocal being NULL and gracefully instructing to fill it out.
+	4. Any other ideas that come up.</string>
 	<key>uidata</key>
 	<dict>
 		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>
 		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
 			<key>ypos</key>
-			<real>850</real>
+			<integer>1250</integer>
+		</dict>
+		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>1000</integer>
 		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>20</integer>
+		</dict>
+		<key>0A6485DA-3570-4B8B-8E6F-2D6776189C29</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>1000</integer>
 		</dict>
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>730</real>
+			<integer>1130</integer>
 		</dict>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>370</real>
+			<integer>380</integer>
 		</dict>
 		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>250</real>
+			<integer>260</integer>
+		</dict>
+		<key>1DA76962-FDC5-4991-B12C-D728D2D70623</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>1000</integer>
 		</dict>
 		<key>1FC6BE6D-DBE2-4932-AEEC-2DAEB558D70C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>130</real>
+			<integer>140</integer>
 		</dict>
 		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>850</real>
+			<integer>1250</integer>
 		</dict>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>490</real>
+			<integer>500</integer>
 		</dict>
 		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>850</real>
+			<integer>1250</integer>
 		</dict>
 		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>370</real>
+			<integer>380</integer>
 		</dict>
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>730</real>
+			<integer>1130</integer>
 		</dict>
 		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>610</real>
+			<integer>620</integer>
 		</dict>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>610</real>
+			<integer>620</integer>
+		</dict>
+		<key>9563DDCF-815F-4295-AC36-D358DBE12557</key>
+		<dict>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>820</integer>
+		</dict>
+		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>580</integer>
 		</dict>
 		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
 		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
 			<key>ypos</key>
-			<real>730</real>
+			<integer>1130</integer>
 		</dict>
 		<key>A977BB5F-E2BA-4A94-A29A-3A6674F29E71</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>490</real>
+			<integer>500</integer>
 		</dict>
 		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>1090</real>
+			<integer>870</integer>
 		</dict>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>970</real>
+			<integer>750</integer>
 		</dict>
 		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>1090</real>
+			<integer>870</integer>
 		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>20</integer>
 		</dict>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>130</real>
+			<integer>140</integer>
 		</dict>
 		<key>DE192528-8869-45A0-B879-19B5B12D7130</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>250</real>
+			<integer>260</integer>
 		</dict>
 		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
 			<key>ypos</key>
-			<real>970</real>
+			<integer>750</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>CoreLocationCLIBinary</key>
+		<string>/usr/local/bin/CoreLocationCLI</string>
+		<key>googleLocal</key>
+		<string>com.au</string>
+	</dict>
+	<key>version</key>
+	<string>1.2.2alpha</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
