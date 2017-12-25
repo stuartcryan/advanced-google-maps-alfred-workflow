@@ -406,9 +406,9 @@
 				<string>use strict;
 use warnings;
 use URI::Escape;
-my $url = '';
+my $url           = '';
 my $transportMode = '';
-my $rawQuery = '{query}';
+my $rawQuery      = '{query}';
 my $strippedQuery;
 my $modified = '';
 my $origin;
@@ -416,72 +416,153 @@ my $destination;
 my $middleStops;
 my $transportQuery;
 my $errorCode = '';
+my $workAddress;
+my $homeAddress;
 
-if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
-    $strippedQuery = $3;
-    $transportQuery = $2;    
+#search for type of transport modifier
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
+	$strippedQuery  = $3;
+	$transportQuery = $2;
 }
 
-my @array = split(/\sto\s/, $strippedQuery);
-my $arraySize = scalar(@array);
+#initialise the array after removing transport modifier
+my @array       = split( /\sto\s/, $strippedQuery );
+my $arraySize   = scalar(@array);
 my $lastElement = $arraySize - 1;
 
-if ($transportQuery =~ m/^walk.*$/) {
-    $transportMode = '&amp;travelmode=walking';   
-} elsif ($transportQuery =~ m/^pt.*$/) {
-    $transportMode = '&amp;travelmode=transit'; 
-} elsif ($transportQuery =~ m/^bike.*$/) {
-    $transportMode = '&amp;travelmode=bicycling';     
-} elsif ($transportQuery =~ m/^drive.*$/) {
-    $transportMode = '&amp;travelmode=driving';    
-} 
-
-$arraySize = scalar(@array); #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-
-if ($arraySize == 2) {
-    $origin = uri_escape($array[0]);
-    $destination = uri_escape($array[1]);
-} else {
-    $origin = uri_escape($array[0]);
-    $destination = uri_escape($array[$lastElement]);
-    shift(@array);
-    pop(@array);
-    $arraySize = scalar(@array); #reinitialise as array may have shrunk
-    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-    if ($arraySize &gt;9) {
-       $errorCode = 'TOOMANYWAYPOINTS';
-    }
-    $middleStops = '&amp;waypoints=';
-    my $location;
-    foreach (@array) { 
-       if (lc($_) eq "here") {
-       $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-       chomp($location);
-       $middleStops = $middleStops . uri_escape($location) . '|';
-       } else {
-       $middleStops = $middleStops . uri_escape($_) . '|';
-       }
-    }
-    chop($middleStops);
+#check for type of transport requested
+if ( $transportQuery = ~m/^walk.*$/ ) {
+	$transportMode = '&amp;travelmode=walking';
+}
+elsif ( $transportQuery = ~m/^pt.*$/ ) {
+	$transportMode = '&amp;travelmode=transit';
+}
+elsif ( $transportQuery = ~m/^bike.*$/ ) {
+	$transportMode = '&amp;travelmode=bicycling';
+}
+elsif ( $transportQuery = ~m/^drive.*$/ ) {
+	$transportMode = '&amp;travelmode=driving';
 }
 
-if (lc($origin) eq "here") {
-    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-    chomp($location);
-    $origin = $location;
+$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
+
+#check for only origin and destination
+if ( $arraySize == 2 ) {
+	$origin      = uri_escape( $array[0] );
+	$destination = uri_escape( $array[1] );
+}
+else {
+	#if we are here, we have some waypoints WOOO
+	$origin      = uri_escape( $array[0] );
+	$destination = uri_escape( $array[$lastElement] );
+
+	#remove the origin and destination
+	shift(@array);
+	pop(@array);
+
+	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
+
+	# Google only supports 9 waypoints on Desktop
+	if ( $arraySize &gt; 9 ) {
+		$errorCode = 'TOOMANYWAYPOINTS';
+	}
+
+	$middleStops = '&amp;waypoints=';
+	my $location;
+	foreach (@array) {
+		if ( lc($_) eq "here" ) {
+
+			#check if we are using the here modifier for current coordinates
+			$location =
+			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+			if ( $? != 0 ) {
+				$errorCode = 'CORELOCATIONFAILED';
+			}
+			else {
+				chomp($location);
+				$middleStops = $middleStops . uri_escape($location) . '|';
+			}
+		}
+		elsif ( lc($_) eq "work" ) {
+			$workAddress =
+			  `security find-generic-password -w -s "alfred-work-address"`;
+			chomp($workAddress);
+			$middleStops = $middleStops . uri_escape($workAddress) . '|';
+		}
+		elsif ( lc($_) eq "home" ) {
+			$homeAddress =
+			  `security find-generic-password -w -s "alfred-home-address"`;
+			chomp($homeAddress);
+			$middleStops = $middleStops . uri_escape($homeAddress) . '|';
+		}
+		else {
+			#use the provided value
+			$middleStops = $middleStops . uri_escape($_) . '|';
+		}
+	}
+	chop($middleStops);    #remove trailing pipe
 }
 
-if (lc($destination) eq "here") {
-    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-    chomp($location);
-    $destination = $location;
+if ( lc($origin) eq "here" ) {
+
+	#check for 'here' location modifier and get GPS coordinates if possible
+	my $location =
+	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+	if ( $? != 0 ) {
+		$errorCode = 'CORELOCATIONFAILED';
+	}
+	else {
+		chomp($location);
+		$origin = $location;
+	}
+}
+elsif ( lc($origin) eq "work" ) {
+	$workAddress = `security find-generic-password -w -s "alfred-work-address"`;
+	chomp($workAddress);
+	$origin = uri_escape($workAddress);
+}
+elsif ( lc($origin) eq "home" ) {
+	$homeAddress = `security find-generic-password -w -s "alfred-home-address"`;
+	chomp($homeAddress);
+	$origin = uri_escape($homeAddress);
 }
 
-if ($errorCode eq 'TOOMANYWAYPOINTS') {
-    print "ERROR: Too Many Waypoints";
-} else {
-    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
+if ( lc($destination) eq "here" ) {
+
+	#check for 'here' location modifier and get GPS coordinates if possible
+	my $location =
+	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+	if ( $? != 0 ) {
+		$errorCode = 'CORELOCATIONFAILED';
+	}
+	else {
+		chomp($location);
+		$destination = $location;
+	}
+}
+elsif ( lc($destination) eq "work" ) {
+	$workAddress = `security find-generic-password -w -s "alfred-work-address"`;
+	chomp($workAddress);
+	$destination = uri_escape($workAddress);
+}
+elsif ( lc($destination) eq "home" ) {
+	$homeAddress = `security find-generic-password -w -s "alfred-home-address"`;
+	chomp($homeAddress);
+	$destination = uri_escape($homeAddress);
+}
+
+if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
+	print "ERROR: Too Many Waypoints";
+}
+elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
+	print
+"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
+}
+else {
+	print
+"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -529,9 +610,9 @@ if ($errorCode eq 'TOOMANYWAYPOINTS') {
 				<string>use strict;
 use warnings;
 use URI::Escape;
-my $url = '';
+my $url           = '';
 my $transportMode = '';
-my $rawQuery = '{query}';
+my $rawQuery      = '{query}';
 my $strippedQuery;
 my $modified = '';
 my $origin;
@@ -540,52 +621,77 @@ my $middleStops;
 my $transportQuery;
 my $errorCode = '';
 
-if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
-    $strippedQuery = $3;
-    $transportQuery = $2;    
+#search for type of transport modifier
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
+	$strippedQuery  = $3;
+	$transportQuery = $2;
 }
 
-my @array = split(/\sto\s/, $strippedQuery);
-my $arraySize = scalar(@array);
+#initialise the array after removing transport modifier
+my @array       = split( /\sto\s/, $strippedQuery );
+my $arraySize   = scalar(@array);
 my $lastElement = $arraySize - 1;
 
-if ($transportQuery =~ m/^walk.*$/) {
-    $transportMode = '&amp;travelmode=walking';   
-} elsif ($transportQuery =~ m/^pt.*$/) {
-    $transportMode = '&amp;travelmode=transit'; 
-} elsif ($transportQuery =~ m/^bike.*$/) {
-    $transportMode = '&amp;travelmode=bicycling';     
-} elsif ($transportQuery =~ m/^drive.*$/) {
-    $transportMode = '&amp;travelmode=driving';    
-} 
-
-$arraySize = scalar(@array); #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-
-if ($arraySize == 1) {
-    $destination = uri_escape($array[0]);
-} else {
-    $destination = uri_escape($array[$lastElement]);
-    pop(@array);
-    $arraySize = scalar(@array); #reinitialise as array may have shrunk
-    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-    if ($arraySize &gt;9) {
-       $errorCode = 'TOOMANYWAYPOINTS';
-    }
-    $middleStops = '&amp;waypoints=';
-    foreach (@array) { 
-    $middleStops = $middleStops . uri_escape($_) . '|';
-    }
-    chop($middleStops);
+#check for type of transport requested
+if ( $transportQuery =~ m/^walk.*$/ ) {
+	$transportMode = '&amp;travelmode=walking';
+}
+elsif ( $transportQuery =~ m/^pt.*$/ ) {
+	$transportMode = '&amp;travelmode=transit';
+}
+elsif ( $transportQuery =~ m/^bike.*$/ ) {
+	$transportMode = '&amp;travelmode=bicycling';
+}
+elsif ( $transportQuery =~ m/^drive.*$/ ) {
+	$transportMode = '&amp;travelmode=driving';
 }
 
-if ($errorCode eq 'TOOMANYWAYPOINTS') {
-    print "ERROR: Too Many Waypoints";
-} else {
+$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
 
-    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-    chomp($location);
-    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$location&amp;destination=$destination$transportMode$middleStops";
+#check for only destination
+if ( $arraySize == 1 ) {
+	$destination = uri_escape( $array[0] );
+}
+else {
+	#if we are here, we have some waypoints WOOO
+	$destination = uri_escape( $array[$lastElement] );
+
+	#remove the destination
+	pop(@array);
+
+	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
+
+	#Google only supports 9 waypoints on Desktop
+	if ( $arraySize &gt; 9 ) {
+		$errorCode = 'TOOMANYWAYPOINTS';
+	}
+
+	$middleStops = '&amp;waypoints=';
+	foreach (@array) {
+		$middleStops = $middleStops . uri_escape($_) . '|';
+	}
+	chop($middleStops);               #remove trailing pipe
+}
+
+if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
+	print
+"ERROR: Too Many Waypoints. Google only supports nine intermediate waypoints.";
+}
+else {
+	my $location =
+	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+	if ( $? != 0 ) {
+		$errorCode = 'CORELOCATIONFAILED';
+		print
+"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
+	}
+	else {
+		chomp($location);
+		print
+"https://www.google.com.au/maps/dir/?api=1&amp;origin=$location&amp;destination=$destination$transportMode$middleStops";
+	}
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -611,9 +717,9 @@ if ($errorCode eq 'TOOMANYWAYPOINTS') {
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>Google only supports a maximum of 9 waypoints in addition to the origin and destination. Try again!</string>
+				<string>{query}</string>
 				<key>title</key>
-				<string>BOOO too many waypoints!!!</string>
+				<string>Something went wrong *sadface*</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -673,9 +779,9 @@ if ($errorCode eq 'TOOMANYWAYPOINTS') {
 				<string>use strict;
 use warnings;
 use URI::Escape;
-my $url = '';
+my $url           = '';
 my $transportMode = '';
-my $rawQuery = '{query}';
+my $rawQuery      = '{query}';
 my $strippedQuery;
 my $modified = '';
 my $origin;
@@ -684,51 +790,76 @@ my $middleStops;
 my $transportQuery;
 my $errorCode = '';
 
-if ($rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/) {
-    $strippedQuery = $3;
-    $transportQuery = $2;    
+#search for type of transport modifier
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
+	$strippedQuery  = $3;
+	$transportQuery = $2;
 }
 
-my @array = split(/\sto\s/, $strippedQuery);
-my $arraySize = scalar(@array);
+#initialise the array after removing transport modifier
+my @array       = split( /\sto\s/, $strippedQuery );
+my $arraySize   = scalar(@array);
 my $lastElement = $arraySize - 1;
 
-if ($transportQuery =~ m/^walk.*$/) {
-    $transportMode = '&amp;travelmode=walking';   
-} elsif ($transportQuery =~ m/^pt.*$/) {
-    $transportMode = '&amp;travelmode=transit'; 
-} elsif ($transportQuery =~ m/^bike.*$/) {
-    $transportMode = '&amp;travelmode=bicycling';     
-} elsif ($transportQuery =~ m/^drive.*$/) {
-    $transportMode = '&amp;travelmode=driving';    
-} 
-
-$arraySize = scalar(@array); #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-
-if ($arraySize == 1) {
-    $origin = uri_escape($array[0]);
-} else {
-    $origin = uri_escape($array[0]);
-    shift(@array);
-    $arraySize = scalar(@array); #reinitialise as array may have shrunk
-    $lastElement = $arraySize - 1; #reinitialise as array may have shrunk
-    if ($arraySize &gt;9) {
-       $errorCode = 'TOOMANYWAYPOINTS';
-    }
-    $middleStops = '&amp;waypoints=';
-    foreach (@array) { 
-    $middleStops = $middleStops . uri_escape($_) . '|';
-    }
-    chop($middleStops);
+#check for type of transport requested
+if ( $transportQuery =~ m/^walk.*$/ ) {
+	$transportMode = '&amp;travelmode=walking';
+}
+elsif ( $transportQuery =~ m/^pt.*$/ ) {
+	$transportMode = '&amp;travelmode=transit';
+}
+elsif ( $transportQuery =~ m/^bike.*$/ ) {
+	$transportMode = '&amp;travelmode=bicycling';
+}
+elsif ( $transportQuery =~ m/^drive.*$/ ) {
+	$transportMode = '&amp;travelmode=driving';
 }
 
-if ($errorCode eq 'TOOMANYWAYPOINTS') {
-    print "ERROR: Too Many Waypoints";
-} else {
-    my $location = `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-    chomp($location);
-    print "https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$location$transportMode$middleStops";
+$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
+
+#check for only origin
+if ( $arraySize == 1 ) {
+	$origin = uri_escape( $array[0] );
+}
+else {
+	#if we are here, we have some waypoints WOOO
+	$origin = uri_escape( $array[0] );
+
+	#remove the origin
+	shift(@array);
+
+	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
+	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
+
+	#Google only supports 9 waypoints on Desktop
+	if ( $arraySize &gt; 9 ) {
+		$errorCode = 'TOOMANYWAYPOINTS';
+	}
+
+	$middleStops = '&amp;waypoints=';
+	foreach (@array) {
+		$middleStops = $middleStops . uri_escape($_) . '|';
+	}
+	chop($middleStops);               #remove trailing pipe
+}
+
+if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
+	print "ERROR: Too Many Waypoints";
+}
+else {
+	my $location =
+	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
+	if ( $? != 0 ) {
+		$errorCode = 'CORELOCATIONFAILED';
+		print
+"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
+	}
+	else {
+		chomp($location);
+		print
+"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$location$transportMode$middleStops";
+	}
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -1506,9 +1637,9 @@ Still to do:
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>730</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>480</integer>
 		</dict>
 		<key>789527E4-A091-4D9C-9C7D-4B96476AE1F9</key>
 		<dict>
