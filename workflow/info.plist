@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B696B719-5187-473B-8615-FBD5CEBA6BBF</string>
+				<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -39,6 +39,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -77,7 +90,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CC726777-AFBF-4BA3-887B-382A209AC47F</string>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -103,7 +116,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>91EE0FDF-5018-457C-920C-A1802D3CBF2E</string>
+				<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -117,29 +130,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>220856D9-CE5D-4C18-9559-66A57BE5CD3F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -174,11 +164,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7C0499E1-8AB3-4FD6-B9E4-00B0505B68F8</string>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -252,11 +281,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>7C0499E1-8AB3-4FD6-B9E4-00B0505B68F8</key>
+		<key>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -264,9 +293,12 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>7D56594D-6798-486D-8C27-719F118FF9EA</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -363,34 +395,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>91EE0FDF-5018-457C-920C-A1802D3CBF2E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F6E9D044-068E-49E6-A307-8154F5692983</string>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -429,30 +438,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B696B719-5187-473B-8615-FBD5CEBA6BBF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -465,7 +451,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
+				<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -487,11 +486,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
+		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -500,21 +499,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CC726777-AFBF-4BA3-887B-382A209AC47F</key>
+		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -527,7 +516,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>220856D9-CE5D-4C18-9559-66A57BE5CD3F</string>
+				<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -536,11 +525,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
+		<key>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -554,29 +543,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F6E9D044-068E-49E6-A307-8154F5692983</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -608,11 +574,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1179648</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string>D</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -663,6 +629,46 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Something went wrong *sadface*</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^ERROR.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -687,6 +693,13 @@ my $workAddress;
 my $workAddressEncoded;
 my $homeAddress;
 my $homeAddressEncoded;
+my $googleURL;
+
+if ($ENV{'googleLocal'}){
+	$googleURL = 'www.google.' . $ENV{'googleLocal'};
+} else {
+	$googleURL = 'www.google.com';
+}
 
 #search for type of transport modifier
 if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
@@ -828,7 +841,7 @@ elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
 }
 else {
 	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
+"https://$googleURL/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -901,6 +914,44 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http.*google.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -967,183 +1018,345 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = 'here';
-my $destination;
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only destination
-if ( $arraySize == 1 ) {
-	$destination = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>keyword</key>
+				<string>dirtc</string>
+				<key>subtext</key>
 				<string></string>
-				<key>type</key>
-				<integer>4</integer>
+				<key>text</key>
+				<string>Google Maps Directions to Current Location</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>B696B719-5187-473B-8615-FBD5CEBA6BBF</string>
+			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0CEC59E-C181-4E24-899E-9F76E327B146</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query} to here</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirtw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions to Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>08D0D5C3-7BD4-4049-A988-D70DE2ADF012</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query} to work</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>trafficw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Home to Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AD06B137-09BD-4652-8EED-C60D6176DBC6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>home to work</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1156EFC7-6474-4294-8C78-98302F671D8D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>traffich</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Work to Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>work to home</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirth</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions to Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query} to home</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1165,6 +1378,45 @@ else {
 			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+use MIME::Base64;
+
+my $rawQuery = "{query}";
+my $strippedQuery = '';
+my $transportQuery = '';
+
+#search for type of transport modifier
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
+	$strippedQuery  = $3;
+	$transportQuery = $2;
+	print "$transportQuery here to $strippedQuery";
+} else {
+	print "here to $rawQuery";
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1200,23 +1452,33 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>action</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirtc</string>
-				<key>subtext</key>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
 				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions to Current Location</string>
-				<key>withspace</key>
-				<true/>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<string>511FC68F-4DC2-47DD-A42C-527596F09ED1</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1231,160 +1493,17 @@ use warnings;
 use URI::Escape;
 use MIME::Base64;
 
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = '';
-my $destination = 'here';
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
+my $rawQuery = "{query}";
+my $strippedQuery = '';
+my $transportQuery = '';
 
 #search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 	$strippedQuery  = $3;
 	$transportQuery = $2;
-}
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin
-if ( $arraySize == 1 ) {
-	$origin = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $origin = uri_escape( $array[0] );
-
-	#remove the origin
-	shift(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
+	print "$transportQuery work to $strippedQuery";
+} else {
+	print "here to $rawQuery";
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -1396,9 +1515,38 @@ else {
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>F6E9D044-068E-49E6-A307-8154F5692983</string>
+			<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1427,9 +1575,69 @@ else {
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>F0CEC59E-C181-4E24-899E-9F76E327B146</string>
+			<string>7338B9C6-1378-435A-A5A9-D6F850CDB990</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+use URI::Escape;
+use MIME::Base64;
+
+my $rawQuery = "{query}";
+my $strippedQuery = '';
+my $transportQuery = '';
+
+#search for type of transport modifier
+if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
+	$strippedQuery  = $3;
+	$transportQuery = $2;
+	print "$transportQuery home to $strippedQuery";
+} else {
+	print "here to $rawQuery";
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1499,1222 +1707,6 @@ else {
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = 'work';
-my $destination;
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only destination
-if ( $arraySize == 1 ) {
-	$destination = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>220856D9-CE5D-4C18-9559-66A57BE5CD3F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>511FC68F-4DC2-47DD-A42C-527596F09ED1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfw</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Work</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^ERROR.*$</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Something went wrong *sadface*</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>7338B9C6-1378-435A-A5A9-D6F850CDB990</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = 'home';
-my $destination;
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only destination
-if ( $arraySize == 1 ) {
-	$destination = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>91EE0FDF-5018-457C-920C-A1802D3CBF2E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfh</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Home</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^http.*google.*$</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirtw</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions to Work</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = '';
-my $destination = 'work';
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin
-if ( $arraySize == 1 ) {
-	$origin = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $origin = uri_escape( $array[0] );
-
-	#remove the origin
-	shift(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CC726777-AFBF-4BA3-887B-382A209AC47F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>08D0D5C3-7BD4-4049-A988-D70DE2ADF012</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin = '';
-my $destination = 'home';
-my $middleStops;
-my $transportQuery;
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin
-if ( $arraySize == 1 ) {
-	$origin = uri_escape( $array[0] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-    $origin = uri_escape( $array[0] );
-
-	#remove the origin
-	shift(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://www.google.com.au/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>7C0499E1-8AB3-4FD6-B9E4-00B0505B68F8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirth</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions to Home</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>trafficw</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Show traffic from Home to Work</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>AD06B137-09BD-4652-8EED-C60D6176DBC6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-my $transportMode = '';
-my $rawQuery = '{query}';
-
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-if ($rawQuery =~ m/^walk.*$/) {
-    $transportMode = '&amp;travelmode=walking';    
-} elsif ($rawQuery =~ m/^pt.*$/) {
-    $transportMode = '&amp;travelmode=transit';   
-} elsif ($rawQuery =~ m/^bike.*$/) {
-    $transportMode = '&amp;travelmode=bicycling';   
-} elsif ($rawQuery =~ m/^drive.*$/) {
-    $transportMode = '&amp;travelmode=driving';    
-} 
-
-print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$homeAddressEncoded&amp;destination=$workAddressEncoded$transportMode";</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-my $transportMode = '';
-my $rawQuery = '{query}';
-
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-print "https://www.google.$ENV{'googleLocal'}/maps/dir/?api=1&amp;origin=$workAddressEncoded&amp;destination=$homeAddressEncoded";</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CC3AF13B-A020-4C97-9A77-288AA288DF4C</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>1156EFC7-6474-4294-8C78-98302F671D8D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>traffich</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Show traffic from Work to Home</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2861,7 +1853,7 @@ echo "{query}"</string>
 	<string>This workflow is not affiliated with Google or Google Products in any way.
 
 ***NOTE***
-1.2.3beta2 is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'.
+1.3.0 is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
 
 ***Utilisation:***
 **dir**
@@ -2897,73 +1889,78 @@ If you wish to use the 'Directions from Current Location - dirfc' command, you w
 3. Check your installed location by running 'which CoreLocationCLI'
 4. Ensure the environment variable to the right matches the installed location.
 
-***Beta Notes***
-ALPHA NOTES:
-1.2.3 Beta adds a host of new features including:
+Recent Changelog:
+1.2.3 adds a host of new features including:
 	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
 	-dirtc: Directions to Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
 	-dir, dirfc and dirtc now support Google transit type (walk, drive, pt [public transport] and bike)
     -dir now supports 'here'. Here anywhere in the transit plan translates to the current GPS coordinates using CoreLocationCLI. Technically this probably does away with the need for dirfc and dirtc, but, leaving them there for consistency.
-	-overhaul of changes to properly use Google API parameters
+	-Overhaul of changes to properly use Google API parameters
+	-Mass code cleanup and refactoring for simplification. Most flows now leverage the dir base code.
 
 Utilisation of new features:
 	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination. Similar invocation for 'dirtc'.
 	2. All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
-	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.
-
-Still to do:
-	1. Default to GoogleLocal being NULL and gracefully instructing to fill it out.
-	2. Any other ideas that come up.</string>
+	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.</string>
 	<key>uidata</key>
 	<dict>
 		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>1890</integer>
+			<integer>1970</integer>
 		</dict>
 		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>610</integer>
+			<integer>1250</integer>
 		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
+			<key>note</key>
+			<string>Note: This is really a legacy flow and may be deprecated in future. You *must* set up the googleLocal workflow environment variable for it to work.</string>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>900</integer>
+			<integer>1610</integer>
 		</dict>
 		<key>08D0D5C3-7BD4-4049-A988-D70DE2ADF012</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1260</integer>
+			<integer>760</integer>
+		</dict>
+		<key>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>910</integer>
 		</dict>
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
 		<dict>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>1770</integer>
+			<integer>1850</integer>
 		</dict>
 		<key>1156EFC7-6474-4294-8C78-98302F671D8D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
+			<integer>1000</integer>
 		</dict>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1260</integer>
+			<integer>760</integer>
 		</dict>
 		<key>18D6F012-7B22-4022-B051-03C1629CB100</key>
 		<dict>
@@ -2977,7 +1974,7 @@ Still to do:
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 		</dict>
 		<key>1BB6B4F7-37F1-4BC6-AE11-9F5DAFF3ACE3</key>
 		<dict>
@@ -2986,96 +1983,117 @@ Still to do:
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
-		<key>220856D9-CE5D-4C18-9559-66A57BE5CD3F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>1020</integer>
-		</dict>
 		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1890</integer>
+			<integer>1970</integer>
 		</dict>
 		<key>2ECB3CA7-4A88-409A-B60A-BA814E7CAB60</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>900</integer>
+			<integer>1610</integer>
+		</dict>
+		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>790</integer>
+		</dict>
+		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>1370</integer>
+		</dict>
+		<key>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1150</integer>
 		</dict>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1380</integer>
+			<integer>1120</integer>
 		</dict>
 		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
 		<dict>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>1890</integer>
+			<integer>1970</integer>
 		</dict>
 		<key>511FC68F-4DC2-47DD-A42C-527596F09ED1</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1020</integer>
+			<integer>1370</integer>
 		</dict>
 		<key>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1380</integer>
+			<integer>1120</integer>
 		</dict>
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>800</integer>
+			<integer>910</integer>
 			<key>ypos</key>
-			<integer>1200</integer>
+			<integer>300</integer>
 		</dict>
 		<key>7338B9C6-1378-435A-A5A9-D6F850CDB990</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 		</dict>
-		<key>7C0499E1-8AB3-4FD6-B9E4-00B0505B68F8</key>
+		<key>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>1380</integer>
+			<integer>670</integer>
+		</dict>
+		<key>7D56594D-6798-486D-8C27-719F118FF9EA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1030</integer>
 		</dict>
 		<key>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>610</integer>
+			<integer>1250</integer>
 		</dict>
 		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
 		<dict>
 			<key>xpos</key>
-			<integer>800</integer>
+			<integer>910</integer>
 			<key>ypos</key>
-			<integer>1120</integer>
+			<integer>220</integer>
 		</dict>
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1770</integer>
+			<integer>1850</integer>
 		</dict>
 		<key>88B352B1-CEA6-424B-833F-A6D45983A462</key>
 		<dict>
@@ -3087,7 +2105,7 @@ Still to do:
 		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>700</integer>
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
@@ -3098,40 +2116,33 @@ Still to do:
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
-		<key>91EE0FDF-5018-457C-920C-A1802D3CBF2E</key>
-		<dict>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>1140</integer>
-		</dict>
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1050</integer>
 			<key>ypos</key>
-			<integer>1260</integer>
+			<integer>320</integer>
 		</dict>
 		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>640</integer>
 		</dict>
 		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>1770</integer>
+			<integer>1850</integer>
 		</dict>
 		<key>AD06B137-09BD-4652-8EED-C60D6176DBC6</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>880</integer>
 		</dict>
 		<key>AE5F88F4-4462-4DE4-B7BC-8E6FD4A39CFA</key>
 		<dict>
@@ -3145,21 +2156,21 @@ Still to do:
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
-		</dict>
-		<key>B696B719-5187-473B-8615-FBD5CEBA6BBF</key>
-		<dict>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>610</integer>
+			<integer>1000</integer>
 		</dict>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>880</integer>
+		</dict>
+		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>1250</integer>
 		</dict>
 		<key>CB9D5B95-1220-4418-B0C7-1D8AC6B2FBBE</key>
 		<dict>
@@ -3168,61 +2179,54 @@ Still to do:
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
-		<key>CC3AF13B-A020-4C97-9A77-288AA288DF4C</key>
+		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
-		</dict>
-		<key>CC726777-AFBF-4BA3-887B-382A209AC47F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>1260</integer>
+			<integer>1490</integer>
 		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>900</integer>
+			<integer>1610</integer>
+		</dict>
+		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>880</integer>
 		</dict>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1020</integer>
+			<integer>1370</integer>
 		</dict>
-		<key>EC0EBD89-9CF5-4CF5-9659-C3BA307E4B9A</key>
+		<key>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>600</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>1400</integer>
 		</dict>
 		<key>F0CDA005-A604-4041-830B-E4FA8965DE2E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1050</integer>
 			<key>ypos</key>
-			<integer>1120</integer>
+			<integer>150</integer>
 		</dict>
 		<key>F0CEC59E-C181-4E24-899E-9F76E327B146</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>730</integer>
-		</dict>
-		<key>F6E9D044-068E-49E6-A307-8154F5692983</key>
-		<dict>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>730</integer>
+			<integer>640</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -3232,8 +2236,12 @@ Still to do:
 		<key>googleLocal</key>
 		<string>com.au</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>googleLocal</string>
+	</array>
 	<key>version</key>
-	<string>1.2.3beta2</string>
+	<string>1.3.0</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
