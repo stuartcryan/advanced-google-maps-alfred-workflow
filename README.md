@@ -6,7 +6,7 @@ Easy searching of Google Maps including directions to or from work/home.
 This workflow represents many many hours effort of development, testing and rework. So if you love the workflow, get use out of it every day, and would love to see me continuing development, a donation is a great way. You can either [donate to me via Fundly (preferred)](https://fundly.com/alfred-workflows-continued-development#) which gives the option of a re-occurring donation and also has some suggestions, [donate to me via Patreon (if that is your preference)](https://www.patreon.com/stuartcryan) or [donate to me via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM6E65M2GLXHE). 
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM6E65M2GLXHE" target="_blank"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" alt="PayPal — The safer, easier way to pay online."></a>
-<a href="https://www.patreon.com/bePatron?u=4157196" data-patreon-widget-type="become-patron-button"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"></a>
+<a href="https://www.patreon.com/bePatron?u=4157196" data-patreon-widget-type="become-patron-button"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="47" width="200"></a>
 
 ## 1.3.0 Release Special Information
 Due to a bug with special characters which required a new way of handling the storage of home and work locations, you must now re-set up those locations in the latest version. Apologies, there was no way around this, HOWEVER, there are loads of awesome new features, which hopefully offset the inconvenience!
