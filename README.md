@@ -70,7 +70,9 @@ Version 1.3.0
 * Changed to use Alfred's native URL opening functionality, this enables you to select a preferred browser
 
 Version 1.2 - Actually this never made it out of beta, despite working, I have been kinda busy.
+
 Version 1.1 - Set default search to be google.com rather than google.com.au
+
 Version 1.0 - Initial Release
 
 ## Credits
