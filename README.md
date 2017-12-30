@@ -8,7 +8,7 @@ This workflow represents many many hours effort of development, testing and rewo
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM6E65M2GLXHE" target="_blank"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" alt="PayPal — The safer, easier way to pay online."></a>
 <a href="https://www.patreon.com/bePatron?u=4157196" data-patreon-widget-type="become-patron-button"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="47" width="200"></a>
 
-## 1.3.0 Release Special Information
+## 1.3.0+ Release Special Information
 Due to a bug with special characters which required a new way of handling the storage of home and work locations, you must now re-set up those locations in the latest version. Apologies, there was no way around this, HOWEVER, there are loads of awesome new features, which hopefully offset the inconvenience!
 
 ## Installation
@@ -55,6 +55,9 @@ If you wish to use the 'Directions from Current Location - dirfc' command or the
 5. Submit a pull request :D
 
 ## History
+
+Version 1.3.1
+* Fixed dirfh and dirfw to actually use home and work respectively, not here. #oops
 
 Version 1.3.0 
 * dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI

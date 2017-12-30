@@ -574,11 +574,9 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>D</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -610,8 +608,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -874,8 +870,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -966,8 +960,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -999,8 +991,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1051,8 +1041,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1118,8 +1106,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1185,8 +1171,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1239,8 +1223,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1327,8 +1309,6 @@ else {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1433,8 +1413,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1464,8 +1442,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1503,7 +1479,7 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 	$transportQuery = $2;
 	print "$transportQuery work to $strippedQuery";
 } else {
-	print "here to $rawQuery";
+	print "work to $rawQuery";
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -1563,8 +1539,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1602,7 +1576,7 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 	$transportQuery = $2;
 	print "$transportQuery home to $strippedQuery";
 } else {
-	print "here to $rawQuery";
+	print "home to $rawQuery";
 }</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -1654,8 +1628,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1853,7 +1825,7 @@ echo "{query}"</string>
 	<string>This workflow is not affiliated with Google or Google Products in any way.
 
 ***NOTE***
-1.3.0 is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
+1.3.0+ is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
 
 ***Utilisation:***
 **dir**
@@ -1890,7 +1862,7 @@ If you wish to use the 'Directions from Current Location - dirfc' command, you w
 4. Ensure the environment variable to the right matches the installed location.
 
 Recent Changelog:
-1.2.3 adds a host of new features including:
+1.3.0 adds a host of new features including:
 	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
 	-dirtc: Directions to Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
 	-dir, dirfc and dirtc now support Google transit type (walk, drive, pt [public transport] and bike)
@@ -2241,7 +2213,7 @@ Utilisation of new features:
 		<string>googleLocal</string>
 	</array>
 	<key>version</key>
-	<string>1.3.0</string>
+	<string>1.3.1</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
