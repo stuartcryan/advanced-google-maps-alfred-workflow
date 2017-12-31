@@ -27,6 +27,7 @@ sub checkTransportMode {
 sub getHostname {
 	my $hostname;
 	$hostname = `hostname -s`;
+	die "Unable to get hostname\n" unless $? == 0;
 	chomp $hostname;
 	return $hostname;
 }

@@ -1593,7 +1593,10 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>require "./dirhandler.pl";
+				<string>use strict;
+use warnings;
+
+require "./dirhandler.pl";
 
 my $query = "{query}";
 my $output;
@@ -2644,10 +2647,13 @@ print getWorkflowEnvironmentVariable("defaultTransportationMode");</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>$query = "{query}";
-my @splitQuery = split(',', $query);
+				<string>use strict;
+use warnings;
 require "./granularDirModifier.pl";
 my $output;
+
+my $query = "{query}";
+my @splitQuery = split(',', $query);
 
 $output=granularDir(@splitQuery);
 print $output;</string>
