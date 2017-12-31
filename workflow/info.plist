@@ -1867,7 +1867,7 @@ print $output;</string>
 				<string>$query = "{query}";
 require "./functions.pl";
 
-print getWorkflowEnvironmentVariable("defaultTransportationMode");</string>
+print getCurrentLocation();</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -4583,7 +4583,9 @@ Utilisation of new features:
 	<key>variables</key>
 	<dict>
 		<key>CoreLocationCLIBinary</key>
-		<string>/usr/local/bin/CoreLocationCLI</string>
+		<string>/usr/local/bin/CoreLocationCLIa</string>
+		<key>currentLocationFallback</key>
+		<string>('StuartCRyan-MBP:home','StuartCRyan-Air:work')</string>
 		<key>defaultTransportationMode</key>
 		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive')</string>
 		<key>googleLocal</key>

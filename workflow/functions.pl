@@ -57,13 +57,98 @@ sub getWorkflowEnvironmentVariable {
 				}
 			}
 		}
-		 die "Host specific setting for workflow environment variable '$variableName' is malformed or no host specific option is defined for current host.\n" unless defined $hostSpecificOptionValue;
+		die
+"Host specific setting for workflow environment variable '$variableName' "
+		  . "is malformed or no host specific option is defined for current host.\n"
+		  unless defined $hostSpecificOptionValue;
 		return $hostSpecificOptionValue;
 	}
 	else {
 		return $ENV{$variableName};
 	}
 
+}
+
+#Get current location as best as possible. Can be expanded in future, you know, if Macs get inbuilt GPS :D
+sub getCurrentLocation {
+	my $location;
+	my $coreLocationBinary =
+	  getWorkflowEnvironmentVariable("CoreLocationCLIBinary");
+	my $errorCode;
+
+	#test to see if CoreLocationCLI is at known location
+	if ( -e getWorkflowEnvironmentVariable("CoreLocationCLIBinary") ) {
+
+		#we have CoreLocationCLI get coordinates
+		$location = `$coreLocationBinary -format "%latitude,%longitude"`;
+		if ( $? != 0 ) {
+			$errorCode = 'CORELOCATIONFAILED';
+		}
+		else {
+			chomp($location);
+			return $location;
+		}
+	}
+
+#Test if Core Location Failed or if location is undefined CoreLocation does not exist.
+	if ( $errorCode eq 'CORELOCATIONFAILED' || !defined $location ) {
+		warn
+		  "Something went wrong with CoreLocationCLI! Either WiFi is not on, "
+		  . "is not defined, or doesn't exist. Configured value is: '$coreLocationBinary'\n";
+
+		#fallback to specified location
+		$location = getWorkflowEnvironmentVariable("currentLocationFallback");
+		die "Unable to get any current location. Please specify a fallback "
+		  . "under workflow environment variable 'currentLocationFallback' \n"
+		  unless defined $location;
+	}
+	if ( $location eq 'here' ) {
+		die "Current location fallback is set to here... that is bad mmmkay"
+		  . " and if it wasn't for foresight would create an infinite loop. This death prevents such an infinite runaway. \n";
+	}
+	else {
+		return getAddress($location)
+		  ; #deliberately run the getAddress function even though we may be called from there. In case the default is set to home or work.
+	}
+}
+
+#Convert location modifiers into actual addresses
+#All addresses should be run through here as a standard, especially for URL escaping
+sub getAddress {
+	my $inputLocation = shift;
+	my $workAddress;
+	my $workAddressEncoded;
+	my $homeAddress;
+	my $homeAddressEncoded;
+	my $outputLocation;
+
+	#Get home and work addresses
+	$workAddress = `security find-generic-password -w -s "alfred-work-address"`;
+	$workAddress = decode_base64($workAddress);
+	chomp($workAddress);
+	$workAddressEncoded = uri_escape($workAddress);
+
+	$homeAddress = `security find-generic-password -w -s "alfred-home-address"`;
+	$homeAddress = decode_base64($homeAddress);
+	chomp($homeAddress);
+	$homeAddressEncoded = uri_escape($homeAddress);
+
+	if ( lc($inputLocation) eq "here" ) {
+
+		#check for 'here' location modifier and get GPS coordinates if possible
+		$outputLocation = getCurrentLocation();
+	}
+	elsif ( lc($inputLocation) eq "work" ) {
+		$outputLocation = $workAddressEncoded;
+	}
+	elsif ( lc($inputLocation) eq "home" ) {
+		$outputLocation = $homeAddressEncoded;
+	}
+	else {
+		$outputLocation = uri_escape($inputLocation);
+	}
+
+	return $outputLocation;
 }
 
 1;
