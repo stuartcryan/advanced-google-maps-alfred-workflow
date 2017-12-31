@@ -21,6 +21,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<array>
 			<dict>
@@ -359,34 +382,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -503,7 +503,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -529,7 +529,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -665,197 +665,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin;
-my $destination;
-my $middleStops = '';
-my $transportQuery = '';
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-my $googleURL;
-
-if ($ENV{'googleLocal'}){
-	$googleURL = 'www.google.' . $ENV{'googleLocal'};
-} else {
-	$googleURL = 'www.google.com';
-}
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin and destination
-if ( $arraySize == 2 ) {
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[1] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	shift(@array);
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://$googleURL/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -881,6 +690,31 @@ else {
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>88B352B1-CEA6-424B-833F-A6D45983A462</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>OUTPUT=`perl dirHandler.pl "{query}" "$googleLocal" "$CoreLocationCLIBinary"`
+
+echo -n $OUTPUT</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1890,6 +1724,13 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>1250</integer>
 		</dict>
+		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
+		<dict>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
 			<key>note</key>
@@ -2021,7 +1862,7 @@ Utilisation of new features:
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>940</integer>
 			<key>ypos</key>
 			<integer>300</integer>
 		</dict>
@@ -2056,7 +1897,7 @@ Utilisation of new features:
 		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>940</integer>
 			<key>ypos</key>
 			<integer>220</integer>
 		</dict>
@@ -2074,13 +1915,6 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
-		<dict>
-			<key>xpos</key>
-			<integer>700</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<dict>
 			<key>xpos</key>
@@ -2091,7 +1925,7 @@ Utilisation of new features:
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1080</integer>
 			<key>ypos</key>
 			<integer>320</integer>
 		</dict>
@@ -2189,7 +2023,7 @@ Utilisation of new features:
 		<key>F0CDA005-A604-4041-830B-E4FA8965DE2E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1080</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
