@@ -4,24 +4,22 @@ use strict;
 use warnings;
 use URI::Escape;
 use MIME::Base64;
+require "./functions.pl";
 
-# Description of argument expectations:
-# $ARGV[0] - location string (i.e. encapsulate in quotes as a single arg)
-# $ARGV[1] - 'googleLocal' Alfred WorkflowENV variable
-# $ARGV[2] - 'CoreLocationCLIBinary' Alfred WorkflowENV variable
-
-my $url                   = '';
-my $transportMode         = '';
-my $rawQuery              = $ARGV[0];
-my $googleEnv             = $ARGV[1];
-my $coreLocationBinaryEnv = $ARGV[2];
+sub dir {
+my $url = '';
+my $transportMode;
+my $rawQuery                  = shift;
+my $googleEnv                 = getWorkflowEnvironmentVariable("googleLocal");
+my $coreLocationBinaryEnv     = getWorkflowEnvironmentVariable("CoreLocationCLIBinary");
+my $defaultTransportationMode = getWorkflowEnvironmentVariable("defaultTransportationMode");
 my $strippedQuery;
 my $modified = '';
 my $origin;
 my $destination;
-my $middleStops    = '';
+my $middleStops = '';
 my $transportQuery;
-my $errorCode      = '';
+my $errorCode = '';
 my $workAddress;
 my $workAddressEncoded;
 my $homeAddress;
@@ -39,23 +37,19 @@ else {
 if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
 	$strippedQuery  = $3;
 	$transportQuery = $2;
-	
-	if ( defined $transportQuery ) {
 
-		#check for type of transport requested
-		if ( $transportQuery =~ m/^walk.*$/ ) {
-			$transportMode = '&travelmode=walking';
-		}
-		elsif ( $transportQuery =~ m/^pt.*$/ ) {
-			$transportMode = '&travelmode=transit';
-		}
-		elsif ( $transportQuery =~ m/^bike.*$/ ) {
-			$transportMode = '&travelmode=bicycling';
-		}
-		elsif ( $transportQuery =~ m/^drive.*$/ ) {
-			$transportMode = '&travelmode=driving';
-		}
+	if ( defined $transportQuery ) {
+		$transportMode = checkTransportMode($transportQuery);
 	}
+}
+
+#Check for a default transport mode if none was specified
+if ( !defined $transportMode && defined $defaultTransportationMode ) {
+	$transportMode = checkTransportMode($defaultTransportationMode);
+}
+elsif ( !defined $transportMode ) {
+	$transportMode =
+	  '';    #deliberately initialise to a blank string to avoid errors
 }
 
 #Get home and work addresses
@@ -174,6 +168,8 @@ elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
 "ERROR: CoreLocation could not get current location. Check if WiFi is on!";
 }
 else {
-	print
-"https://$googleURL/maps/dir/?api=1&origin=$origin&destination=$destination$transportMode$middleStops";
+	return "https://$googleURL/maps/dir/?api=1&origin=$origin&destination=$destination$transportMode$middleStops";
 }
+
+}
+1;
