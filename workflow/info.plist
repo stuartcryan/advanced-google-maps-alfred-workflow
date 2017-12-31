@@ -12,7 +12,30 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -51,7 +74,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -116,7 +139,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -164,11 +187,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
+		<key>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -177,11 +200,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
+		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -194,7 +217,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -285,7 +308,33 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7669650E-B70A-4A04-A56B-B264214409CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76CF6992-90B9-4CDC-8370-8642129F8F3E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -298,7 +347,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>80506669-2712-494E-A1F0-AFC4B3196B03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -359,34 +421,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -460,19 +499,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>CB9D5B95-1220-4418-B0C7-1D8AC6B2FBBE</key>
 		<array>
 			<dict>
@@ -486,37 +512,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -529,7 +529,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -665,197 +665,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin;
-my $destination;
-my $middleStops = '';
-my $transportQuery = '';
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-my $googleURL;
-
-if ($ENV{'googleLocal'}){
-	$googleURL = 'www.google.' . $ENV{'googleLocal'};
-} else {
-	$googleURL = 'www.google.com';
-}
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin and destination
-if ( $arraySize == 2 ) {
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[1] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	shift(@array);
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://$googleURL/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -881,6 +690,31 @@ else {
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>88B352B1-CEA6-424B-833F-A6D45983A462</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>OUTPUT=`perl dirHandler.pl "{query}" "$googleLocal" "$CoreLocationCLIBinary"`
+
+echo -n $OUTPUT</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>051AC04B-8B25-4109-94A0-95340974A674</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1059,7 +893,7 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query} to here</string>
+				<string>"{query}" "to" "here"</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1124,7 +958,7 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query} to work</string>
+				<string>"{query}" "to" "work"</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1186,18 +1020,10 @@ else {
 			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>home to work</string>
+				<string>"home" "to" "work"</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1262,7 +1088,7 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>work to home</string>
+				<string>"work" "to" "home"</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1270,6 +1096,39 @@ else {
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>OUTPUT=`perl granularDirModifier.pl {query}`
+
+echo -n $OUTPUT</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1327,7 +1186,7 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query} to home</string>
+				<string>"{query}" "to" "home"</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1362,45 +1221,6 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery here to $strippedQuery";
-} else {
-	print "here to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1426,6 +1246,21 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 			<string>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>"{query}" "from" "here"</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1459,45 +1294,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery work to $strippedQuery";
-} else {
-	print "work to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1517,10 +1313,17 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>"{query}" "from" "work"</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+			<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1556,45 +1359,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery home to $strippedQuery";
-} else {
-	print "home to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1610,6 +1374,21 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>"{query}" "from" "home"</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1890,6 +1669,13 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>1250</integer>
 		</dict>
+		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
+		<dict>
+			<key>xpos</key>
+			<integer>820</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
 			<key>note</key>
@@ -1969,19 +1755,19 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>1610</integer>
 		</dict>
+		<key>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1400</integer>
+		</dict>
 		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
 		<dict>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
 			<integer>790</integer>
-		</dict>
-		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>1370</integer>
 		</dict>
 		<key>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</key>
 		<dict>
@@ -2021,7 +1807,7 @@ Utilisation of new features:
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
 			<integer>300</integer>
 		</dict>
@@ -2039,12 +1825,33 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>670</integer>
 		</dict>
+		<key>7669650E-B70A-4A04-A56B-B264214409CE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>580</integer>
+			<key>ypos</key>
+			<integer>1060</integer>
+		</dict>
+		<key>76CF6992-90B9-4CDC-8370-8642129F8F3E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1280</integer>
+		</dict>
 		<key>7D56594D-6798-486D-8C27-719F118FF9EA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
 			<integer>1030</integer>
+		</dict>
+		<key>80506669-2712-494E-A1F0-AFC4B3196B03</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1520</integer>
 		</dict>
 		<key>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</key>
 		<dict>
@@ -2056,7 +1863,7 @@ Utilisation of new features:
 		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
 			<integer>220</integer>
 		</dict>
@@ -2074,13 +1881,6 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
-		<dict>
-			<key>xpos</key>
-			<integer>700</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
 		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
 		<dict>
 			<key>xpos</key>
@@ -2091,7 +1891,7 @@ Utilisation of new features:
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>320</integer>
 		</dict>
@@ -2137,13 +1937,6 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>880</integer>
 		</dict>
-		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>1250</integer>
-		</dict>
 		<key>CB9D5B95-1220-4418-B0C7-1D8AC6B2FBBE</key>
 		<dict>
 			<key>xpos</key>
@@ -2151,26 +1944,12 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
-		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>1490</integer>
-		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
 			<integer>1610</integer>
-		</dict>
-		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>600</integer>
-			<key>ypos</key>
-			<integer>880</integer>
 		</dict>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<dict>
@@ -2182,14 +1961,14 @@ Utilisation of new features:
 		<key>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>730</integer>
 			<key>ypos</key>
-			<integer>1400</integer>
+			<integer>1090</integer>
 		</dict>
 		<key>F0CDA005-A604-4041-830B-E4FA8965DE2E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
