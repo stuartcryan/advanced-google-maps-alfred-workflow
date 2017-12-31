@@ -34,29 +34,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<array>
 			<dict>
@@ -101,6 +78,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1593719B-1346-4496-BEA7-62EFFADF15EC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0964FF17-D17D-4D89-AF5F-CE150C34C67B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5C48833F-9FB4-42C9-BCB1-F81F2DEE234C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -356,6 +346,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2934235D-E3D8-4240-90F5-F604DBF64617</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2A919533-DFD5-4A00-82A5-23444ADEC6E3</key>
 		<array>
 			<dict>
@@ -426,6 +439,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3C8B5CFA-5C1D-4833-B873-80F596DCA4E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0964FF17-D17D-4D89-AF5F-CE150C34C67B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -815,7 +841,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
+				<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1023,7 +1049,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>051AC04B-8B25-4109-94A0-95340974A674</string>
+				<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1567,20 +1593,25 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>OUTPUT=`perl dirHandler.pl "{query}" "$googleLocal" "$CoreLocationCLIBinary"`
+				<string>require "./dirhandler.pl";
 
-echo -n $OUTPUT</string>
+my $query = "{query}";
+my $output;
+
+$output = dir("{query}");
+
+print $output;</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>4</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>051AC04B-8B25-4109-94A0-95340974A674</string>
+			<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1614,6 +1645,19 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>dir</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>E4E1B653-715A-47D9-B812-DD3556C5E1FC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1641,19 +1685,6 @@ echo -n $OUTPUT</string>
 			<string>18D6F012-7B22-4022-B051-03C1629CB100</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>dir</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>E4E1B653-715A-47D9-B812-DD3556C5E1FC</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1753,6 +1784,27 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>testin</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Test</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3C8B5CFA-5C1D-4833-B873-80F596DCA4E1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>bike {query}</string>
 				<key>variables</key>
@@ -1762,6 +1814,27 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>C58B19B9-7E44-4127-A3A1-DAA3F7ACD480</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>5C48833F-9FB4-42C9-BCB1-F81F2DEE234C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1779,6 +1852,32 @@ echo -n $OUTPUT</string>
 			<string>434ABB52-9F93-4BE0-9096-4C91BDDF7E86</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$query = "{query}";
+require "./functions.pl";
+
+print getWorkflowEnvironmentVariable("defaultTransportationMode");</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0964FF17-D17D-4D89-AF5F-CE150C34C67B</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1843,6 +1942,27 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1872,29 +1992,8 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfc</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Current Location</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
-				<string>"{query}" "from" "here"</string>
+				<string>{query},from,here</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2065,7 +2164,7 @@ echo -n $OUTPUT</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>"{query}" "to" "here"</string>
+				<string>{query},to,here</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2073,27 +2172,6 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirtc</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions to Current Location</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2125,6 +2203,27 @@ echo -n $OUTPUT</string>
 			<string>F0CEC59E-C181-4E24-899E-9F76E327B146</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirtc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions to Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2278,7 +2377,7 @@ echo -n $OUTPUT</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>"{query}" "from" "work"</string>
+				<string>{query},from,work</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2286,6 +2385,27 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2317,27 +2437,6 @@ echo -n $OUTPUT</string>
 			<string>511FC68F-4DC2-47DD-A42C-527596F09ED1</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfw</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Work</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2511,31 +2610,6 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>OUTPUT=`perl granularDirModifier.pl {query}`
-
-echo -n $OUTPUT</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -2565,8 +2639,45 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$query = "{query}";
+my @splitQuery = split(',', $query);
+require "./granularDirModifier.pl";
+my $output;
+
+$output=granularDir(@splitQuery);
+print $output;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>"{query}" "to" "work"</string>
+				<string>{query},to,work</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2574,14 +2685,6 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2736,27 +2839,6 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfh</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions from Home</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -2786,8 +2868,29 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Google Maps Directions from Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>"{query}" "from" "home"</string>
+				<string>{query},from,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3000,7 +3103,7 @@ echo -n $OUTPUT</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>"{query}" "to" "home"</string>
+				<string>{query},to,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3021,27 +3124,6 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>7B4EFD12-1BEE-4433-A332-1E4BC6FCEBB3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>trafficw</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Show traffic from Home to Work</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3077,15 +3159,21 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>"home" "to" "work"</string>
-				<key>variables</key>
-				<dict/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>trafficw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Home to Work</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3100,6 +3188,21 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>home,to,work</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
 				<string>trafficw</string>
 			</dict>
@@ -3107,6 +3210,27 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>A5CCE63B-221B-485A-A701-C8C30E843280</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>traffich</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Work to Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3142,29 +3266,8 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>traffich</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Show traffic from Work to Home</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
-				<string>"work" "to" "home"</string>
+				<string>work,to,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3185,27 +3288,6 @@ echo -n $OUTPUT</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>16D04F82-D88A-477E-8B31-DF602B34927A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>maps</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Google Maps</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3263,6 +3345,54 @@ echo -n $OUTPUT</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
+				<string>maps</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Google Maps</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
+
+security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "$ENCODED" -C "note" -U
+
+echo "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
 				<string>mapsethome</string>
 				<key>subtext</key>
 				<string></string>
@@ -3302,33 +3432,6 @@ echo -n $OUTPUT</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
-
-security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "$ENCODED" -C "note" -U
-
-echo "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -3344,27 +3447,6 @@ echo "{query}"</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>2518FC5A-667C-4BF8-B1CB-843980F50049</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Work Address Set To:</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3394,6 +3476,27 @@ echo "{query}"</string>
 			<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Work Address Set To:</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -3476,17 +3579,6 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>1190</integer>
 		</dict>
-		<key>051AC04B-8B25-4109-94A0-95340974A674</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>5</integer>
-			<key>note</key>
-			<string>Main Handler</string>
-			<key>xpos</key>
-			<integer>1690</integer>
-			<key>ypos</key>
-			<integer>270</integer>
-		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
 			<key>note</key>
@@ -3526,6 +3618,13 @@ Utilisation of new features:
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>3600</integer>
+		</dict>
+		<key>0964FF17-D17D-4D89-AF5F-CE150C34C67B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>2260</integer>
+			<key>ypos</key>
+			<integer>880</integer>
 		</dict>
 		<key>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</key>
 		<dict>
@@ -3694,6 +3793,17 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>3410</integer>
 		</dict>
+		<key>2934235D-E3D8-4240-90F5-F604DBF64617</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Main Handler</string>
+			<key>xpos</key>
+			<integer>1700</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
 		<key>2A919533-DFD5-4A00-82A5-23444ADEC6E3</key>
 		<dict>
 			<key>colorindex</key>
@@ -3745,6 +3855,13 @@ Utilisation of new features:
 			<integer>360</integer>
 			<key>ypos</key>
 			<integer>4070</integer>
+		</dict>
+		<key>3C8B5CFA-5C1D-4833-B873-80F596DCA4E1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1790</integer>
+			<key>ypos</key>
+			<integer>770</integer>
 		</dict>
 		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
 		<dict>
@@ -3896,6 +4013,13 @@ Utilisation of new features:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>1640</integer>
+		</dict>
+		<key>5C48833F-9FB4-42C9-BCB1-F81F2DEE234C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>2590</integer>
+			<key>ypos</key>
+			<integer>810</integer>
 		</dict>
 		<key>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</key>
 		<dict>
@@ -4454,12 +4578,15 @@ Utilisation of new features:
 	<dict>
 		<key>CoreLocationCLIBinary</key>
 		<string>/usr/local/bin/CoreLocationCLI</string>
+		<key>defaultTransportationMode</key>
+		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive')</string>
 		<key>googleLocal</key>
 		<string>com.au</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>googleLocal</string>
+		<string>defaultTransportationMode</string>
 	</array>
 	<key>version</key>
 	<string>1.3.1</string>
