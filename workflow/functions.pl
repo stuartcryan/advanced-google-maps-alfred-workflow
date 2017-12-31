@@ -55,6 +55,12 @@ sub getWorkflowEnvironmentVariable {
 					$hostSpecificOptionValue = $optionValue;
 					last;
 				}
+				elsif ( lc($optionHostname) eq 'default' ) {
+
+	 #If we have a default option and have reached here we haven't yet found
+	 #specific option. Therefore store it in case we don't find anything better.
+					$hostSpecificOptionValue = $optionValue;
+				}
 			}
 		}
 		die
