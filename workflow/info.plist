@@ -3613,7 +3613,7 @@ echo "{query}"</string>
 	<string>This workflow is not affiliated with Google or Google Products in any way.
 
 ***NOTE***
-This is a beta flow, version 2.0.0 alpha 1. The version number is deliberately not incremented below, so as to permit the auto updating feature to work properly, despite it being a beta flow.
+This is a beta flow, version 2.0.0 alpha 2. The version number is deliberately not incremented below, so as to permit the auto updating feature to work properly, despite it being a beta flow.
 
 For current location and default transport options you can either have a single value (which will apply across all machines) or use the following formats:
 
