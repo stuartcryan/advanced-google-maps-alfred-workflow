@@ -32,23 +32,58 @@ sub getHostname {
 	return $hostname;
 }
 
-#Get general or computer specific workflow environment variable
-sub getWorkflowEnvironmentVariable {
+#Get workflow environment variable list
+sub getWorkflowEnvironmentVariableList {
+	my $variableName = shift;
+	my @optionsArray;
+	my $environmentVariableValue = $ENV{$variableName};
+	my $regexReturn;
+
+#check if we match the required format eg "('something:value','something:value')"
+	if ( defined $environmentVariableValue
+		&& $environmentVariableValue =~ m/^\((.*)\)$/ )
+	{
+		$regexReturn = $1;
+
+		#strip out spaces in between options otherwise the split will not work
+		$regexReturn =~ s/'\s?,\s?'/','/g;
+
+		@optionsArray =
+		  split( "','", $regexReturn )
+		  ;    #$1 being the first capture in the above regex
+
+		for (@optionsArray) {
+
+			#strip out any remaining ' characters
+			s/'//g;
+		}
+
+		return @optionsArray;
+	}
+	else {
+		@optionsArray = ();
+		return
+		  @optionsArray;  #deliberately return a null array, no list is defined.
+	}
+
+}
+
+#Get host specific workflow environment variable value
+sub getHostSpecificWorkflowEnvironmentVariableValue {
 	my $variableName = shift;
 	my $hostname;
-	my @optionsArray;
 	my $hostSpecificOptionValue;
 
-#check if we match the required format eg "('StuartCRyan-MBP:pt','StuartCRyan-Air:drive')"
-	if ( $ENV{$variableName} =~ m/^\((.*)\)$/ ) {
-		@optionsArray =
-		  split( ',', $1 );    #$1 being the first capture in the above regex
+	#if this returns a blank array we have a standard option not a list
+	my @optionsArray = getWorkflowEnvironmentVariableList($variableName);
+
+	if ( scalar(@optionsArray) != 0 ) {
 
 		$hostname = getHostname();    #get current computer hostname
 
 		foreach (@optionsArray) {
 			my $optionHostname;
-			if ( $_ =~ m/^'(.*):(.*)'$/ ) {
+			if ( $_ =~ m/^(.*):(.*)$/ ) {
 				my $optionHostname = $1;
 				my $optionValue    = $2;
 				if ( lc($optionHostname) eq lc($hostname) ) {
@@ -70,20 +105,26 @@ sub getWorkflowEnvironmentVariable {
 		return $hostSpecificOptionValue;
 	}
 	else {
-		return $ENV{$variableName};
-	}
+		if ( defined $ENV{$variableName} ) {
 
+			#if no list, just return the straight up value
+			return $ENV{$variableName};
+		}
+		else {
+			return "";    #return blank, no value defined
+		}
+	}
 }
 
 #Get current location as best as possible. Can be expanded in future, you know, if Macs get inbuilt GPS :D
 sub getCurrentLocation {
 	my $location;
 	my $coreLocationBinary =
-	  getWorkflowEnvironmentVariable("CoreLocationCLIBinary");
+	  getHostSpecificWorkflowEnvironmentVariableValue("CoreLocationCLIBinary");
 	my $errorCode;
 
 	#test to see if CoreLocationCLI is at known location
-	if ( -e getWorkflowEnvironmentVariable("CoreLocationCLIBinary") ) {
+	if ( -e getHostSpecificWorkflowEnvironmentVariableValue("CoreLocationCLIBinary") ) {
 
 		#we have CoreLocationCLI get coordinates
 		$location = `$coreLocationBinary -format "%latitude,%longitude"`;
@@ -103,7 +144,7 @@ sub getCurrentLocation {
 		  . "is not defined, or doesn't exist. Configured value is: '$coreLocationBinary'\n";
 
 		#fallback to specified location
-		$location = getWorkflowEnvironmentVariable("currentLocationFallback");
+		$location = getHostSpecificWorkflowEnvironmentVariableValue("currentLocationFallback");
 		die "Unable to get any current location. Please specify a fallback "
 		  . "under workflow environment variable 'currentLocationFallback' \n"
 		  unless defined $location;
@@ -128,6 +169,9 @@ sub getAddress {
 	my $homeAddressEncoded;
 	my $outputLocation;
 
+	#if this returns a blank array we have a standard option not a list
+	my @customLocations = getWorkflowEnvironmentVariableList('customLocations');
+
 	#Get home and work addresses
 	$workAddress = `security find-generic-password -w -s "alfred-work-address"`;
 	$workAddress = decode_base64($workAddress);
@@ -150,10 +194,32 @@ sub getAddress {
 	elsif ( lc($inputLocation) eq "home" ) {
 		$outputLocation = $homeAddressEncoded;
 	}
+	elsif ( scalar(@customLocations) != 0 ) {
+
+		#oooh we have some custom locations defined, check if we have a match
+		foreach (@customLocations) {
+			my $optionName;
+			if ( $_ =~ m/^(.*):(.*)$/ ) {
+				my $optionName  = $1;
+				my $optionValue = $2;
+
+	  #if the optionName = the inputted location text we have a match to convert
+				if ( lc($optionName) eq lc($inputLocation) ) {
+					$outputLocation = uri_escape($optionValue);
+					last;
+				}
+			}
+		}
+		if ( !defined $outputLocation ) {
+
+			#no match in list
+			$outputLocation = uri_escape($inputLocation);
+		}
+	}
 	else {
+		#no list exists
 		$outputLocation = uri_escape($inputLocation);
 	}
-
 	return $outputLocation;
 }
 
