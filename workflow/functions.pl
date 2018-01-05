@@ -124,7 +124,11 @@ sub getCurrentLocation {
 	my $errorCode;
 
 	#test to see if CoreLocationCLI is at known location
-	if ( -e getHostSpecificWorkflowEnvironmentVariableValue("CoreLocationCLIBinary") ) {
+	if (
+		-e getHostSpecificWorkflowEnvironmentVariableValue(
+			"CoreLocationCLIBinary")
+	  )
+	{
 
 		#we have CoreLocationCLI get coordinates
 		$location = `$coreLocationBinary -format "%latitude,%longitude"`;
@@ -144,7 +148,8 @@ sub getCurrentLocation {
 		  . "is not defined, or doesn't exist. Configured value is: '$coreLocationBinary'\n";
 
 		#fallback to specified location
-		$location = getHostSpecificWorkflowEnvironmentVariableValue("currentLocationFallback");
+		$location = getHostSpecificWorkflowEnvironmentVariableValue(
+			"currentLocationFallback");
 		die "Unable to get any current location. Please specify a fallback "
 		  . "under workflow environment variable 'currentLocationFallback' \n"
 		  unless defined $location;
@@ -164,24 +169,48 @@ sub getCurrentLocation {
 sub getAddress {
 	my $inputLocation = shift;
 	my $workAddress;
+	my $workAddressNew;
 	my $workAddressEncoded;
 	my $homeAddress;
+	my $homeAddressNew;
 	my $homeAddressEncoded;
 	my $outputLocation;
 
-	#if this returns a blank array we have a standard option not a list
+	#If this returns a blank array we have a standard option not a list
 	my @customLocations = getWorkflowEnvironmentVariableList('customLocations');
 
-	#Get home and work addresses
+	#Get home and work addresses from the legacy location if they still exist
+	#Note this will be removed in a future version, but is included here
+	#to ensure we won't have a major break in this twice in several releases.
 	$workAddress = `security find-generic-password -w -s "alfred-work-address"`;
-	$workAddress = decode_base64($workAddress);
-	chomp($workAddress);
-	$workAddressEncoded = uri_escape($workAddress);
+	if ( defined $workAddress ) {
+		$workAddress = decode_base64($workAddress);
+		chomp($workAddress);
+		$workAddressEncoded = uri_escape($workAddress);
+	}
 
 	$homeAddress = `security find-generic-password -w -s "alfred-home-address"`;
-	$homeAddress = decode_base64($homeAddress);
-	chomp($homeAddress);
-	$homeAddressEncoded = uri_escape($homeAddress);
+	if ( defined $homeAddress ) {
+		$homeAddress = decode_base64($homeAddress);
+		chomp($homeAddress);
+		$homeAddressEncoded = uri_escape($homeAddress);
+	}
+
+#Now deliberately try to get the addresses from Newer Alfred Workflow Env Variables and supersede previous values
+
+	$workAddressNew =
+	  getHostSpecificWorkflowEnvironmentVariableValue('workAddress');
+
+	if ( $workAddressNew ne "") {
+		$workAddressEncoded = uri_escape($workAddressNew);
+	}
+
+	$homeAddressNew =
+	  getHostSpecificWorkflowEnvironmentVariableValue('homeAddress');
+
+	if ( $homeAddressNew ne "" ) {
+		$homeAddressEncoded = uri_escape($homeAddressNew);
+	}
 
 	if ( lc($inputLocation) eq "here" ) {
 

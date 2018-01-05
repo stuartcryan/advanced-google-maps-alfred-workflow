@@ -307,19 +307,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>26947402-9F48-44CB-B491-E90B5997C5F6</key>
 		<array>
 			<dict>
@@ -618,19 +605,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7AA3CD49-58ED-471C-A072-F4A238D0606F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3478,11 +3452,10 @@ print $output;</string>
 				<key>escaping</key>
 				<integer>126</integer>
 				<key>script</key>
-				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
+				<string>security delete-generic-password -a "alfred-home-address" 
+security delete-generic-password -a "alfred-work-address" 
 
-security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "$ENCODED" -C "note" -U
-
-echo "{query}"</string>
+echo "Cleanup Completed"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -3501,15 +3474,15 @@ echo "{query}"</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>mapsethome</string>
+				<string>zcleanmapsoldaddresses</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Set Home Address</string>
+				<string>Cleanup legacy addresses from Apple Keychain</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -3530,81 +3503,12 @@ echo "{query}"</string>
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>Home Address Set To:</string>
+				<string>Addresses cleaned from Keychain</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>mapsetwork</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Set Work Address</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2518FC5A-667C-4BF8-B1CB-843980F50049</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
-
-security add-generic-password -a "alfred-work-address" -s "alfred-work-address" -w "$ENCODED" -C "note" -U
-
-echo "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Work Address Set To:</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3681,13 +3585,6 @@ Utilisation of new features:
 	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.</string>
 	<key>uidata</key>
 	<dict>
-		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>6280</integer>
-		</dict>
 		<key>0184B1B5-AE48-44DC-9F1C-19597A2A838D</key>
 		<dict>
 			<key>colorindex</key>
@@ -3895,13 +3792,6 @@ Utilisation of new features:
 			<key>ypos</key>
 			<integer>1000</integer>
 		</dict>
-		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>6280</integer>
-		</dict>
 		<key>26947402-9F48-44CB-B491-E90B5997C5F6</key>
 		<dict>
 			<key>colorindex</key>
@@ -4097,13 +3987,6 @@ Utilisation of new features:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>640</integer>
-		</dict>
-		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>6280</integer>
 		</dict>
 		<key>4E5455A8-7B06-4B8E-A1A5-23867E40B822</key>
 		<dict>
@@ -4724,10 +4607,16 @@ Utilisation of new features:
 		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive','default:walk')</string>
 		<key>googleLocal</key>
 		<string>com.au</string>
+		<key>homeAddress</key>
+		<string>1 Bay Street Broadway ULTIMO NSW 2007</string>
+		<key>workAddress</key>
+		<string>UTS 15 Broadway ULTIMO NSW 2007</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>customLocations</string>
+		<string>workAddress</string>
+		<string>homeAddress</string>
 		<string>defaultTransportationMode</string>
 		<string>currentLocationFallback</string>
 		<string>googleLocal</string>
