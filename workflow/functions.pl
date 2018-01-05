@@ -15,7 +15,7 @@ sub checkTransportMode {
 		return '&dirflg=r';
 	}
 	elsif ( $query =~ m/^bike.*$/ ) {
-		die "Apple Maps does not support bicycle directions at this time.";
+		return "ERROR:APPLTRANSPORTNOTSUPPORTED";
 	}
 	elsif ( $query =~ m/^drive.*$/ ) {
 		return '&dirflg=d';

@@ -38,7 +38,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+				<string>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1078,6 +1088,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9BC87277-7AC2-4944-9A3D-78C7520DAA23</key>
 		<array>
 			<dict>
@@ -1208,6 +1231,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B6D8B641-E13A-4B11-BC9D-54017347BEC7</key>
+		<array/>
 		<key>C46C693F-D2E1-4C61-9526-638DE42D6691</key>
 		<array>
 			<dict>
@@ -1278,6 +1303,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1407,11 +1445,11 @@
 	<key>createdby</key>
 	<string>Stuart Ryan</string>
 	<key>description</key>
-	<string>Search Google Maps</string>
+	<string>Easy search for either Google or Apple Maps</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Advanced Google Maps Search</string>
+	<string>Advanced Google and Apple Maps Search</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -1455,8 +1493,8 @@
 # AS PER BUNDLE com.vitorgalvao.alfred.oneupdater v1.7.0
 
 # THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/stuartcryan/advanced-google-maps-alfred-workflow/master/workflow/info.plist'
-readonly workflow_url='https://github.com/stuartcryan/advanced-google-maps-alfred-workflow/raw/master/Advanced_Google_Maps_Search.alfredworkflow'
+readonly remote_info_plist='https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/workflow/info.plist'
+readonly workflow_url='https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/Advanced_Google_Maps_Search.alfredworkflow'
 readonly download_type='direct'
 readonly frequency_check='3'
 
@@ -1599,7 +1637,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions</string>
+				<string>{var:mapsHandler} Maps Directions</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2003,7 +2041,7 @@ open $query;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions from Current Location</string>
+				<string>{var:mapsHandler} Maps Directions from Current Location</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2268,7 +2306,7 @@ open $query;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions to Current Location</string>
+				<string>{var:mapsHandler} Maps Directions to Current Location</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2452,7 +2490,7 @@ open $query;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions from Work</string>
+				<string>{var:mapsHandler} Maps Directions from Work</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2650,7 +2688,7 @@ open $query;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions to Work</string>
+				<string>{var:mapsHandler} Maps Directions to Work</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2932,7 +2970,7 @@ print $output;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions from Home</string>
+				<string>{var:mapsHandler} Maps Directions from Home</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -3145,7 +3183,7 @@ print $output;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions to Home</string>
+				<string>{var:mapsHandler} Maps Directions to Home</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -3351,6 +3389,44 @@ print $output;</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://maps.google.{var:googleLocal}/maps?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:mapsHandler}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>Google</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -3380,25 +3456,6 @@ print $output;</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://maps.google.{var:googleLocal}/maps?q={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -3406,7 +3463,7 @@ print $output;</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Search Google Maps</string>
+				<string>Search {var:mapsHandler} Maps</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -3414,6 +3471,52 @@ print $output;</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>069195C9-1EA6-4BE3-926E-3ACA803409D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>query="{query}"
+
+address="https://maps.apple.com/?q=$query"
+
+open $address;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:mapsHandler}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>Apple</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3555,7 +3658,9 @@ Recent Changelog:
 Utilisation of new features:
 	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination. Similar invocation for 'dirtc'.
 	2. All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
-	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.</string>
+	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.
+
+Logo design by Freepik - https://www.freepik.com/free-vector/map-inspired-logos_763921.htm</string>
 	<key>uidata</key>
 	<dict>
 		<key>0184B1B5-AE48-44DC-9F1C-19597A2A838D</key>
@@ -3583,7 +3688,7 @@ Utilisation of new features:
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>5920</integer>
+			<integer>6050</integer>
 		</dict>
 		<key>06E11949-C063-4675-A5E6-2F4ADAF78D65</key>
 		<dict>
@@ -3637,9 +3742,9 @@ Utilisation of new features:
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>6160</integer>
+			<integer>6360</integer>
 		</dict>
 		<key>1156EFC7-6474-4294-8C78-98302F671D8D</key>
 		<dict>
@@ -3810,7 +3915,7 @@ Utilisation of new features:
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>5920</integer>
+			<integer>6050</integer>
 		</dict>
 		<key>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</key>
 		<dict>
@@ -3964,6 +4069,15 @@ Utilisation of new features:
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>2820</integer>
+		</dict>
+		<key>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</key>
+		<dict>
+			<key>note</key>
+			<string>Execute Apple Maps</string>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>6140</integer>
 		</dict>
 		<key>536F9893-8043-4B58-B9FA-8853E4ECFFB7</key>
 		<dict>
@@ -4227,9 +4341,9 @@ Utilisation of new features:
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>6160</integer>
+			<integer>6360</integer>
 		</dict>
 		<key>88B352B1-CEA6-424B-833F-A6D45983A462</key>
 		<dict>
@@ -4286,6 +4400,13 @@ Utilisation of new features:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>750</integer>
+		</dict>
+		<key>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>6170</integer>
 		</dict>
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
@@ -4355,9 +4476,9 @@ Utilisation of new features:
 		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>470</integer>
 			<key>ypos</key>
-			<integer>6160</integer>
+			<integer>6360</integer>
 		</dict>
 		<key>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</key>
 		<dict>
@@ -4462,10 +4583,12 @@ Utilisation of new features:
 		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
+			<key>note</key>
+			<string>Execute Google Maps</string>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>470</integer>
 			<key>ypos</key>
-			<integer>5920</integer>
+			<integer>5950</integer>
 		</dict>
 		<key>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</key>
 		<dict>
@@ -4475,6 +4598,13 @@ Utilisation of new features:
 			<integer>830</integer>
 			<key>ypos</key>
 			<integer>3630</integer>
+		</dict>
+		<key>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>5980</integer>
 		</dict>
 		<key>D9EEDBDD-B2BD-4646-B865-F4DF763F4D8D</key>
 		<dict>

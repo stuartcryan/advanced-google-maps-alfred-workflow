@@ -8,11 +8,14 @@ require "./functions.pl";
 
 sub dir {
 	my $transportMode;
-	my $rawQuery  = shift;
-	my $googleEnv = getHostSpecificWorkflowEnvironmentVariableValue("googleLocal");
+	my $rawQuery = shift;
+	my $googleEnv =
+	  getHostSpecificWorkflowEnvironmentVariableValue("googleLocal");
 	my $defaultTransportationMode =
-	  getHostSpecificWorkflowEnvironmentVariableValue("defaultTransportationMode");
-	  my $mapsProvider = lc(getHostSpecificWorkflowEnvironmentVariableValue('mapsHandler'));
+	  getHostSpecificWorkflowEnvironmentVariableValue(
+		"defaultTransportationMode");
+	my $mapsProvider =
+	  lc( getHostSpecificWorkflowEnvironmentVariableValue('mapsHandler') );
 	my $strippedQuery;
 	my $origin;
 	my $destination;
@@ -35,13 +38,19 @@ sub dir {
 		$transportQuery = $2;
 
 		if ( defined $transportQuery ) {
-			$transportMode = checkTransportMode($transportQuery, $mapsProvider);
+			$transportMode =
+			  checkTransportMode( $transportQuery, $mapsProvider );
+
+			if ( $transportMode =~ m/^ERROR:(.*)$/ ) {
+				$errorCode = $1;
+			}
 		}
 	}
 
 	#Check for a default transport mode if none was specified
 	if ( !defined $transportMode && defined $defaultTransportationMode ) {
-		$transportMode = checkTransportMode($defaultTransportationMode, $mapsProvider);
+		$transportMode =
+		  checkTransportMode( $defaultTransportationMode, $mapsProvider );
 	}
 	elsif ( !defined $transportMode ) {
 		$transportMode =
@@ -93,13 +102,30 @@ sub dir {
 	}
 
 	if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-		print "ERROR: Too Many Waypoints";
+		return "ERROR: Too Many Waypoints";
+	}
+	elsif ( $errorCode eq 'APPLTRANSPORTNOTSUPPORTED' ) {
+		warn
+"Apple Maps does not support the '$transportQuery' mode of transportation and it was attempted.\n";
+		return
+"ERROR: Apple Maps does not support the '$transportQuery' mode of transportation.";
 	}
 	else {
-		if ($mapsProvider eq "apple"){
-			return
+		if ( $mapsProvider eq "apple" ) {
+			if ( $middleStops ne "" ) {
+
+				#Apple Maps doesn't do waypoints, notify user gracefully
+				warn
+"Apple Maps does not support waypoints and waypoints were entered '$middleStops'.\n";
+				return
+"ERROR: Apple maps doesn't support waypoints between origin and destination.";
+			}
+			else {
+				return
 "https://maps.apple.com/?saddr=$origin&daddr=$destination$transportMode";
-		}else {
+			}
+		}
+		else {
 			#assume the fallback to be Google!
 			return
 "https://$googleURL/maps/dir/?api=1&origin=$origin&destination=$destination$transportMode$middleStops";
