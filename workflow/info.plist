@@ -352,6 +352,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>2A919533-DFD5-4A00-82A5-23444ADEC6E3</key>
 		<array>
@@ -1367,6 +1377,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A35658D6-3506-4ED6-9A69-E72E89446CD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FA6BE6A8-CB13-42A5-9D66-FE78B459D91C</key>
 		<array>
 			<dict>
@@ -1417,37 +1440,6 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>AE5F88F4-4462-4DE4-B7BC-8E6FD4A39CFA</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>walk </string>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>1BB6B4F7-37F1-4BC6-AE11-9F5DAFF3ACE3</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1548,6 +1540,58 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>walk </string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1BB6B4F7-37F1-4BC6-AE11-9F5DAFF3ACE3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Something went wrong *sadface*</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1563,6 +1607,25 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^ERROR.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1641,40 +1704,19 @@ print $output;</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>{query}</string>
-				<key>title</key>
-				<string>Something went wrong *sadface*</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F0CDA005-A604-4041-830B-E4FA8965DE2E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^ERROR.*$</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1744,25 +1786,6 @@ print $output;</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1790,6 +1813,50 @@ print $output;</string>
 			<string>CB9D5B95-1220-4418-B0C7-1D8AC6B2FBBE</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>query="{query}"
+
+open $query;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A35658D6-3506-4ED6-9A69-E72E89446CD1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http.*maps.*apple.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4000,9 +4067,9 @@ Utilisation of new features:
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1880</integer>
+			<integer>1950</integer>
 			<key>ypos</key>
-			<integer>420</integer>
+			<integer>360</integer>
 		</dict>
 		<key>6EBDCE9C-34F0-4AE8-B7A1-F67D8237CB75</key>
 		<dict>
@@ -4153,9 +4220,9 @@ Utilisation of new features:
 		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1880</integer>
+			<integer>1950</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>230</integer>
 		</dict>
 		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
 		<dict>
@@ -4222,10 +4289,12 @@ Utilisation of new features:
 		</dict>
 		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
 		<dict>
+			<key>note</key>
+			<string>Execute Google Maps</string>
 			<key>xpos</key>
 			<integer>2020</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>330</integer>
 		</dict>
 		<key>9BC87277-7AC2-4944-9A3D-78C7520DAA23</key>
 		<dict>
@@ -4264,6 +4333,15 @@ Utilisation of new features:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>2010</integer>
+		</dict>
+		<key>A35658D6-3506-4ED6-9A69-E72E89446CD1</key>
+		<dict>
+			<key>note</key>
+			<string>Execute Apple Maps</string>
+			<key>xpos</key>
+			<integer>2020</integer>
+			<key>ypos</key>
+			<integer>470</integer>
 		</dict>
 		<key>A5CCE63B-221B-485A-A701-C8C30E843280</key>
 		<dict>
@@ -4335,7 +4413,7 @@ Utilisation of new features:
 			<key>xpos</key>
 			<integer>2020</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>60</integer>
 		</dict>
 		<key>C46C693F-D2E1-4C61-9526-638DE42D6691</key>
 		<dict>
@@ -4448,7 +4526,7 @@ Utilisation of new features:
 			<key>xpos</key>
 			<integer>2020</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>200</integer>
 		</dict>
 		<key>F0CEC59E-C181-4E24-899E-9F76E327B146</key>
 		<dict>
@@ -4469,6 +4547,13 @@ Utilisation of new features:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>4260</integer>
+		</dict>
+		<key>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1950</integer>
+			<key>ypos</key>
+			<integer>500</integer>
 		</dict>
 		<key>FA6BE6A8-CB13-42A5-9D66-FE78B459D91C</key>
 		<dict>
@@ -4494,11 +4579,14 @@ Utilisation of new features:
 		<string>com.au</string>
 		<key>homeAddress</key>
 		<string>1 Bay Street Broadway ULTIMO NSW 2007</string>
+		<key>mapsHandler</key>
+		<string>Google</string>
 		<key>workAddress</key>
 		<string>UTS 15 Broadway ULTIMO NSW 2007</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
+		<string>mapsHandler</string>
 		<string>customLocations</string>
 		<string>workAddress</string>
 		<string>homeAddress</string>

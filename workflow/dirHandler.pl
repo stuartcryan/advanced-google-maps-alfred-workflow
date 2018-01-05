@@ -12,6 +12,7 @@ sub dir {
 	my $googleEnv = getHostSpecificWorkflowEnvironmentVariableValue("googleLocal");
 	my $defaultTransportationMode =
 	  getHostSpecificWorkflowEnvironmentVariableValue("defaultTransportationMode");
+	  my $mapsProvider = lc(getHostSpecificWorkflowEnvironmentVariableValue('mapsHandler'));
 	my $strippedQuery;
 	my $origin;
 	my $destination;
@@ -34,13 +35,13 @@ sub dir {
 		$transportQuery = $2;
 
 		if ( defined $transportQuery ) {
-			$transportMode = checkTransportMode($transportQuery);
+			$transportMode = checkTransportMode($transportQuery, $mapsProvider);
 		}
 	}
 
 	#Check for a default transport mode if none was specified
 	if ( !defined $transportMode && defined $defaultTransportationMode ) {
-		$transportMode = checkTransportMode($defaultTransportationMode);
+		$transportMode = checkTransportMode($defaultTransportationMode, $mapsProvider);
 	}
 	elsif ( !defined $transportMode ) {
 		$transportMode =
@@ -95,8 +96,14 @@ sub dir {
 		print "ERROR: Too Many Waypoints";
 	}
 	else {
-		return
+		if ($mapsProvider eq "apple"){
+			return
+"https://maps.apple.com/?saddr=$origin&daddr=$destination$transportMode";
+		}else {
+			#assume the fallback to be Google!
+			return
 "https://$googleURL/maps/dir/?api=1&origin=$origin&destination=$destination$transportMode$middleStops";
+		}
 	}
 
 }
