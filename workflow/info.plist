@@ -3623,6 +3623,11 @@ currentLocationFallback:
 defaultTransportationMode:
 ('COMPUTERNAME:bike','StuartCRyan-Air:pt','default:walk') 
 
+Now we can do customLocations too with the following:
+
+customLocations:
+('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW','po:48 Majors Bay Rd, Concord NSW 2137')
+
 
 ***NOTE***
 1.3.0+ is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
@@ -4714,7 +4719,7 @@ Utilisation of new features:
 		<key>currentLocationFallback</key>
 		<string>('StuartCRyan-MBP:home','StuartCRyan-Air:work','default:work')</string>
 		<key>customLocations</key>
-		<string>('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW', 'po:48 Majors Bay Rd, Concord NSW 2137')</string>
+		<string>('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW','po:48 Majors Bay Rd, Concord NSW 2137')</string>
 		<key>defaultTransportationMode</key>
 		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive','default:walk')</string>
 		<key>googleLocal</key>

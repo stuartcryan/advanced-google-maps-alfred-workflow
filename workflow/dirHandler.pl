@@ -9,9 +9,9 @@ require "./functions.pl";
 sub dir {
 	my $transportMode;
 	my $rawQuery  = shift;
-	my $googleEnv = getWorkflowEnvironmentVariable("googleLocal");
+	my $googleEnv = getHostSpecificWorkflowEnvironmentVariableValue("googleLocal");
 	my $defaultTransportationMode =
-	  getWorkflowEnvironmentVariable("defaultTransportationMode");
+	  getHostSpecificWorkflowEnvironmentVariableValue("defaultTransportationMode");
 	my $strippedQuery;
 	my $origin;
 	my $destination;
