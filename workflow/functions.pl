@@ -4,9 +4,28 @@ use warnings;
 #Checks for transportation mode based on input string and returns URL parameters in response
 sub checkTransportMode {
 	my $query = shift;
+	my $mapsProvider = shift;
 
 	#check for type of transport requested
+	if ($mapsProvider eq "apple"){
 	if ( $query =~ m/^walk.*$/ ) {
+		return '&dirflg=w';
+	}
+	elsif ( $query =~ m/^pt.*$/ ) {
+		return '&dirflg=r';
+	}
+	elsif ( $query =~ m/^bike.*$/ ) {
+		return "ERROR:APPLTRANSPORTNOTSUPPORTED";
+	}
+	elsif ( $query =~ m/^drive.*$/ ) {
+		return '&dirflg=d';
+	}
+	else {
+		return "";
+	}
+	}else {
+		#for the time being, assume Google
+			if ( $query =~ m/^walk.*$/ ) {
 		return '&travelmode=walking';
 	}
 	elsif ( $query =~ m/^pt.*$/ ) {
@@ -21,6 +40,8 @@ sub checkTransportMode {
 	else {
 		return "";
 	}
+	}
+
 }
 
 #Get computer hostname for per-computer configurations
