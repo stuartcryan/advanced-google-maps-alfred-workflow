@@ -69,6 +69,11 @@ sub dir {
 		$origin      = getAddress( $array[0] );
 		$destination = getAddress( $array[1] );
 	}
+	elsif ( $arraySize < 2 ) {
+
+		#We expect two or more values passed for directions
+		$errorCode = 'NOTENOUGHLOCATIONS';
+	}
 	else {
 		#If we are here, we have some waypoints WOOO
 		#Process origin and destination for any location modifiers
@@ -104,33 +109,37 @@ sub dir {
 	if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
 		return "ERROR: Too Many Waypoints";
 	}
+	elsif ( $errorCode eq 'NOTENOUGHLOCATIONS' ) {
+		warn
+"Not enough locations entered. We expect two at a minimum, origin and destination. Input query '$rawQuery'.\n";
+		return
+"ERROR: Not enough locations entered. We expect two at a minimum, origin and destination.";
+	}
 	elsif ( $errorCode eq 'APPLTRANSPORTNOTSUPPORTED' ) {
 		warn
 "Apple Maps does not support the '$transportQuery' mode of transportation and it was attempted.\n";
 		return
 "ERROR: Apple Maps does not support the '$transportQuery' mode of transportation.";
 	}
-	else {
-		if ( $mapsProvider eq "apple" ) {
-			if ( $middleStops ne "" ) {
-
-				#Apple Maps doesn't do waypoints, notify user gracefully
-				warn
+	elsif ( $mapsProvider eq "apple" && $middleStops ne "" )
+	{    #test if we have more than 0 waypoints on Apple Maps
+		    #Apple Maps doesn't do waypoints, notify user gracefully
+		warn
 "Apple Maps does not support waypoints and waypoints were entered '$middleStops'.\n";
-				return
+		return
 "ERROR: Apple maps doesn't support waypoints between origin and destination.";
-			}
-			else {
-				return
+	}
+	else {
+		#No major errors encountered test for maps provider
+		if ( $mapsProvider eq "apple" ) {
+			return
 "https://maps.apple.com/?saddr=$origin&daddr=$destination$transportMode";
-			}
 		}
 		else {
-			#assume the fallback to be Google!
+			#Assume the fallback to be Google!
 			return
 "https://$googleURL/maps/dir/?api=1&origin=$origin&destination=$destination$transportMode$middleStops";
 		}
 	}
-
 }
 1;
