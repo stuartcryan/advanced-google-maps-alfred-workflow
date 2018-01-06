@@ -3660,77 +3660,91 @@ echo "Cleanup Completed"</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow is not affiliated with Google or Google Products in any way.
+	<string>This workflow is not affiliated with Google or Google Products or Apple or Apple Products in any way.
 
-***NOTE***
-This is a beta flow, version 2.0.0 alpha 2. The version number is deliberately not incremented below, so as to permit the auto updating feature to work properly, despite it being a beta flow.
+## Recommended Example Configuration for Workflow Environment Variables
+* contactHandler: ('default:drive here to')
+* CoreLocationCLIBinary: ('default:/usr/local/bin/CoreLocationCLI')
+* currentLocationFallback: ('default:home')
+* customLocations: ('gym:GYM ADDRESS','school:SCHOOL ADDRESS')
+* defaultTransportationMode: ('default:drive')
+* googleLocal: com
+* homeAddress: Your Home Address
+* workAddress: Your Work Address
+* mapsHandler: Google
 
-For current location and default transport options you can either have a single value (which will apply across all machines) or use the following formats:
+## Installation
 
-currentLocationFallback:
-('COMPUTERNAME:location','StuartCRyan-Air:work','default:work') 
+1. Ensure you have Alfred installed with the Alfred Powerpack License
+2. Download the [Advanced_Google_Maps_Search.alfredworkflow](https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/Advanced_Google_Maps_Search.alfredworkflow) file
+3. Open the .alfredworkflow file to import into Alfred
+4. Set up the workflow configuration parameters as you desire (see below for additional details), by clicking on the little [X] in the top right hand of the Workflow page in Alfred
+5. Complete the advanced steps below to add additional (and awesome) functionality
 
-defaultTransportationMode:
-('COMPUTERNAME:bike','StuartCRyan-Air:pt','default:walk') 
+### Current Location Feature Installation and Configuration
+If you wish to use the 'Directions from Current Location - dirfc' command or the 'here' modifier, you will need to also install homebrew and the CoreLocationCLI package.
 
-Now we can do customLocations too with the following:
-
-customLocations:
-('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW','po:48 Majors Bay Rd, Concord NSW 2137')
-
-
-***NOTE***
-1.3.0+ is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
-
-***Utilisation:***
-**dir**
-Most flexible of the options in this workflow.
-Basic utilisation: dir ORIGIN DESTINATION
-Advanced 1: dir ORIGIN WAYPOINT1 WAYPOINT2 .. WAYPOINT9 DESTINATION
-Advanced 2: dir walk|bike|pt|drive ORIGIN DESTINATION
-Advanced 3: dir home|work DESTINATION
-Advanced 4: dir ORIGIN home|work
-Advanced 5: dir ORIGIN WAYPOINT1 work|home .. WAYPOINT9 DESTINATION
-Advanced 6: you can use 'here' in place of any ORIGIN, DESTINATION or WAYPOINT to pull the current location using the CoreLocationAPI if set up.
-
-**all flows**
-All flows now support the 'dirX walk|bike|pt|drive' modifier
-
-
-***Installation Instructions:***
-**Localisation**
-Please ensure you fill the 'googleLocal' workflow environment variable to the right in with the appropriate country domain for your locale.
-
-Examples:
-Australia: 'com.au'
-USA: 'com' (default)
-Taiwan: 'com.tw'
-
-Ensure no leading or trailing period is used.
-
-**Current Location Feature Setup**
-If you wish to use the 'Directions from Current Location - dirfc' command, you will need to install homebrew and the CoreLocationCLI package.
-
-1. Install Homebrew using instructions from https://brew.sh/
+1. Install Homebrew using [instructions from https://brew.sh/](https://brew.sh/)
 2. Install the CoreLocationCLI utility by running the following command in a terminal 'brew cask install corelocationcli'.
 3. Check your installed location by running 'which CoreLocationCLI'
-4. Ensure the environment variable to the right matches the installed location.
+4. Ensure the workflow environment variable on the Workflow Configuration screen matches the installed location.
 
-Recent Changelog:
-1.3.0 adds a host of new features including:
-	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
-	-dirtc: Directions to Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
-	-dir, dirfc and dirtc now support Google transit type (walk, drive, pt [public transport] and bike)
-    -dir now supports 'here'. Here anywhere in the transit plan translates to the current GPS coordinates using CoreLocationCLI. Technically this probably does away with the need for dirfc and dirtc, but, leaving them there for consistency.
-	-Overhaul of changes to properly use Google API parameters
-	-Mass code cleanup and refactoring for simplification. Most flows now leverage the dir base code.
+### Contact Address Handler Configuration
+If you wish to use this workflow to handle directions to a contact's address you may do so by completing the following additional steps.
 
-Utilisation of new features:
-	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination. Similar invocation for 'dirtc'.
-	2. All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
-	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.
+1. In Alfred's Preferences click on Features --&gt; Contacts
+2. Double click on the 'Address' field
+3. In the dropdown, select "Search Contact Address with Advanced Google and Apple Maps Search"
+4. Ensure you correctly configure the contactHandler parameter as per the instructions under the Configuration section.
 
-Logo design by Freepik - https://www.freepik.com/free-vector/map-inspired-logos_763921.htm</string>
+### Fallback Search Setup
+If you wish to use this workflow to handle fallback searches in Alfred, you can now do this too!
+
+1. In Alfred's Preferences click on Features --&gt; Default Results
+2. Click the button to 'Setup Fallback Results'
+3. Click the small + sign to add a new record
+4. Select any of the available fallback searches provided by the workflow to add them to your personal fallback search results.
+
+## Configuration
+
+### Explanation of each of the Workflow Environment Variables
+* contactHandler: Used as the default mechanism to handle Contact address searches. Supports two formats including "drive here to" (current location to Contact's address) "drive to here" (Contact's address to Current Location) or "('computerName:drive here to','default:drive here to')"
+* CoreLocationCLIBinary: Defines the location of the installed CoreLocationCLIBinary. Supports two formats including "/usr/local/bin/CoreLocationCLI" or "('computerName:/some/other/location/CoreLocationCLI','default:/usr/local/bin/CoreLocationCLI')"
+* currentLocationFallback: Used as the fallback address in case CoreLocationCLI is not installed, or fails (especially if WiFi is unavailable, or turned off). Supports two formats including "Some Address in Some State 20023" or "('computerName:home','someOtherComputerName:Some Address in Some State 20023','default:work')"
+* customLocations: Supports custom location modifiers for all dir* commands. Please note, this does not dynamically add new dirfx or dirtx commands. Must be formatted in the following fashion: "('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046')"
+* defaultTransportationMode: Defines the default transportation fallback mode if none is specified at runtime. Possible values include: "pt" for Public Transport, drive, walk or bike. Supports two formats including "bike" or "('computerName:pt','someOtherComputerName:walk','default:drive')"
+* googleLocal: Defines which Google Locale to use such as 'com.au', 'com.tw' or 'com' as some examples. Supports two formats including "com.au" or "('computerName:com.au','someOtherComputerName:com.tw','default:com')"
+* homeAddress: New storage location for Home Address. Supports two formats including "Some Address" or "('computerName:Some Address','someOtherComputerName:Another Address','default:A Third Address')"
+* workAddress: New storage location for Work Address. Supports two formats including "Some Address" or "('computerName:Some Address','someOtherComputerName:Another Address','default:A Third Address')"
+* mapsHandler: PLEASE NOTE this only supports a value of either "Google" or "Apple" and may not have a computer specific value. 
+
+## Notes on Caveats with Apple Maps
+
+Apple Maps does not support as many functions as Google Maps and there are two main areas that will cause graceful errors when using Apple Maps. If you attempt to use the 'bike' modifier anywhere, Apple Maps does not support such directions and therefore we gracefully tell you this won't work.
+
+Secondly, Apple Maps does not support waypoints or building up an itinerary. Therefore if you attempt to use the dir command with more than just an origin and a destination (such as home to shops to work), we will gracefully error out and tell you such a function is not possible.
+
+## Usage
+
+* dir &lt;transportModeModifier&gt; &lt;query&gt; to &lt;query&gt; to &lt;query&gt; etc (seperate multiple addresses with " to " minus the quotes, and you will get a multiple location search when using Google Maps only)
+* [NEW] dir now does all the heavy lifting. You can use the modifiers 'here' (current location, must have CoreLocationCLI installed), 'work' and 'home' in any query. For example 'dir home to work to new york'.
+* [NEW] dirfc &lt;query&gt; this will use your current location (WiFi card must be active) to the destination.
+* [NEW] dirtc &lt;query&gt; Show directions from query to current location
+* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
+* [NEW] Localisation now defaults to USA, hence make sure you update workflow parameters if you wish to use a different country code on the Google URL.
+* dirfw &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Work to address
+* dirfh &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Home to address
+* dirtw &lt;transportModeModifier&gt; &lt;query&gt; Show directions from query to Work address
+* dirth &lt;transportModeModifier&gt; &lt;query&gt; Show directions from query to Home address
+* trafficw - Show traffic from Home to Work
+* traffich - Show traffic from Work to Home
+* [NEW] dir now supports up to 9 waypoints for Google Maps. For example 'dir &lt;transportModeModifier&gt; origin to waypoint 1 to waypoint 2 etc to destination'
+
+## Integration hooks for Other Workflow Providers
+
+This workflow now supports integration using external nodes. They suppor the same methods and modifiers as described for the rest of the workflow. This means you can now hook into this workflow to leverage the 'here', 'work', 'home' and other custom modifiers set up by a user, as well as provide routing directions based on your input. 
+
+Please review the workflow for each of the hooks available.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0184B1B5-AE48-44DC-9F1C-19597A2A838D</key>
@@ -4821,7 +4835,7 @@ Logo design by Freepik - https://www.freepik.com/free-vector/map-inspired-logos_
 		<string>googleLocal</string>
 	</array>
 	<key>version</key>
-	<string>1.3.1</string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
