@@ -1,5 +1,7 @@
 use strict;
 use warnings;
+use MIME::Base64;
+use URI::Escape;
 
 #Checks for transportation mode based on input string and returns URL parameters in response
 sub checkTransportMode {
