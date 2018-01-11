@@ -7,7 +7,7 @@ With the explosion of features, added configuration complexity, and awesomeness 
 
 I have put together [this hour-long Course on the Udemy Platform](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
 
-The coupon code 'V2RELEASESPECIAL' (only 100 available), will snag you the course at $19.99 USD. Once those have all been used up you can still get the course for $29.99 (50% off the regular Udemy Price) with the code 'GITHUB'.
+**The coupon code 'V2RELEASESPECIAL' (only 100 available), will snag you the course at $19.99 USD.** Once those have all been used up you can still get the course for $29.99 (50% off the regular Udemy Price) with the code 'GITHUB'.
 
 The course will be updated as any new usability or training needs are identified, and I will commit to the course being updated through the entire V2.0.0 release. I do reserve the right to extend that to the next release if I later choose.
 
