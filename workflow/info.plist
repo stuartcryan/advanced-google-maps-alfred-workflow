@@ -8,11 +8,24 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>0184B1B5-AE48-44DC-9F1C-19597A2A838D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -25,7 +38,43 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+				<string>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>06E11949-C063-4675-A5E6-2F4ADAF78D65</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>06FCB842-77D4-4FC4-946B-5BDEA7516262</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -51,7 +100,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0F684084-B819-4218-A3BB-A705DCA1600B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -86,11 +148,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>151D60D5-E350-468A-827C-9E908FA27BCC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>16D04F82-D88A-477E-8B31-DF602B34927A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -112,11 +200,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>196C39FC-307E-4E36-8E01-9731D77C8301</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AD8C7AD-8A38-4043-9AF2-A849EC32C058</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1B3EFB3E-DD2F-4773-9BBF-5B2F3CBA83EC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -138,11 +252,145 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
+		<key>1C221689-E119-4F4E-91BC-49ED6C6C9A3C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1C5D5BE5-4546-440D-A99B-4637FDE1D266</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1EA8B54A-5E63-4417-B085-A97746EEFD6A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>21DB793B-CC3C-4A4B-8ABA-2C347157B5B5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>21DB793B-CC3C-4A4B-8ABA-2C347157B5B5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>26947402-9F48-44CB-B491-E90B5997C5F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63F4BCEE-4A24-4D93-9844-61A2E59FAD1B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27C9B0F6-838E-46FC-9036-B9F668CBF630</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2934235D-E3D8-4240-90F5-F604DBF64617</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B6D8B641-E13A-4B11-BC9D-54017347BEC7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2A919533-DFD5-4A00-82A5-23444ADEC6E3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1C5D5BE5-4546-440D-A99B-4637FDE1D266</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2ABA3FBC-B7EA-4D92-8D96-70CD6BD2E0B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -164,11 +412,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
+		<key>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -177,11 +425,128 @@
 				<false/>
 			</dict>
 		</array>
-		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
+		<key>331AACC8-2B1B-47A8-B9AF-9124CF118FF7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3A67A0EA-6D4A-4AC0-BB0E-59CFF4C29665</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3D3800DB-784D-47EC-989D-90DCCBC23B84</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E6DCBDB-9398-4CFD-9AFF-F8CA64339FEA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E95AD63-85B0-494F-B610-7D4FCE4FF445</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3FE41D53-199A-4B36-9DC0-C3DD311D69F4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>536F9893-8043-4B58-B9FA-8853E4ECFFB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>401A3863-7BF7-434D-B541-498C8BF25223</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B416533-85D4-48DE-8F5B-D6EB0A7E7856</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>434ABB52-9F93-4BE0-9096-4C91BDDF7E86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9DCBDF0E-1A41-4B23-8D47-01C0C958A8C5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48909DEF-A4C6-45C0-B9A8-E78453B96881</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C46C693F-D2E1-4C61-9526-638DE42D6691</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -194,7 +559,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4B416533-85D4-48DE-8F5B-D6EB0A7E7856</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -216,11 +594,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
+		<key>4D148223-49D2-4C32-99FA-6E3BC18905B0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
+				<string>7AA3CD49-58ED-471C-A072-F4A238D0606F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4E5455A8-7B06-4B8E-A1A5-23867E40B822</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C9C468D7-0C86-4928-BC51-E4DCC2C276FD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -242,6 +633,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5684FF40-40FC-4803-B5D4-51B9FFB6170E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>68737695-16B5-4A35-9DF3-7D2EB7F6E67C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</key>
 		<array>
 			<dict>
@@ -255,11 +659,141 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5EB75E50-A9BE-46DB-9687-ED2047E25392</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D3800DB-784D-47EC-989D-90DCCBC23B84</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5ED30131-B671-40A0-AA66-0FFBE6873FA8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>60523F23-5E3A-4AE2-ABDF-DFD858237F6B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B3EFB3E-DD2F-4773-9BBF-5B2F3CBA83EC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>63F4BCEE-4A24-4D93-9844-61A2E59FAD1B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>68737695-16B5-4A35-9DF3-7D2EB7F6E67C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6A60E323-03DA-4FC9-A91D-E15F60F5FEEC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27C9B0F6-838E-46FC-9036-B9F668CBF630</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6AD8C7AD-8A38-4043-9AF2-A849EC32C058</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6CA4B225-E3B3-4390-8EC8-3AB5BD3BD719</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6EBDCE9C-34F0-4AE8-B7A1-F67D8237CB75</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A67A0EA-6D4A-4AC0-BB0E-59CFF4C29665</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>706E75AB-DD2E-475B-BF8D-5E60F428D3E8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C79F0356-E819-46AB-9248-F7DC8B043F90</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -285,7 +819,98 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7669650E-B70A-4A04-A56B-B264214409CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76CF6992-90B9-4CDC-8370-8642129F8F3E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7917B090-62FF-4109-8356-9F99FF0F0585</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6CA4B225-E3B3-4390-8EC8-3AB5BD3BD719</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>79FA3C03-276A-4342-B05B-0298662B1B55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7A7E3EA8-FCBE-4459-B374-47DB572BE682</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0184B1B5-AE48-44DC-9F1C-19597A2A838D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7AA3CD49-58ED-471C-A072-F4A238D0606F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B4EFD12-1BEE-4433-A332-1E4BC6FCEBB3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -298,7 +923,59 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+				<string>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>80506669-2712-494E-A1F0-AFC4B3196B03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>81A11169-3997-44F1-A6A0-472C27D9AA09</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>79FA3C03-276A-4342-B05B-0298662B1B55</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>84F08496-58E7-4350-989E-7F0A12A78304</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -359,11 +1036,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
+		<key>8A5DF91A-6BAB-4CA0-8849-330837053053</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
+				<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -371,9 +1048,25 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>8BF4B820-A42E-49D6-8D75-C26A96B88647</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C4479BF-0028-46C9-B98A-2BCD80B603F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DBB016A9-7896-4918-A07C-C75D828F3CF2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -386,7 +1079,72 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>8A5DF91A-6BAB-4CA0-8849-330837053053</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8EE37DA4-FEB1-43EB-A61E-720862BE3D9C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C58B19B9-7E44-4127-A3A1-DAA3F7ACD480</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9BC87277-7AC2-4944-9A3D-78C7520DAA23</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9BE13678-7395-4F87-B6AA-964A5E439B86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9DCBDF0E-1A41-4B23-8D47-01C0C958A8C5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -400,6 +1158,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A5CCE63B-221B-485A-A701-C8C30E843280</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -447,6 +1231,34 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B6A9FF70-694E-4C62-BD00-9D31A5DB8BFE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1C221689-E119-4F4E-91BC-49ED6C6C9A3C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B6D8B641-E13A-4B11-BC9D-54017347BEC7</key>
+		<array/>
+		<key>C46C693F-D2E1-4C61-9526-638DE42D6691</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
 		<array>
 			<dict>
@@ -460,11 +1272,37 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
+		<key>C58B19B9-7E44-4127-A3A1-DAA3F7ACD480</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C79F0356-E819-46AB-9248-F7DC8B043F90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C9C468D7-0C86-4928-BC51-E4DCC2C276FD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -486,11 +1324,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
+		<key>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+				<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -499,11 +1337,37 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
+		<key>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9EEDBDD-B2BD-4646-B865-F4DF763F4D8D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E6DCBDB-9398-4CFD-9AFF-F8CA64339FEA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DBB016A9-7896-4918-A07C-C75D828F3CF2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -516,7 +1380,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
+				<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -525,11 +1389,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</key>
+		<key>E4E1B653-715A-47D9-B812-DD3556C5E1FC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
+				<string>8A5DF91A-6BAB-4CA0-8849-330837053053</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E5A4ADC4-A042-4C85-9ED2-DD65BE7523E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9BE13678-7395-4F87-B6AA-964A5E439B86</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -551,15 +1428,54 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F1C92614-2A82-467B-98DA-782C66E16392</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A35658D6-3506-4ED6-9A69-E72E89446CD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA6BE6A8-CB13-42A5-9D66-FE78B459D91C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2ABA3FBC-B7EA-4D92-8D96-70CD6BD2E0B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Stuart Ryan</string>
 	<key>description</key>
-	<string>Search Google Maps</string>
+	<string>Easy search for either Google or Apple Maps</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Advanced Google Maps Search</string>
+	<string>Advanced Google and Apple Maps Search</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -588,6 +1504,100 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>AE5F88F4-4462-4DE4-B7BC-8E6FD4A39CFA</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THIS NODE IMPLEMENTS VITOR'S ONEUPDATER CODE 
+# AS PER BUNDLE com.vitorgalvao.alfred.oneupdater v1.7.0
+
+# THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/workflow/info.plist'
+readonly workflow_url='https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/Advanced_Google_Maps_Search.alfredworkflow'
+readonly download_type='direct'
+readonly frequency_check='3'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B6D8B641-E13A-4B11-BC9D-54017347BEC7</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -646,6 +1656,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dir</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>{var:mapsHandler} Maps Directions</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string>{query}</string>
 				<key>matchcasesensitive</key>
@@ -661,197 +1692,6 @@
 			<string>8609F863-5C65-412E-9DF8-52F1CEE7C795</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $url           = '';
-my $transportMode = '';
-my $rawQuery      = '{query}';
-my $strippedQuery;
-my $modified = '';
-my $origin;
-my $destination;
-my $middleStops = '';
-my $transportQuery = '';
-my $errorCode = '';
-my $workAddress;
-my $workAddressEncoded;
-my $homeAddress;
-my $homeAddressEncoded;
-my $googleURL;
-
-if ($ENV{'googleLocal'}){
-	$googleURL = 'www.google.' . $ENV{'googleLocal'};
-} else {
-	$googleURL = 'www.google.com';
-}
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )?(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-}
-
-#Get home and work addresses
-$workAddress=`security find-generic-password -w -s "alfred-work-address"`;
-$workAddress = decode_base64($workAddress);
-chomp($workAddress);
-$workAddressEncoded=uri_escape($workAddress);
-
-$homeAddress=`security find-generic-password -w -s "alfred-home-address"`;
-$homeAddress = decode_base64($homeAddress);
-chomp($homeAddress);
-$homeAddressEncoded=uri_escape($homeAddress);
-
-#initialise the array after removing transport modifier
-my @array       = split( /\sto\s/, $strippedQuery );
-my $arraySize   = scalar(@array);
-my $lastElement = $arraySize - 1;
-
-#check for type of transport requested
-if ( $transportQuery =~ m /^walk.*$/ ) {
-	$transportMode = '&amp;travelmode=walking';
-}
-elsif ( $transportQuery =~ m/^pt.*$/ ) {
-	$transportMode = '&amp;travelmode=transit';
-}
-elsif ( $transportQuery =~ m/^bike.*$/ ) {
-	$transportMode = '&amp;travelmode=bicycling';
-}
-elsif ( $transportQuery =~ m/^drive.*$/ ) {
-	$transportMode = '&amp;travelmode=driving';
-}
-
-$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-#check for only origin and destination
-if ( $arraySize == 2 ) {
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[1] );
-}
-else {
-	#if we are here, we have some waypoints WOOO
-	$origin      = uri_escape( $array[0] );
-	$destination = uri_escape( $array[$lastElement] );
-
-	#remove the origin and destination
-	shift(@array);
-	pop(@array);
-
-	$arraySize   = scalar(@array);    #reinitialise as array may have shrunk
-	$lastElement = $arraySize - 1;    #reinitialise as array may have shrunk
-
-	# Google only supports 9 waypoints on Desktop
-	if ( $arraySize &gt; 9 ) {
-		$errorCode = 'TOOMANYWAYPOINTS';
-	}
-
-	$middleStops = '&amp;waypoints=';
-	my $location;
-	foreach (@array) {
-		if ( lc($_) eq "here" ) {
-
-			#check if we are using the here modifier for current coordinates
-			$location =
-			  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-			if ( $? != 0 ) {
-				$errorCode = 'CORELOCATIONFAILED';
-			}
-			else {
-				chomp($location);
-				$middleStops = $middleStops . uri_escape($location) . '|';
-			}
-		}
-		elsif ( lc($_) eq "work" ) {
-			$middleStops = $middleStops . $workAddressEncoded . '|';
-		}
-		elsif ( lc($_) eq "home" ) {
-			$middleStops = $middleStops . $homeAddressEncoded . '|';
-		}
-		else {
-			#use the provided value
-			$middleStops = $middleStops . uri_escape($_) . '|';
-		}
-	}
-	chop($middleStops);    #remove trailing pipe
-}
-
-if ( lc($origin) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$origin = $location;
-	}
-}
-elsif ( lc($origin) eq "work" ) {
-	$origin = $workAddressEncoded;
-}
-elsif ( lc($origin) eq "home" ) {
-	$origin = $homeAddressEncoded;
-}
-
-if ( lc($destination) eq "here" ) {
-
-	#check for 'here' location modifier and get GPS coordinates if possible
-	my $location =
-	  `$ENV{'CoreLocationCLIBinary'} -format "%latitude,%longitude"`;
-	if ( $? != 0 ) {
-		$errorCode = 'CORELOCATIONFAILED';
-	}
-	else {
-		chomp($location);
-		$destination = $location;
-	}
-}
-elsif ( lc($destination) eq "work" ) {
-	$destination = $workAddressEncoded;
-}
-elsif ( lc($destination) eq "home" ) {
-	$destination = $homeAddressEncoded;
-}
-
-if ( $errorCode eq 'TOOMANYWAYPOINTS' ) {
-	print "ERROR: Too Many Waypoints";
-}
-elsif ( $errorCode eq 'CORELOCATIONFAILED' ) {
-	print
-"ERROR: CoreLocation could not get current location. Check if WiFi is on!";
-}
-else {
-	print
-"https://$googleURL/maps/dir/?api=1&amp;origin=$origin&amp;destination=$destination$transportMode$middleStops";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8C362BD8-148F-49F3-9CF3-51DDC0715D47</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -887,40 +1727,41 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>dir</string>
-				<key>subtext</key>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+
+require "./dirhandler.pl";
+
+my $query = "{query}";
+my $output;
+
+$output = dir("{query}");
+
+print $output;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>text</key>
-				<string>Google Maps Directions</string>
-				<key>withspace</key>
-				<true/>
+				<key>type</key>
+				<integer>4</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>8CED750B-175F-4EAC-9B4E-055566EBFABC</string>
+			<string>2934235D-E3D8-4240-90F5-F604DBF64617</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^http.*google.*$</string>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+			<string>8A5DF91A-6BAB-4CA0-8849-330837053053</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -977,6 +1818,25 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http.*google.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>6E16E494-D94B-4DBC-9260-D03A9463EB04</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1008,21 +1868,457 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>query="{query}"
+
+open $query;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A35658D6-3506-4ED6-9A69-E72E89446CD1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^http.*maps.*apple.*$</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dir</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>E4E1B653-715A-47D9-B812-DD3556C5E1FC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+require "./contactHandler.pl";
+my $output;
+
+my $query = "{query}";
+
+$output=contactDirHandler($query);
+print $output;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C79F0356-E819-46AB-9248-F7DC8B043F90</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>name</key>
+				<string>Search Contact Address with Advanced Google and Apple Maps Search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.contact</string>
+			<key>uid</key>
+			<string>706E75AB-DD2E-475B-BF8D-5E60F428D3E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From here to {query}</string>
+				<key>text</key>
+				<string>Get driving directions from here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>4D148223-49D2-4C32-99FA-6E3BC18905B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>drive {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7AA3CD49-58ED-471C-A072-F4A238D0606F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From here to {query}</string>
+				<key>text</key>
+				<string>Get cycling directions from here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>8EE37DA4-FEB1-43EB-A61E-720862BE3D9C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bike {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C58B19B9-7E44-4127-A3A1-DAA3F7ACD480</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From here to {query}</string>
+				<key>text</key>
+				<string>Get walking directions from here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>434ABB52-9F93-4BE0-9096-4C91BDDF7E86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>walk {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9DCBDF0E-1A41-4B23-8D47-01C0C958A8C5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From here to {query}</string>
+				<key>text</key>
+				<string>Get public transport directions from here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>1EA8B54A-5E63-4417-B085-A97746EEFD6A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>21DB793B-CC3C-4A4B-8ABA-2C347157B5B5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From here to {query}</string>
+				<key>text</key>
+				<string>Get directions from here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>8BF4B820-A42E-49D6-8D75-C26A96B88647</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>dirtc</string>
+				<string>dirfc</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions to Current Location</string>
+				<string>{var:mapsHandler} Maps Directions from Current Location</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}','from','here'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>76CF6992-90B9-4CDC-8370-8642129F8F3E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dirfc</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>331AACC8-2B1B-47A8-B9AF-9124CF118FF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to here</string>
+				<key>text</key>
+				<string>Get driving directions to here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>81A11169-3997-44F1-A6A0-472C27D9AA09</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>drive {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>79FA3C03-276A-4342-B05B-0298662B1B55</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to here</string>
+				<key>text</key>
+				<string>Get cycling directions to here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>401A3863-7BF7-434D-B541-498C8BF25223</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bike {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4B416533-85D4-48DE-8F5B-D6EB0A7E7856</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to here</string>
+				<key>text</key>
+				<string>Get walking directions to here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>5684FF40-40FC-4803-B5D4-51B9FFB6170E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>walk {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>68737695-16B5-4A35-9DF3-7D2EB7F6E67C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to here</string>
+				<key>text</key>
+				<string>Get public transport directions to here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>48909DEF-A4C6-45C0-B9A8-E78453B96881</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C46C693F-D2E1-4C61-9526-638DE42D6691</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to here</string>
+				<key>text</key>
+				<string>Get directions to here</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>9BC87277-7AC2-4944-9A3D-78C7520DAA23</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1058,8 +2354,29 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirtc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>{var:mapsHandler} Maps Directions to Current Location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9FC53C2F-2AA3-476A-BECA-12696AF87132</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>{query} to here</string>
+				<string>'{query}','to','here'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1073,6 +2390,367 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>dirtc</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>84F08496-58E7-4350-989E-7F0A12A78304</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From work to {query}</string>
+				<key>text</key>
+				<string>Get driving directions from work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>8C4479BF-0028-46C9-B98A-2BCD80B603F8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>drive {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DBB016A9-7896-4918-A07C-C75D828F3CF2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From work to {query}</string>
+				<key>text</key>
+				<string>Get cycling directions from work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>2A919533-DFD5-4A00-82A5-23444ADEC6E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bike {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1C5D5BE5-4546-440D-A99B-4637FDE1D266</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From work to {query}</string>
+				<key>text</key>
+				<string>Get walking directions from work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>7917B090-62FF-4109-8356-9F99FF0F0585</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>walk {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6CA4B225-E3B3-4390-8EC8-3AB5BD3BD719</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From work to {query}</string>
+				<key>text</key>
+				<string>Get public transport directions from work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>E5A4ADC4-A042-4C85-9ED2-DD65BE7523E6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9BE13678-7395-4F87-B6AA-964A5E439B86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From work to {query}</string>
+				<key>text</key>
+				<string>Get directions from work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>06FCB842-77D4-4FC4-946B-5BDEA7516262</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dirfw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>{var:mapsHandler} Maps Directions from Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>511FC68F-4DC2-47DD-A42C-527596F09ED1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}','from','work'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dirfw</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5ED30131-B671-40A0-AA66-0FFBE6873FA8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to work</string>
+				<key>text</key>
+				<string>Get driving directions to work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>7A7E3EA8-FCBE-4459-B374-47DB572BE682</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>drive {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0184B1B5-AE48-44DC-9F1C-19597A2A838D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to work</string>
+				<key>text</key>
+				<string>Get cycling directions to work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>3FE41D53-199A-4B36-9DC0-C3DD311D69F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bike {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>536F9893-8043-4B58-B9FA-8853E4ECFFB7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to work</string>
+				<key>text</key>
+				<string>Get walking directions to work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>FA6BE6A8-CB13-42A5-9D66-FE78B459D91C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>walk {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2ABA3FBC-B7EA-4D92-8D96-70CD6BD2E0B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to work</string>
+				<key>text</key>
+				<string>Get public transport directions to work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>6A60E323-03DA-4FC9-A91D-E15F60F5FEEC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>27C9B0F6-838E-46FC-9036-B9F668CBF630</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to work</string>
+				<key>text</key>
+				<string>Get directions to work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>0F684084-B819-4218-A3BB-A705DCA1600B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1080,7 +2758,7 @@ else {
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions to Work</string>
+				<string>{var:mapsHandler} Maps Directions to Work</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1123,8 +2801,55 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>use strict;
+use warnings;
+require "./granularDirModifier.pl";
+my $output;
+
+my $query = "{query}";
+my @splitQuery = split("','", $query);
+
+
+for (@splitQuery) {
+
+	#strip out any remaining ' characters
+	s/'//g;
+}
+
+$output=granularDir(@splitQuery);
+print $output;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7669650E-B70A-4A04-A56B-B264214409CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>{query} to work</string>
+				<string>'{query}','to','work'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1138,58 +2863,28 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>trafficw</string>
+				<key>triggerid</key>
+				<string>dirtw</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>151D60D5-E350-468A-827C-9E908FA27BCC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>subtext</key>
-				<string></string>
+				<string>From home to {query}</string>
 				<key>text</key>
-				<string>Show traffic from Home to Work</string>
-				<key>withspace</key>
-				<true/>
+				<string>Get driving directions from home</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>AD06B137-09BD-4652-8EED-C60D6176DBC6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</string>
+			<string>196C39FC-307E-4E36-8E01-9731D77C8301</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1197,64 +2892,29 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>home to work</string>
+				<string>drive {query}</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+			<string>6AD8C7AD-8A38-4043-9AF2-A849EC32C058</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>1156EFC7-6474-4294-8C78-98302F671D8D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>traffich</string>
 				<key>subtext</key>
-				<string></string>
+				<string>From home to {query}</string>
 				<key>text</key>
-				<string>Show traffic from Work to Home</string>
-				<key>withspace</key>
-				<true/>
+				<string>Get cycling directions from home</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
+			<string>26947402-9F48-44CB-B491-E90B5997C5F6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1262,265 +2922,89 @@ else {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>work to home</string>
+				<string>bike {query}</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
+			<string>63F4BCEE-4A24-4D93-9844-61A2E59FAD1B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirth</string>
 				<key>subtext</key>
-				<string></string>
+				<string>From home to {query}</string>
 				<key>text</key>
-				<string>Google Maps Directions to Home</string>
-				<key>withspace</key>
-				<true/>
+				<string>Get walking directions from home</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
+			<string>6EBDCE9C-34F0-4AE8-B7A1-F67D8237CB75</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
 				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query} to home</string>
+				<string>walk {query}</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+			<string>3A67A0EA-6D4A-4AC0-BB0E-59CFF4C29665</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfc</string>
 				<key>subtext</key>
-				<string></string>
+				<string>From home to {query}</string>
 				<key>text</key>
-				<string>Google Maps Directions from Current Location</string>
-				<key>withspace</key>
-				<true/>
+				<string>Get public transport directions from home</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>02392767-C5C7-467A-81A9-1CB133687921</string>
+			<string>5EB75E50-A9BE-46DB-9687-ED2047E25392</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery here to $strippedQuery";
-} else {
-	print "here to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CB7D40A2-269F-4D69-AB41-F5E471B47A48</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
 				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</string>
+			<string>3D3800DB-784D-47EC-989D-90DCCBC23B84</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>511FC68F-4DC2-47DD-A42C-527596F09ED1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery work to $strippedQuery";
-} else {
-	print "work to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>4</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dirfw</string>
 				<key>subtext</key>
-				<string></string>
+				<string>From home to {query}</string>
 				<key>text</key>
-				<string>Google Maps Directions from Work</string>
-				<key>withspace</key>
-				<true/>
+				<string>Get directions from home</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</string>
+			<string>F1C92614-2A82-467B-98DA-782C66E16392</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1556,39 +3040,213 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>script</key>
-				<string>use strict;
-use warnings;
-use URI::Escape;
-use MIME::Base64;
-
-my $rawQuery = "{query}";
-my $strippedQuery = '';
-my $transportQuery = '';
-
-#search for type of transport modifier
-if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
-	$strippedQuery  = $3;
-	$transportQuery = $2;
-	print "$transportQuery home to $strippedQuery";
-} else {
-	print "home to $rawQuery";
-}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>keyword</key>
+				<string>dirfh</string>
+				<key>subtext</key>
 				<string></string>
-				<key>type</key>
-				<integer>4</integer>
+				<key>text</key>
+				<string>{var:mapsHandler} Maps Directions from Home</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>CD999794-2993-4FAF-8B7D-F40779AB9A86</string>
+			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}','from','home'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>80506669-2712-494E-A1F0-AFC4B3196B03</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dirfh</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>3E95AD63-85B0-494F-B610-7D4FCE4FF445</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to home</string>
+				<key>text</key>
+				<string>Get driving directions to home</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>60523F23-5E3A-4AE2-ABDF-DFD858237F6B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>drive {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1B3EFB3E-DD2F-4773-9BBF-5B2F3CBA83EC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to home</string>
+				<key>text</key>
+				<string>Get cycling directions to home</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>D9EEDBDD-B2BD-4646-B865-F4DF763F4D8D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bike {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3E6DCBDB-9398-4CFD-9AFF-F8CA64339FEA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to home</string>
+				<key>text</key>
+				<string>Get walking directions to home</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>B6A9FF70-694E-4C62-BD00-9D31A5DB8BFE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>walk {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1C221689-E119-4F4E-91BC-49ED6C6C9A3C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to home</string>
+				<key>text</key>
+				<string>Get public transport directions to home</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>4E5455A8-7B06-4B8E-A1A5-23867E40B822</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>pt {query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C9C468D7-0C86-4928-BC51-E4DCC2C276FD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>subtext</key>
+				<string>From {query} to home</string>
+				<key>text</key>
+				<string>Get directions to home</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>06E11949-C063-4675-A5E6-2F4ADAF78D65</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1598,18 +3256,248 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>dirfh</string>
+				<string>dirth</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Google Maps Directions from Home</string>
+				<string>{var:mapsHandler} Maps Directions to Home</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</string>
+			<string>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}','to','home'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dirth</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>7B4EFD12-1BEE-4433-A332-1E4BC6FCEBB3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AD06B137-09BD-4652-8EED-C60D6176DBC6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>trafficw</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Home to Work</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'home','to','work'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>trafficw</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A5CCE63B-221B-485A-A701-C8C30E843280</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>traffich</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show traffic from Work to Home</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B542CDAA-D602-4269-92EE-2AED85D35F63</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1156EFC7-6474-4294-8C78-98302F671D8D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'work','to','home'</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7D56594D-6798-486D-8C27-719F118FF9EA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>traffich</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>16D04F82-D88A-477E-8B31-DF602B34927A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://maps.google.{var:googleLocal}/maps?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:mapsHandler}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>Google</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1645,25 +3533,6 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://maps.google.{var:googleLocal}/maps?q={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -1671,7 +3540,7 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Search Google Maps</string>
+				<string>Search {var:mapsHandler} Maps</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1685,16 +3554,88 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
 				<integer>0</integer>
+				<key>script</key>
+				<string>query="{query}"
+
+address="https://maps.apple.com/?q=$query"
+
+open $address;</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:mapsHandler}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>Apple</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>script</key>
+				<string>security delete-generic-password -a "alfred-home-address" 
+security delete-generic-password -a "alfred-work-address" 
+
+echo "Cleanup Completed"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>mapsethome</string>
+				<string>zcleanmapsoldaddresses</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Set Home Address</string>
+				<string>Cleanup legacy addresses from Apple Keychain</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -1715,7 +3656,7 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>Home Address Set To:</string>
+				<string>Addresses cleaned from Keychain</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -1724,400 +3665,947 @@ if ( $rawQuery =~ m/^((walk|drive|pt|bike) )(.*)$/ ) {
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
-
-security add-generic-password -a "alfred-home-address" -s "alfred-home-address" -w "$ENCODED" -C "note" -U
-
-echo "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>ENCODED=`openssl enc -base64 &lt;&lt;&lt; '{query}'`
-
-security add-generic-password -a "alfred-work-address" -s "alfred-work-address" -w "$ENCODED" -C "note" -U
-
-echo "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Work Address Set To:</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>00ADDBC0-F73E-4845-92EF-2A584B30A083</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>mapsetwork</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Set Work Address</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2518FC5A-667C-4BF8-B1CB-843980F50049</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow is not affiliated with Google or Google Products in any way.
+	<string>This workflow is not affiliated with Google or Google Products or Apple or Apple Products in any way.
 
-***NOTE***
-1.3.0+ is NOT backwards compatible with previously set up addresses. You must do this again. Sorry, it had to be done to get compatibility in for special characters. So, please set up your addresses again with 'mapsethome' and 'mapsetwork'. 
+## Recommended Example Configuration for Workflow Environment Variables
+* contactHandler: ('default:drive here to')
+* CoreLocationCLIBinary: ('default:/usr/local/bin/CoreLocationCLI')
+* currentLocationFallback: ('default:home')
+* customLocations: ('gym:GYM ADDRESS','school:SCHOOL ADDRESS')
+* defaultTransportationMode: ('default:drive')
+* googleLocal: com
+* homeAddress: Your Home Address
+* workAddress: Your Work Address
+* mapsHandler: Google
 
-***Utilisation:***
-**dir**
-Most flexible of the options in this workflow.
-Basic utilisation: dir ORIGIN DESTINATION
-Advanced 1: dir ORIGIN WAYPOINT1 WAYPOINT2 .. WAYPOINT9 DESTINATION
-Advanced 2: dir walk|bike|pt|drive ORIGIN DESTINATION
-Advanced 3: dir home|work DESTINATION
-Advanced 4: dir ORIGIN home|work
-Advanced 5: dir ORIGIN WAYPOINT1 work|home .. WAYPOINT9 DESTINATION
-Advanced 6: you can use 'here' in place of any ORIGIN, DESTINATION or WAYPOINT to pull the current location using the CoreLocationAPI if set up.
+## Installation
 
-**all flows**
-All flows now support the 'dirX walk|bike|pt|drive' modifier
+1. Ensure you have Alfred installed with the Alfred Powerpack License
+2. Download the [Advanced_Google_Maps_Search.alfredworkflow](https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/Advanced_Google_Maps_Search.alfredworkflow) file
+3. Open the .alfredworkflow file to import into Alfred
+4. Set up the workflow configuration parameters as you desire (see below for additional details), by clicking on the little [X] in the top right hand of the Workflow page in Alfred
+5. Complete the advanced steps below to add additional (and awesome) functionality
 
+### Current Location Feature Installation and Configuration
+If you wish to use the 'Directions from Current Location - dirfc' command or the 'here' modifier, you will need to also install homebrew and the CoreLocationCLI package.
 
-***Installation Instructions:***
-**Localisation**
-Please ensure you fill the 'googleLocal' workflow environment variable to the right in with the appropriate country domain for your locale.
-
-Examples:
-Australia: 'com.au'
-USA: 'com' (default)
-Taiwan: 'com.tw'
-
-Ensure no leading or trailing period is used.
-
-**Current Location Feature Setup**
-If you wish to use the 'Directions from Current Location - dirfc' command, you will need to install homebrew and the CoreLocationCLI package.
-
-1. Install Homebrew using instructions from https://brew.sh/
+1. Install Homebrew using [instructions from https://brew.sh/](https://brew.sh/)
 2. Install the CoreLocationCLI utility by running the following command in a terminal 'brew cask install corelocationcli'.
 3. Check your installed location by running 'which CoreLocationCLI'
-4. Ensure the environment variable to the right matches the installed location.
+4. Ensure the workflow environment variable on the Workflow Configuration screen matches the installed location.
 
-Recent Changelog:
-1.3.0 adds a host of new features including:
-	-dirfc: Directions from Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
-	-dirtc: Directions to Current Address. See the installation instructions above to install Homebrew and CoreLocationCLI
-	-dir, dirfc and dirtc now support Google transit type (walk, drive, pt [public transport] and bike)
-    -dir now supports 'here'. Here anywhere in the transit plan translates to the current GPS coordinates using CoreLocationCLI. Technically this probably does away with the need for dirfc and dirtc, but, leaving them there for consistency.
-	-Overhaul of changes to properly use Google API parameters
-	-Mass code cleanup and refactoring for simplification. Most flows now leverage the dir base code.
+### Contact Address Handler Configuration
+If you wish to use this workflow to handle directions to a contact's address you may do so by completing the following additional steps.
 
-Utilisation of new features:
-	1. 'dirfc' can be invoked as 'dirfc &lt;destination address&gt;' this will use your current location (WiFi card must be active) to the destination. Similar invocation for 'dirtc'.
-	2. All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
-	3. Localisation defaults to Australia (I am an aussie!), hence make sure you update the URL to the right for your country code you use on Google URLs.</string>
+1. In Alfred's Preferences click on Features --&gt; Contacts
+2. Double click on the 'Address' field
+3. In the dropdown, select "Search Contact Address with Advanced Google and Apple Maps Search"
+4. Ensure you correctly configure the contactHandler parameter as per the instructions under the Configuration section.
+
+### Fallback Search Setup
+If you wish to use this workflow to handle fallback searches in Alfred, you can now do this too!
+
+1. In Alfred's Preferences click on Features --&gt; Default Results
+2. Click the button to 'Setup Fallback Results'
+3. Click the small + sign to add a new record
+4. Select any of the available fallback searches provided by the workflow to add them to your personal fallback search results.
+
+## Configuration
+
+### Explanation of each of the Workflow Environment Variables
+* contactHandler: Used as the default mechanism to handle Contact address searches. Supports two formats including "drive here to" (current location to Contact's address) "drive to here" (Contact's address to Current Location) or "('computerName:drive here to','default:drive here to')"
+* CoreLocationCLIBinary: Defines the location of the installed CoreLocationCLIBinary. Supports two formats including "/usr/local/bin/CoreLocationCLI" or "('computerName:/some/other/location/CoreLocationCLI','default:/usr/local/bin/CoreLocationCLI')"
+* currentLocationFallback: Used as the fallback address in case CoreLocationCLI is not installed, or fails (especially if WiFi is unavailable, or turned off). Supports two formats including "Some Address in Some State 20023" or "('computerName:home','someOtherComputerName:Some Address in Some State 20023','default:work')"
+* customLocations: Supports custom location modifiers for all dir* commands. Please note, this does not dynamically add new dirfx or dirtx commands. Must be formatted in the following fashion: "('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046')"
+* defaultTransportationMode: Defines the default transportation fallback mode if none is specified at runtime. Possible values include: "pt" for Public Transport, drive, walk or bike. Supports two formats including "bike" or "('computerName:pt','someOtherComputerName:walk','default:drive')"
+* googleLocal: Defines which Google Locale to use such as 'com.au', 'com.tw' or 'com' as some examples. Supports two formats including "com.au" or "('computerName:com.au','someOtherComputerName:com.tw','default:com')"
+* homeAddress: New storage location for Home Address. Supports two formats including "Some Address" or "('computerName:Some Address','someOtherComputerName:Another Address','default:A Third Address')"
+* workAddress: New storage location for Work Address. Supports two formats including "Some Address" or "('computerName:Some Address','someOtherComputerName:Another Address','default:A Third Address')"
+* mapsHandler: PLEASE NOTE this only supports a value of either "Google" or "Apple" and may not have a computer specific value. 
+
+## Notes on Caveats with Apple Maps
+
+Apple Maps does not support as many functions as Google Maps and there are two main areas that will cause graceful errors when using Apple Maps. If you attempt to use the 'bike' modifier anywhere, Apple Maps does not support such directions and therefore we gracefully tell you this won't work.
+
+Secondly, Apple Maps does not support waypoints or building up an itinerary. Therefore if you attempt to use the dir command with more than just an origin and a destination (such as home to shops to work), we will gracefully error out and tell you such a function is not possible.
+
+## Usage
+
+* dir &lt;transportModeModifier&gt; &lt;query&gt; to &lt;query&gt; to &lt;query&gt; etc (seperate multiple addresses with " to " minus the quotes, and you will get a multiple location search when using Google Maps only)
+* [NEW] dir now does all the heavy lifting. You can use the modifiers 'here' (current location, must have CoreLocationCLI installed), 'work' and 'home' in any query. For example 'dir home to work to new york'.
+* [NEW] dirfc &lt;query&gt; this will use your current location (WiFi card must be active) to the destination.
+* [NEW] dirtc &lt;query&gt; Show directions from query to current location
+* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
+* [NEW] Localisation now defaults to USA, hence make sure you update workflow parameters if you wish to use a different country code on the Google URL.
+* dirfw &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Work to address
+* dirfh &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Home to address
+* dirtw &lt;transportModeModifier&gt; &lt;query&gt; Show directions from query to Work address
+* dirth &lt;transportModeModifier&gt; &lt;query&gt; Show directions from query to Home address
+* trafficw - Show traffic from Home to Work
+* traffich - Show traffic from Work to Home
+* [NEW] dir now supports up to 9 waypoints for Google Maps. For example 'dir &lt;transportModeModifier&gt; origin to waypoint 1 to waypoint 2 etc to destination'
+
+## Integration hooks for Other Workflow Providers
+
+This workflow now supports integration using external nodes. They suppor the same methods and modifiers as described for the rest of the workflow. This means you can now hook into this workflow to leverage the 'here', 'work', 'home' and other custom modifiers set up by a user, as well as provide routing directions based on your input. 
+
+Please review the workflow for each of the hooks available.</string>
 	<key>uidata</key>
 	<dict>
-		<key>00ADDBC0-F73E-4845-92EF-2A584B30A083</key>
+		<key>0184B1B5-AE48-44DC-9F1C-19597A2A838D</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>1970</integer>
+			<integer>3380</integer>
 		</dict>
 		<key>02392767-C5C7-467A-81A9-1CB133687921</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<integer>1470</integer>
 		</dict>
 		<key>069195C9-1EA6-4BE3-926E-3ACA803409D2</key>
 		<dict>
 			<key>note</key>
-			<string>Note: This is really a legacy flow and may be deprecated in future. You *must* set up the googleLocal workflow environment variable for it to work.</string>
+			<string>Note: This is really a legacy flow and may be deprecated in future. You *must* set up the googleLocal workflow environment variable for it to work with Google Maps.</string>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1610</integer>
+			<integer>6390</integer>
 		</dict>
-		<key>08D0D5C3-7BD4-4049-A988-D70DE2ADF012</key>
+		<key>06E11949-C063-4675-A5E6-2F4ADAF78D65</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>5420</integer>
+		</dict>
+		<key>06FCB842-77D4-4FC4-946B-5BDEA7516262</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2980</integer>
+		</dict>
+		<key>08D0D5C3-7BD4-4049-A988-D70DE2ADF012</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3940</integer>
 		</dict>
 		<key>0B5D9670-18D9-4D61-972E-7EE9BE0C0F26</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>510</integer>
 			<key>ypos</key>
-			<integer>910</integer>
+			<integer>5890</integer>
+		</dict>
+		<key>0F684084-B819-4218-A3BB-A705DCA1600B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3790</integer>
 		</dict>
 		<key>0F90B6AD-0FB4-4A02-8400-05BA50D9DFD4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>470</integer>
 			<key>ypos</key>
-			<integer>1850</integer>
+			<integer>6690</integer>
 		</dict>
 		<key>1156EFC7-6474-4294-8C78-98302F671D8D</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>6030</integer>
+		</dict>
+		<key>151D60D5-E350-468A-827C-9E908FA27BCC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4050</integer>
 		</dict>
 		<key>1593719B-1346-4496-BEA7-62EFFADF15EC</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>3940</integer>
+		</dict>
+		<key>16D04F82-D88A-477E-8B31-DF602B34927A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>6140</integer>
 		</dict>
 		<key>18D6F012-7B22-4022-B051-03C1629CB100</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>340</integer>
 		</dict>
+		<key>196C39FC-307E-4E36-8E01-9731D77C8301</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4160</integer>
+		</dict>
 		<key>1A9138FA-B4B6-4135-8F8E-FC6CA6A49EBE</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1490</integer>
+			<integer>4750</integer>
+		</dict>
+		<key>1B3EFB3E-DD2F-4773-9BBF-5B2F3CBA83EC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>5010</integer>
 		</dict>
 		<key>1BB6B4F7-37F1-4BC6-AE11-9F5DAFF3ACE3</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
-		<key>2518FC5A-667C-4BF8-B1CB-843980F50049</key>
+		<key>1C221689-E119-4F4E-91BC-49ED6C6C9A3C</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>5230</integer>
+		</dict>
+		<key>1C5D5BE5-4546-440D-A99B-4637FDE1D266</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>2680</integer>
+		</dict>
+		<key>1EA8B54A-5E63-4417-B085-A97746EEFD6A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1970</integer>
+			<integer>1210</integer>
+		</dict>
+		<key>21DB793B-CC3C-4A4B-8ABA-2C347157B5B5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1240</integer>
+		</dict>
+		<key>26947402-9F48-44CB-B491-E90B5997C5F6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4270</integer>
+		</dict>
+		<key>27C9B0F6-838E-46FC-9036-B9F668CBF630</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>3710</integer>
+		</dict>
+		<key>2934235D-E3D8-4240-90F5-F604DBF64617</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Main Handler</string>
+			<key>xpos</key>
+			<integer>1700</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
+		<key>2A919533-DFD5-4A00-82A5-23444ADEC6E3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2650</integer>
+		</dict>
+		<key>2ABA3FBC-B7EA-4D92-8D96-70CD6BD2E0B8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>3600</integer>
 		</dict>
 		<key>2ECB3CA7-4A88-409A-B60A-BA814E7CAB60</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1610</integer>
+			<integer>6390</integer>
+		</dict>
+		<key>3239B945-9B1F-4BA8-8D49-8120BFA65DB4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>3160</integer>
+		</dict>
+		<key>331AACC8-2B1B-47A8-B9AF-9124CF118FF7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1580</integer>
+		</dict>
+		<key>3A67A0EA-6D4A-4AC0-BB0E-59CFF4C29665</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>4410</integer>
 		</dict>
 		<key>3D01087F-724D-44AA-87E3-BDB3635FA044</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>3970</integer>
+		</dict>
+		<key>3D3800DB-784D-47EC-989D-90DCCBC23B84</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
-			<integer>790</integer>
+			<integer>4520</integer>
 		</dict>
-		<key>427FBA68-0AA3-44BC-B26B-CA8CC7C65DDD</key>
+		<key>3E6DCBDB-9398-4CFD-9AFF-F8CA64339FEA</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>1370</integer>
+			<integer>5120</integer>
+		</dict>
+		<key>3E95AD63-85B0-494F-B610-7D4FCE4FF445</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4860</integer>
+		</dict>
+		<key>3FE41D53-199A-4B36-9DC0-C3DD311D69F4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3460</integer>
+		</dict>
+		<key>401A3863-7BF7-434D-B541-498C8BF25223</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1830</integer>
+		</dict>
+		<key>434ABB52-9F93-4BE0-9096-4C91BDDF7E86</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1100</integer>
+		</dict>
+		<key>48909DEF-A4C6-45C0-B9A8-E78453B96881</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2050</integer>
 		</dict>
 		<key>49DB66DA-289B-4E2D-9FB2-4CC751AB126D</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>5600</integer>
+		</dict>
+		<key>4B416533-85D4-48DE-8F5B-D6EB0A7E7856</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
-			<integer>1150</integer>
+			<integer>1860</integer>
 		</dict>
 		<key>4C7C5628-AB4A-4782-9D41-1C1DFE25E26B</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1120</integer>
+			<integer>5570</integer>
 		</dict>
-		<key>4D2703F7-6EBF-4D56-8CEF-72BBF4FFF644</key>
+		<key>4D148223-49D2-4C32-99FA-6E3BC18905B0</key>
 		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>1970</integer>
-		</dict>
-		<key>511FC68F-4DC2-47DD-A42C-527596F09ED1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>1370</integer>
-		</dict>
-		<key>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>1120</integer>
-		</dict>
-		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
-		<dict>
-			<key>xpos</key>
-			<integer>910</integer>
-			<key>ypos</key>
-			<integer>300</integer>
-		</dict>
-		<key>7338B9C6-1378-435A-A5A9-D6F850CDB990</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>1490</integer>
-		</dict>
-		<key>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</key>
-		<dict>
-			<key>xpos</key>
-			<integer>360</integer>
-			<key>ypos</key>
-			<integer>670</integer>
-		</dict>
-		<key>7D56594D-6798-486D-8C27-719F118FF9EA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>360</integer>
-			<key>ypos</key>
-			<integer>1030</integer>
-		</dict>
-		<key>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>1250</integer>
-		</dict>
-		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
-		<dict>
-			<key>xpos</key>
-			<integer>910</integer>
-			<key>ypos</key>
-			<integer>220</integer>
-		</dict>
-		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>1850</integer>
-		</dict>
-		<key>88B352B1-CEA6-424B-833F-A6D45983A462</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>8C362BD8-148F-49F3-9CF3-51DDC0715D47</key>
-		<dict>
-			<key>xpos</key>
-			<integer>700</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
-		<dict>
-			<key>xpos</key>
-			<integer>200</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1050</integer>
-			<key>ypos</key>
-			<integer>320</integer>
-		</dict>
-		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
-		<dict>
-			<key>xpos</key>
-			<integer>200</integer>
-			<key>ypos</key>
-			<integer>640</integer>
-		</dict>
-		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>1850</integer>
-		</dict>
-		<key>AD06B137-09BD-4652-8EED-C60D6176DBC6</key>
-		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>880</integer>
 		</dict>
+		<key>4E5455A8-7B06-4B8E-A1A5-23867E40B822</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5310</integer>
+		</dict>
+		<key>511FC68F-4DC2-47DD-A42C-527596F09ED1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3130</integer>
+		</dict>
+		<key>51FD5FC2-2B43-43FD-8A55-7D0A8EE8556C</key>
+		<dict>
+			<key>note</key>
+			<string>Execute Apple Maps</string>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>6480</integer>
+		</dict>
+		<key>536F9893-8043-4B58-B9FA-8853E4ECFFB7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>3490</integer>
+		</dict>
+		<key>5684FF40-40FC-4803-B5D4-51B9FFB6170E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1940</integer>
+		</dict>
+		<key>5EAA36ED-A0C6-4B7D-BB3A-4C217B070E83</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5570</integer>
+		</dict>
+		<key>5EB75E50-A9BE-46DB-9687-ED2047E25392</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4490</integer>
+		</dict>
+		<key>5ED30131-B671-40A0-AA66-0FFBE6873FA8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3240</integer>
+		</dict>
+		<key>60523F23-5E3A-4AE2-ABDF-DFD858237F6B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4980</integer>
+		</dict>
+		<key>63F4BCEE-4A24-4D93-9844-61A2E59FAD1B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>4300</integer>
+		</dict>
+		<key>68737695-16B5-4A35-9DF3-7D2EB7F6E67C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1970</integer>
+		</dict>
+		<key>6A60E323-03DA-4FC9-A91D-E15F60F5FEEC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3680</integer>
+		</dict>
+		<key>6AD8C7AD-8A38-4043-9AF2-A849EC32C058</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>4190</integer>
+		</dict>
+		<key>6CA4B225-E3B3-4390-8EC8-3AB5BD3BD719</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>2790</integer>
+		</dict>
+		<key>6E16E494-D94B-4DBC-9260-D03A9463EB04</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1950</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>6EBDCE9C-34F0-4AE8-B7A1-F67D8237CB75</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4380</integer>
+		</dict>
+		<key>706E75AB-DD2E-475B-BF8D-5E60F428D3E8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>740</integer>
+		</dict>
+		<key>7338B9C6-1378-435A-A5A9-D6F850CDB990</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4750</integer>
+		</dict>
+		<key>755A8539-9A2D-497A-8D4D-6B1FA77F84BF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>2340</integer>
+		</dict>
+		<key>7669650E-B70A-4A04-A56B-B264214409CE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Granularity Handler</string>
+			<key>xpos</key>
+			<integer>1510</integer>
+			<key>ypos</key>
+			<integer>3940</integer>
+		</dict>
+		<key>76CF6992-90B9-4CDC-8370-8642129F8F3E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>1500</integer>
+		</dict>
+		<key>7917B090-62FF-4109-8356-9F99FF0F0585</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2760</integer>
+		</dict>
+		<key>79FA3C03-276A-4342-B05B-0298662B1B55</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1750</integer>
+		</dict>
+		<key>7A7E3EA8-FCBE-4459-B374-47DB572BE682</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3350</integer>
+		</dict>
+		<key>7AA3CD49-58ED-471C-A072-F4A238D0606F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>910</integer>
+		</dict>
+		<key>7B4EFD12-1BEE-4433-A332-1E4BC6FCEBB3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5680</integer>
+		</dict>
+		<key>7D56594D-6798-486D-8C27-719F118FF9EA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>6120</integer>
+		</dict>
+		<key>80506669-2712-494E-A1F0-AFC4B3196B03</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>4780</integer>
+		</dict>
+		<key>81A11169-3997-44F1-A6A0-472C27D9AA09</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1720</integer>
+		</dict>
+		<key>847AE6EC-4A6F-4AF0-BEA6-D84B73135801</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>830</integer>
+			<key>ypos</key>
+			<integer>5790</integer>
+		</dict>
+		<key>84F08496-58E7-4350-989E-7F0A12A78304</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2420</integer>
+		</dict>
+		<key>85EDC379-5AC0-4DEA-BF8D-30897B8AD459</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1470</integer>
+		</dict>
+		<key>8609F863-5C65-412E-9DF8-52F1CEE7C795</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1950</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>86339348-F179-4B3E-9DEE-4BEBD0A30FDF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>6690</integer>
+		</dict>
+		<key>88B352B1-CEA6-424B-833F-A6D45983A462</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>8A5DF91A-6BAB-4CA0-8849-330837053053</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>8BF4B820-A42E-49D6-8D75-C26A96B88647</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1320</integer>
+		</dict>
+		<key>8C4479BF-0028-46C9-B98A-2BCD80B603F8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2540</integer>
+		</dict>
+		<key>8CED750B-175F-4EAC-9B4E-055566EBFABC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>8EE37DA4-FEB1-43EB-A61E-720862BE3D9C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>990</integer>
+		</dict>
+		<key>946F1EDF-0845-4AD7-A2D9-BFC5BA25AEAE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>6510</integer>
+		</dict>
+		<key>962086B3-F3B9-4F29-BA50-5BCD57B63FC5</key>
+		<dict>
+			<key>note</key>
+			<string>Execute Google Maps</string>
+			<key>xpos</key>
+			<integer>2020</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>9BC87277-7AC2-4944-9A3D-78C7520DAA23</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2160</integer>
+		</dict>
+		<key>9BE13678-7395-4F87-B6AA-964A5E439B86</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>2900</integer>
+		</dict>
+		<key>9DCBDF0E-1A41-4B23-8D47-01C0C958A8C5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>1130</integer>
+		</dict>
+		<key>9FC53C2F-2AA3-476A-BECA-12696AF87132</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>2310</integer>
+		</dict>
+		<key>A35658D6-3506-4ED6-9A69-E72E89446CD1</key>
+		<dict>
+			<key>note</key>
+			<string>Execute Apple Maps</string>
+			<key>xpos</key>
+			<integer>2020</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>A5CCE63B-221B-485A-A701-C8C30E843280</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5910</integer>
+		</dict>
+		<key>A5D10E21-AAA9-49B9-831C-9EDCC0298C42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>740</integer>
+			<key>ypos</key>
+			<integer>6690</integer>
+		</dict>
+		<key>A6F6EC20-5DBF-49D2-AB6D-DB2623E50766</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>830</integer>
+			<key>ypos</key>
+			<integer>1900</integer>
+		</dict>
+		<key>AD06B137-09BD-4652-8EED-C60D6176DBC6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5800</integer>
+		</dict>
 		<key>AE5F88F4-4462-4DE4-B7BC-8E6FD4A39CFA</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
@@ -2125,95 +4613,236 @@ Utilisation of new features:
 		</dict>
 		<key>B542CDAA-D602-4269-92EE-2AED85D35F63</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>6030</integer>
+		</dict>
+		<key>B6A9FF70-694E-4C62-BD00-9D31A5DB8BFE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5200</integer>
+		</dict>
+		<key>B6D8B641-E13A-4B11-BC9D-54017347BEC7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>2020</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>C46C693F-D2E1-4C61-9526-638DE42D6691</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>2080</integer>
 		</dict>
 		<key>C5816FF4-3CBC-495B-9D35-1E60F857E6C8</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>880</integer>
+			<integer>5800</integer>
 		</dict>
-		<key>CB7D40A2-269F-4D69-AB41-F5E471B47A48</key>
+		<key>C58B19B9-7E44-4127-A3A1-DAA3F7ACD480</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<integer>1020</integer>
+		</dict>
+		<key>C79F0356-E819-46AB-9248-F7DC8B043F90</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Contact Handler</string>
+			<key>xpos</key>
+			<integer>1510</integer>
+			<key>ypos</key>
+			<integer>740</integer>
+		</dict>
+		<key>C9C468D7-0C86-4928-BC51-E4DCC2C276FD</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>5340</integer>
 		</dict>
 		<key>CB9D5B95-1220-4418-B0C7-1D8AC6B2FBBE</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
-		<key>CD999794-2993-4FAF-8B7D-F40779AB9A86</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>1490</integer>
-		</dict>
 		<key>CFCBBED2-96D7-44AC-B4CC-D2CC17827019</key>
 		<dict>
+			<key>note</key>
+			<string>Execute Google Maps</string>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>470</integer>
 			<key>ypos</key>
-			<integer>1610</integer>
+			<integer>6290</integer>
 		</dict>
-		<key>D65DB43C-BAF0-43B7-86D5-88AA7A2203F1</key>
+		<key>D12AE5E9-09D1-4E36-A3E8-2F4B9E6F14BE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>830</integer>
+			<key>ypos</key>
+			<integer>3970</integer>
+		</dict>
+		<key>D3E4FDD4-98A6-46D6-A78C-DB90EE890284</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>880</integer>
+			<integer>6320</integer>
+		</dict>
+		<key>D9EEDBDD-B2BD-4646-B865-F4DF763F4D8D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>5090</integer>
+		</dict>
+		<key>DBB016A9-7896-4918-A07C-C75D828F3CF2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>2570</integer>
 		</dict>
 		<key>DC546CAB-FD45-4E44-8CB2-F5B5103C3DF9</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>1370</integer>
+			<integer>3130</integer>
 		</dict>
-		<key>EFF5AD05-2FF3-4AB0-B697-BEDB9E708175</key>
+		<key>E4E1B653-715A-47D9-B812-DD3556C5E1FC</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1400</integer>
+			<integer>560</integer>
+		</dict>
+		<key>E5A4ADC4-A042-4C85-9ED2-DD65BE7523E6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2870</integer>
 		</dict>
 		<key>F0CDA005-A604-4041-830B-E4FA8965DE2E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>2020</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>200</integer>
 		</dict>
 		<key>F0CEC59E-C181-4E24-899E-9F76E327B146</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>640</integer>
+			<integer>2310</integer>
+		</dict>
+		<key>F1C92614-2A82-467B-98DA-782C66E16392</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Uses default transport mode</string>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>4600</integer>
+		</dict>
+		<key>F382CAB3-433F-4F6F-BF46-9B67ECEA6977</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1950</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>FA6BE6A8-CB13-42A5-9D66-FE78B459D91C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3570</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>CoreLocationCLIBinary</key>
 		<string>/usr/local/bin/CoreLocationCLI</string>
+		<key>contactHandler</key>
+		<string>('default:drive here to')</string>
+		<key>currentLocationFallback</key>
+		<string>('StuartCRyan-MBP:home','StuartCRyan-Air:work','default:work')</string>
+		<key>customLocations</key>
+		<string>('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW','po:48 Majors Bay Rd, Concord NSW 2137')</string>
+		<key>defaultTransportationMode</key>
+		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive','default:walk')</string>
 		<key>googleLocal</key>
 		<string>com.au</string>
+		<key>homeAddress</key>
+		<string>1 Bay Street Broadway ULTIMO NSW 2007</string>
+		<key>mapsHandler</key>
+		<string>Google</string>
+		<key>workAddress</key>
+		<string>UTS 15 Broadway ULTIMO NSW 2007</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
+		<string>mapsHandler</string>
+		<string>customLocations</string>
+		<string>workAddress</string>
+		<string>homeAddress</string>
+		<string>defaultTransportationMode</string>
+		<string>currentLocationFallback</string>
 		<string>googleLocal</string>
 	</array>
 	<key>version</key>
-	<string>1.3.1</string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
