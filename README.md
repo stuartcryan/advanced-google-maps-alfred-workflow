@@ -2,10 +2,10 @@
 
 Easy directions from or to multiple locations, using either Google Maps or Apple Maps. Now includes custom locations in addition to just home and work, auto updating, and a wealth of new features for you to sink your teeth into.
 
-[## Getting to Know the Flow - Udemy Course](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred)
+## Getting to Know the Flow - Udemy Course
 With the explosion of features, added configuration complexity, and awesomeness of the 2.0.0 major release (and overhaul), I have opted for a different tact, to ensure the support overhead is limited.
 
-I have put together an [hour-long Course on the Udemy Platform](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
+I have put together [this hour-long Course on the Udemy Platform](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
 
 The coupon code 'V2RELEASESPECIAL' (only 100 available), will snag you the course at $19.99 USD. Once those have all been used up you can still get the course for $29.99 (50% off the regular Udemy Price) with the code 'GITHUB'.
 
@@ -15,6 +15,7 @@ Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday brea
 
 Therefore, your purchase of access to the Udemy Course goes towards helping me recover some of those costs. As a result, please note, if something is covered off in the course, and I get questions or queries relating to something that is covered off, I will be pointing you in the direction of the course as a first call.
 
+[So don't delay and check out the course, there are a few videos set to preview so you can try before you buy!](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred)
 
 ## Donations
 Alternatively if a course is not your thing... You can just donate to me directly! If everyone who downloaded gave $20, that would make me a very happy camper and give me something back for my time, it would also enable me to have a custom icon set created for the flow.
@@ -140,7 +141,9 @@ Version 2.0.0
 * Added external triggers for other workflows to hook into
 * Various code cleanups
 * Significantly improved error handling to do things more gracefully
-* Minor bug fixes and improvements as I went along through the code, improved readability also
+* Rectified issues with commas in addresses causing things to break a little
+* Other minor bug fixes and improvements as I went along through the code, improved readability also
+* Released [this Udemy Course](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) to provide a full overview of the workflow, how to set up and configure, and troubleshooting.
 
 Version 1.3.1
 * Fixed dirfh and dirfw to actually use home and work respectively, not here. #oops
