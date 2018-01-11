@@ -2,8 +2,21 @@
 
 Easy directions from or to multiple locations, using either Google Maps or Apple Maps. Now includes custom locations in addition to just home and work, auto updating, and a wealth of new features for you to sink your teeth into.
 
+## Getting to Know the Flow - Udemy Course
+With the explosion of features, added configuration complexity, and awesomeness of the 2.0.0 major release (and overhaul), I have opted for a different tact, to ensure the support overhead is limited.
+
+I have put together an [hour-long Udemy Course](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
+
+The coupon code 'V2RELEASESPECIAL' (only 100 available), will snag you the course at $19.99 USD. Once those have all been used up you can still get the course for $29.99 (50% off the regular Udemy Price) with the code 'GITHUB'.
+
+The course will be updated as any new usability or training needs are identified, and I will commit to the course being updated through the entire V2.0.0 release. I do reserve the right to extend that to the next release if I later choose.
+
+Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, and costs for Closed Captioning in the Udemy Course. 
+
+Therefore, your purchase of access to the Udemy Course goes towards helping me recover some of those costs. As a result, please note, if something is covered off in the course, and I get questions or queries relating to something that is covered off, I will be pointing you in the direction of the course as a first call.
+
 ## Donations
-Version 1.3.0 and version 2.0.0 represent the vast majority of my holiday break over December-2017 and January-2018. I would anticipate I have close to around $4000 in time into this flow for these two versions alone, plus costs for the new logo. If everyone who downloaded gave $20, that would make me a very happy camper and give me something back for my time, it would also enable me to have a custom icon set created for the flow.
+Alternatively if a course is not your thing... You can just donate to me directly! If everyone who downloaded gave $20, that would make me a very happy camper and give me something back for my time, it would also enable me to have a custom icon set created for the flow.
 
 So if you love the workflow, get use out of it every day, and would love to see me continuing development, a donation is a great way. You can either [donate to me via Fundly](https://fundly.com/alfred-workflows-continued-development#) which gives the option of a re-occurring donation and also has some suggestions, [donate to me via Patreon (if that is your preference)](https://www.patreon.com/stuartcryan) or [donate to me via Paypal which is nice and easy](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM6E65M2GLXHE). 
 
