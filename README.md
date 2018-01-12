@@ -9,7 +9,7 @@ I have put together an hour long course that covers off every configuration opti
 
 **Unfortunately, it has been brought to my attention that the platform I originally chose has non-existent quality control practices and have resulted in courses being stolen and re-sold on the platform, which I am unwilling to support. Where the new one ends up I will let you know ASAP**
 
-Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, and costs for Closed Captioning in the Udemy Course. 
+Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, and costs for Closed Captioning in the Course. 
 
 [So don't delay and check out the course, there are a few videos set to preview so you can try before you buy!](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred)
 
@@ -141,7 +141,6 @@ Version 2.0.0
 * Significantly improved error handling to do things more gracefully
 * Rectified issues with commas in addresses causing things to break a little
 * Other minor bug fixes and improvements as I went along through the code, improved readability also
-* Released [this Udemy Course](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred) to provide a full overview of the workflow, how to set up and configure, and troubleshooting.
 
 Version 1.3.1
 * Fixed dirfh and dirfw to actually use home and work respectively, not here. #oops
