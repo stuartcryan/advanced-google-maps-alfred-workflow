@@ -633,6 +633,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>536F9893-8043-4B58-B9FA-8853E4ECFFB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D01087F-724D-44AA-87E3-BDB3635FA044</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5684FF40-40FC-4803-B5D4-51B9FFB6170E</key>
 		<array>
 			<dict>
@@ -2155,7 +2168,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','from','here'</string>
+				<string>{query},from,here</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2376,7 +2389,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','to','here'</string>
+				<string>{query},to,here</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2589,7 +2602,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','from','work'</string>
+				<string>{query},from,work</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2812,14 +2825,7 @@ require "./granularDirModifier.pl";
 my $output;
 
 my $query = "{query}";
-my @splitQuery = split("','", $query);
-
-
-for (@splitQuery) {
-
-	#strip out any remaining ' characters
-	s/'//g;
-}
+my @splitQuery = split(',', $query);
 
 $output=granularDir(@splitQuery);
 print $output;</string>
@@ -2849,7 +2855,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','to','work'</string>
+				<string>{query},to,work</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3062,7 +3068,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','from','home'</string>
+				<string>{query},from,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3275,7 +3281,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'{query}','to','home'</string>
+				<string>{query},to,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3361,7 +3367,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'home','to','work'</string>
+				<string>home,to,work</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3439,7 +3445,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>'work','to','home'</string>
+				<string>work,to,home</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -4842,7 +4848,7 @@ Please review the workflow for each of the hooks available.</string>
 		<string>googleLocal</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.0.1</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>
