@@ -124,6 +124,8 @@ Please review the workflow for each of the hooks available.
 5. Submit a pull request :D
 
 ## History
+Version 2.0.1
+* Fixed dirtw bike command... it hadn't been connected... after all the testing! #oops
 
 Version 2.0.0
 * Renamed workflow to 'Advanced Google and Apple Maps Workflow for Alfred'. Left bundleID intact deliberately
