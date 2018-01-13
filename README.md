@@ -92,7 +92,7 @@ Secondly, Apple Maps does not support waypoints or building up an itinerary. The
 * [NEW] dir now does all the heavy lifting. You can use the modifiers 'here' (current location, must have CoreLocationCLI installed), 'work' and 'home' in any query. For example 'dir home to work to new york'.
 * [NEW] dirfc <query> this will use your current location (WiFi card must be active) to the destination.
 * [NEW] dirtc <query> Show directions from query to current location
-* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX <mode> <destination address>' e.g. 'dirfw pt <destination address>' will give you public transport directions. This also works with 'dir' and multiple waypoints.
+* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX ' e.g. 'dirfw pt home ' will give you public transport directions. This also works with 'dir' and multiple waypoints. Please note, the transport modifier must be the first parameter you pass to any dirX command, for example 'dirfw home pt' is not valid.
 * [NEW] Localisation now defaults to USA, hence make sure you update workflow parameters if you wish to use a different country code on the Google URL.
 * dirfw <transportModeModifier> <query> Show directions from Work to address
 * dirfh <transportModeModifier> <query> Show directions from Home to address
