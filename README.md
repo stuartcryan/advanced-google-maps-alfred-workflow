@@ -5,13 +5,11 @@ Easy directions from or to multiple locations, using either Google Maps or Apple
 ## Getting to Know the Flow - New Course Location TBA
 With the explosion of features, added configuration complexity, and awesomeness of the 2.0.0 major release (and overhaul), I have opted for a different tact, to ensure the support overhead is limited.
 
-I have put together an hour long course that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
+I have put together [an hour long course for only $24.99USD](https://stuartcryan.thinkific.com/courses/learn-advanced-google-maps-and-apple-maps-search-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
 
-**Unfortunately, it has been brought to my attention that the platform I originally chose has non-existent quality control practices and have resulted in courses being stolen and re-sold on the platform, which I am unwilling to support. Where the new one ends up I will let you know ASAP**
+**Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, images needed for the course, costs for Closed Captioning in the course.**
 
-Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, and costs for Closed Captioning in the Course. 
-
-[So don't delay and check out the course, there are a few videos set to preview so you can try before you buy!](https://www.udemy.com/advanced-google-maps-and-apple-maps-workflow-for-alfred)
+[So don't delay and check out the course, there are a few videos set to preview so you can try before you buy!](https://stuartcryan.thinkific.com/courses/learn-advanced-google-maps-and-apple-maps-search-workflow-for-alfred)
 
 ## Donations
 Alternatively if a course is not your thing... You can just donate to me directly! If everyone who downloaded gave $20, that would make me a very happy camper and give me something back for my time, it would also enable me to have a custom icon set created for the flow.
@@ -141,6 +139,7 @@ Version 2.0.0
 * Significantly improved error handling to do things more gracefully
 * Rectified issues with commas in addresses causing things to break a little
 * Other minor bug fixes and improvements as I went along through the code, improved readability also
+* Released [an hour long course to help people get the workflow up and running](https://stuartcryan.thinkific.com/courses/learn-advanced-google-maps-and-apple-maps-search-workflow-for-alfred).
 
 Version 1.3.1
 * Fixed dirfh and dirfw to actually use home and work respectively, not here. #oops
