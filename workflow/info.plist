@@ -3743,7 +3743,7 @@ Secondly, Apple Maps does not support waypoints or building up an itinerary. The
 * [NEW] dir now does all the heavy lifting. You can use the modifiers 'here' (current location, must have CoreLocationCLI installed), 'work' and 'home' in any query. For example 'dir home to work to new york'.
 * [NEW] dirfc &lt;query&gt; this will use your current location (WiFi card must be active) to the destination.
 * [NEW] dirtc &lt;query&gt; Show directions from query to current location
-* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX &lt;mode&gt; &lt;destination address&gt;' e.g. 'dirfw pt &lt;destination address&gt;' will give you public transport directions. This also works with 'dir' and multiple waypoints.
+* [NEW] All commands now support the following modifiers: walk, bike, drive, pt (public transport). The modifier can be invoked by 'dirX ' e.g. 'dirfw pt home ' will give you public transport directions. This also works with 'dir' and multiple waypoints. Please note, the transport modifier must be the first parameter you pass to any dirX command, for example 'dirfw home pt' is not valid.
 * [NEW] Localisation now defaults to USA, hence make sure you update workflow parameters if you wish to use a different country code on the Google URL.
 * dirfw &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Work to address
 * dirfh &lt;transportModeModifier&gt; &lt;query&gt; Show directions from Home to address
@@ -4827,7 +4827,7 @@ Please review the workflow for each of the hooks available.</string>
 		<key>customLocations</key>
 		<string>('gym:49 Queens Rd, Five Dock NSW 2046','school:1A Harris Rd, Five Dock NSW 2046','dc:26 Cabarita Rd, Concord NSW 2137','bwood:100 Burwood Rd, Burwood NSW 2134','csturt:Charles Sturt University Panorama Avenue BATHURST NSW','po:48 Majors Bay Rd, Concord NSW 2137')</string>
 		<key>defaultTransportationMode</key>
-		<string>('StuartCRyan-MBP:pt','StuartCRyan-Air:drive','default:walk')</string>
+		<string></string>
 		<key>googleLocal</key>
 		<string>com.au</string>
 		<key>homeAddress</key>
