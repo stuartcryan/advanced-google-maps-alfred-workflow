@@ -2,10 +2,10 @@
 
 Easy directions from or to multiple locations, using either Google Maps or Apple Maps. Now includes custom locations in addition to just home and work, auto updating, and a wealth of new features for you to sink your teeth into.
 
-## Getting to Know the Flow - Course available for $24.99USD
+## Getting to Know the Flow - Course available for $14.99USD
 With the explosion of features, added configuration complexity, and awesomeness of the 2.0.0 major release (and overhaul), I have opted for a different tact, to ensure the support overhead is limited.
 
-I have put together [an hour long course for only $24.99USD](https://stuartcryan.thinkific.com/courses/learn-advanced-google-maps-and-apple-maps-search-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
+I have put together [an hour long course for only $14.99USD](https://stuartcryan.thinkific.com/courses/learn-advanced-google-maps-and-apple-maps-search-workflow-for-alfred) that covers off every configuration option of the workflow, how to get up and running, getting into the advanced nitty gritty, and so on.
 
 **Version 1.3.0 and version 2.0.0 represent almost the entirety of my holiday break over December-2017 and January-2018. I would anticipate I have over $6000 in time into this flow for these two versions alone, plus costs for the new logo, images needed for the course, costs for Closed Captioning in the course.**
 
