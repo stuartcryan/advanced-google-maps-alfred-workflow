@@ -2168,7 +2168,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},from,here</string>
+				<string>'{query}','from','here'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2389,7 +2389,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},to,here</string>
+				<string>'{query}','to','here'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2602,7 +2602,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},from,work</string>
+				<string>'{query}','from','work'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -2825,7 +2825,9 @@ require "./granularDirModifier.pl";
 my $output;
 
 my $query = "{query}";
-my @splitQuery = split(',', $query);
+$query =~ s/^'//;
+$query =~ s/'$//g;
+my @splitQuery = split('\',\'', $query);
 
 $output=granularDir(@splitQuery);
 print $output;</string>
@@ -2855,7 +2857,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},to,work</string>
+				<string>'{query}','to','work'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3068,7 +3070,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},from,home</string>
+				<string>'{query}','from','home'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3281,7 +3283,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query},to,home</string>
+				<string>'{query}','to','home'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3367,7 +3369,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>home,to,work</string>
+				<string>'home','to','work'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3445,7 +3447,7 @@ print $output;</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>work,to,home</string>
+				<string>'work','to','home'</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -3674,6 +3676,10 @@ echo "Cleanup Completed"</string>
 	</array>
 	<key>readme</key>
 	<string>This workflow is not affiliated with Google or Google Products or Apple or Apple Products in any way.
+
+## Most Recent Changelog Entry - 2.0.2
+* Fixes commas breaking the use of dirfX and dirtX shortcuts
+##
 
 ## Recommended Example Configuration for Workflow Environment Variables
 * contactHandler: ('default:drive here to')
@@ -4848,7 +4854,7 @@ Please review the workflow for each of the hooks available.</string>
 		<string>googleLocal</string>
 	</array>
 	<key>version</key>
-	<string>2.0.1</string>
+	<string>2.0.2</string>
 	<key>webaddress</key>
 	<string>http://technicalnotebook.com</string>
 </dict>

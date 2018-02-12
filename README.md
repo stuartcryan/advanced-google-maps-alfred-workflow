@@ -119,6 +119,9 @@ Please review the workflow for each of the hooks available.
 
 ## History
 Version 2.0.1
+* Fixed comma issues in all the dirfX commands by quoting the strings
+
+Version 2.0.1
 * Fixed dirtw bike command... it hadn't been connected... after all the testing! #oops
 
 Version 2.0.0
