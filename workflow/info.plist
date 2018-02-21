@@ -1530,6 +1530,7 @@
 				<key>script</key>
 				<string># THIS NODE IMPLEMENTS VITOR'S ONEUPDATER CODE 
 # AS PER BUNDLE com.vitorgalvao.alfred.oneupdater v1.7.0
+# with additions by Stuart Ryan for sending parameters in check
 
 # THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist='https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/workflow/info.plist'
@@ -1573,10 +1574,10 @@ readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_in
 
 # Check for updates
 if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+  if ! url_exists "${remote_info_plist}?mode=testURL&amp;version=${local_version}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
 
   readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}?mode=getLatestPlist&amp;version=${local_version}"
   readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
 
   if [[ "${local_version}" == "${remote_version}" ]]; then
@@ -1594,7 +1595,7 @@ if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
 
   if url_exists "${download_url}"; then
     notification 'Downloading and installing…'
-    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}?mode=getUpdatedWorkflow&amp;version=${local_version}"
     open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
   else
     abort "'workflow_url' (${download_url}) appears to not be reachable."
