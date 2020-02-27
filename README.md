@@ -44,10 +44,10 @@ If you wish to use the 'Directions from Current Location - dirfc' command or the
 If you wish to use this workflow to handle directions to a contact's address you may do so by completing the following additional steps.
 
 1. In Alfred's Preferences click on Features --> Contacts
-2. Click the plus button
+2. Click the plus button (unless you already have the Address field added, then skip step 2+3)
 3. In Contact field, select 'Address'
-3. In the Action dropdown, select "Search Contact Address with Advanced Google and Apple Maps Search"
-4. Ensure you correctly configure the contactHandler parameter as per the instructions under the Configuration section.
+4. In the Action dropdown, select "Search Contact Address with Advanced Google and Apple Maps Search"
+5. Ensure you correctly configure the contactHandler parameter as per the instructions under the Configuration section.
 
 ### Fallback Search Setup
 If you wish to use this workflow to handle fallback searches in Alfred, you can now do this too!
