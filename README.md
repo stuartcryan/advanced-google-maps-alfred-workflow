@@ -27,7 +27,7 @@ In 2.0.0 the home and work locations have been moved out of the keychain (which 
 ## Installation
 
 1. Ensure you have Alfred installed with the Alfred Powerpack License
-2. Download the [Advanced_Google_Maps_Search.alfredworkflow](https://github.technicalnotebook.com/stuartcryan/advanced-google-maps-alfred-workflow/master/Advanced_Google_Maps_Search.alfredworkflow) file
+2. Download the [Advanced_Google_Maps_Search.alfredworkflow](https://github.com/stuartcryan/advanced-google-maps-alfred-workflow/releases/download/v2.0.1/Advanced_Google_Maps_Search.alfredworkflow) file
 3. Open the .alfredworkflow file to import into Alfred
 4. Set up the workflow configuration parameters as you desire (see below for additional details), by clicking on the little [X] in the top right hand of the Workflow page in Alfred
 5. Complete the advanced steps below to add additional (and awesome) functionality
